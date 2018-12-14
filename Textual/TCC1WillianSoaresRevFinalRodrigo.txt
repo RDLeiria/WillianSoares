@@ -1,0 +1,76 @@
+0. notação das cores:
+    - roxo: correções 
+    - amarelo: sugestões
+    - verde: muito bom
+
+
+1. Português/Forma/Estilo
+    - O que seriam "tipos de desempenho"?
+    - atenção especial às questões de português. Tentar replicar as correções no restante do texto.
+    - Atenção ao uso de vírgula. 
+    - Divisão de frases: redação técnica, não literária. Uma frase para cada informação; uma informação para cada frase. Nunca começar frase com "E".
+    - Cuidado com redundância. Exemplo: último parágrafo da subseção 2.4 e primeiro parágrafo da subseção 2.5
+    - Oportunidade para usar melhor as figuras. Idealmente, seguindo a filosofia que uma figura vale mais do que mil palavras, o leitor deve tentar entender a figura primeiro e complementar o entendimento com o texto e não o contrário. Exemplo: Figura 4, sobre hypervisor.
+    - cuidado com copiar e colar. Exemplo: página 31 (último parágrafo da seção 2.6) muito parecido com última frase da pág. 3 do artigo referenciado.
+
+2
+    2.3 Benchark
+    - componentes gerais de computador (memória principal (RAM), memória secundária (HD, SSD))
+    - quais os compromisso envolvidos nos tipos de kernels e de pseudo-aplicações? todos serão utilizados? Caso negativo, como será feita a escolha do subconjunto?
+
+3.
+    - pretende realizar "tunning do kernel para melhor desempenho" ? Qual é o impacto esperado disso?
+    - porque os benchmarks utilizados nos outros trabalhos não foram considerados? 
+
+    Sugestão: colocar a Tabela 4 na Seção 3.3 (Conclusão do Capítulo)
+
+4. 
+    - Qual o objetivo do trabalho? 
+        a. avaliar hypervisors 
+        b. propor um ambiente de avaliação integrados, livre, baixo custo, reprodutível, etc.
+
+    - Sugestão: 
+        proposta: levantar requisitos (e.g. flexível, baixo custo, livre, reprodutível) e projetar uma solução
+        avaliação: demonstrar viabilidade técnica através da implementação de um protótipo e um estudo de caso
+
+        Por exemplo, ver o seguinte artigo: 
+        TorrentLab: Um Ambiente para Avaliação do Protocolo BitTorrent, Rodrigo B. Mansilha, Marinho P. Barcellos, Francisco V. Brasileiro, SBRC 2008
+
+    - Motivação: reforçar/justificar a importância da reprodutibilidade. Ver, por exemplo, o seguinte artigo:
+        Permitindo Maior Replicabilidade de Experimentos em Ambientes Distribuídos com Nodos de Baixa Confiabilidade, Nelson Antunes Junior, Weverton Cordeiro, Luciano Paschoal Gaspary, SBRC 2018 (http://www.sbrc2018.ufscar.br/wp-content/uploads/2018/04/179361.pdf)
+
+    - Limitações de escopo podem ser elencados como trabalhos futuros
+        extensibilidade: inicialmente hypervisor, futuramente também container
+                         inicialmente benchmarks de carga sintética, futuramente outras aplicações 
+
+    4.3 Métricas de desempenho
+
+    média. 16 execuções? descartar 2 melhores e dois piores? Ambíguo: 16+4 ou 16-4? Quants experimentos no total?
+
+    Desvio padrão: como será calculado? Qual o intervalo de confiança? Sugestão: Student's t.
+
+    Ganho.
+
+5. A seção 5 tem objetivo confuso, a começar pelo título "Avaliação de desempenho"
+    5.1 Proposta? sugestão: protótipo
+        Software Vagrant?
+
+
+Apresentação
+
+Duração:
+- Previsão 20 minutos. iniciado em 19:36. Duração 3 minutos acima do tempo estipulado de 20 minutos
+
+Slides:
+- Em geral, o conjunto de slides é padronizado e bem acabado, sem erros aparentes. 
+- Aluno demonstrou segurança e que treinou para apresentar. Poderia ter olhado menos para o quadro.
+
+Conteúdo:
+- Discrepância entre o texto e a apresentação quanto aos objetivos. Onde entra o "automatizado"?
+- A discussão dos supercomputadores ficou fora de foco. Esse problema aparece no texto, mas na apresentação ficou mais evidente considerando a limitação de tempo.
+- A introdução, em geral, deve ser repensada na versão final.
+- Exemplos de benchmarks não incluem o que será considerado no trabalho (slide 14)
+
+ 
+
+     
