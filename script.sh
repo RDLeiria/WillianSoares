@@ -22,14 +22,14 @@ Executa()
 	for i in `seq 1 2` #laco de repeticao para executar todos os benchmarks do array
 		do
 			#Executa o benchmark e guarda no diretorio Resultado
-			~/MeuScript/NPB3.3.1/NPB3.3-SER/bin/$kernel.S.x >> ~/MeuScript/Resultado/$kernel.S.out 
+			~/MeuScript/WillianSoares/NPB3.3.1/NPB3.3-SER/bin/$kernel.S.x >> ~/MeuScript/WillianSoares/Resultado/$kernel.S.out 
 		done
 }
 
 Parsing()
 {
 	kernel=$1 #O kernel que sera executado
-	cd ~/MeuScript/Resultado
+	cd ~/MeuScript/WillianSoares/Resultado
 	echo "timeExec, Mops, benchmark, nNos, nCores" > $kernel.S.csv #cabecalho do arquivo
 	echo ";;$kernel;;" >> $kernel.S.csv
 	#Guarda no arquivo csv apenas o tempo em segundo das execucoes	
@@ -52,10 +52,12 @@ Benchmarks()
 		done
 }
 
+
+
 ### Inicio da execucao das funcoes ###
 
-#Download
-#Compila
+Download
+Compila
 Benchmarks
 
 #cd ~/MeuScript/
