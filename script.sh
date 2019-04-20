@@ -30,11 +30,19 @@ Parsing()
 {
 	kernel=$1 #O kernel que sera executado
 	cd ~/MeuScript/WillianSoares/Resultado
-	echo "timeExec, Mops, benchmark, nNos, nCores" > $kernel.S.csv #cabecalho do arquivo
-	echo ";;$kernel;;" >> $kernel.S.csv
+	#empo= Parser
+	echo "timeExec, class, mops, benchmark, nNos, nCores" > $kernel.S.csv #cabecalho do arquivo
+	#echo "$(Parser);;$kernel;;" >> $kernel.S.csv 
+	echo "$(Parser)" >> $kernel.S.csv 
 	#Guarda no arquivo csv apenas o tempo em segundo das execucoes	
-	grep "Time in seconds" $kernel.S.out | sed 's/ //g' | cut -d "=" -f2 >> $kernel.S.csv 
+	#Parser >> $kernel.S.csv 
 }
+
+Parser()
+{
+	grep "Time in seconds" $kernel.S.out | sed 's/ //g' | cut -d "=" -f2
+}
+
 
 Benchmarks()
 {
@@ -52,13 +60,19 @@ Benchmarks()
 		done
 }
 
+Avarage()
+{
+	cd ~/MeuScript/WillianSoares
+	python pyscript.py
+}
 
 
 ### Inicio da execucao das funcoes ###
 
-Download
-Compila
+#Download
+#Compila
 Benchmarks
+Avarage
 
 #cd ~/MeuScript/
 #python pyscript.py
