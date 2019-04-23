@@ -19,7 +19,7 @@ Executa()
 {
 	kernel=$1 #O kernel que sera executado
 
-	for i in `seq 1 2` #laco de repeticao para executar todos os benchmarks do array
+	for i in `seq 1 2` #Executa o mesmo benchmark de 1 até n
 		do
 			#Executa o benchmark e guarda no diretorio Resultado
 			~/MeuScript/WillianSoares/NPB3.3.1/NPB3.3-SER/bin/$kernel.S.x >> ~/MeuScript/WillianSoares/Resultado/$kernel.S.out 
@@ -46,15 +46,15 @@ Parser()
 
 Benchmarks()
 {
-	ARRAY=(bt is ft)
+	ARRAY=(is ep cg mg ft bt sp lu)
 	len=${#ARRAY[@]} #retorna a quantidade de elementos no array
 
-	for i in `seq 0 2` #laco de repeticao para executar todos os benchmarks do array
+	for i in `seq 0 7` #laco de repeticao para executar todos os benchmarks do array
 		do
 			Executa ${ARRAY[$i]}
 		done
 
-	for i in `seq 0 2` #laco de repeticao para realizar o parsing dos dados
+	for i in `seq 0 7` #laco de repeticao para realizar o parsing dos dados
 		do
 			Parsing ${ARRAY[$i]}
 		done
@@ -69,10 +69,10 @@ Avarage()
 
 ### Inicio da execucao das funcoes ###
 
-#Download
-#Compila
+Download
+Compila
 Benchmarks
-Avarage
+#Avarage
 
 #cd ~/MeuScript/
 #python pyscript.py

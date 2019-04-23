@@ -46,7 +46,7 @@ plt.bar(r1, bars1, width = barWidth, color = 'blue', edgecolor = 'black', yerr=y
 plt.bar(r2, bars2, width = barWidth, color = 'red', edgecolor = 'black', yerr=yer2, capsize=7, label='KVM')
 
 # Create green bars
-plt.bar(r3, bars3, width = barWidth, color = 'green', edgecolor = 'black', yerr=yer3, capsize=7, label='Native')
+plt.bar(r3, bars3, width = barWidth, color = 'gray', edgecolor = 'black', yerr=yer3, capsize=7, label='Native')
  
 # general layout
 plt.xticks([r + barWidth for r in range(len(bars1))], ['IS', 'EP', 'CG', 'MG', 'FT', 'BT', 'SP', 'LU'])
