@@ -7,7 +7,7 @@ Download()
 	tar -xf NPB3.3.1.tar.gz #Descompactar NPB
 }
 
-Compila()
+Compile()
 {
 	cd NPB3.3.1/NPB3.3-SER/ #Caminha ate o diretorio
 	cp config/suite.def.template config/suite.def #Faz uma copia suite.def
@@ -44,21 +44,27 @@ Parser()
 }
 
 
-Benchmarks()
+
+RunBenchmarks() 
 {
 	ARRAY=(is ep cg mg ft bt sp lu)
-	len=${#ARRAY[@]} #retorna a quantidade de elementos no array
-
+	#len=${#ARRAY[@]} #retorna a quantidade de elementos no array
 	for i in `seq 0 7` #laco de repeticao para executar todos os benchmarks do array
 		do
 			Executa ${ARRAY[$i]}
 		done
+}
 
+RunParsing()
+{
+	ARRAY=(is ep cg mg ft bt sp lu)
+	#len=${#ARRAY[@]} #retorna a quantidade de elementos no array
 	for i in `seq 0 7` #laco de repeticao para realizar o parsing dos dados
 		do
 			Parsing ${ARRAY[$i]}
 		done
 }
+
 
 Avarage()
 {
@@ -70,8 +76,9 @@ Avarage()
 ### Inicio da execucao das funcoes ###
 
 Download
-Compila
-Benchmarks
+Compile
+RunBenchmarks
+RunParsing
 #Avarage
 
 #cd ~/MeuScript/
