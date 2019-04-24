@@ -8,14 +8,14 @@ import pandas as pd
 #Reference: https://python-graph-gallery.com/8-add-confidence-interval-on-barplot/
 
 #Atribui o arquivo csv para as variaveis
-dataIs = pd.read_csv('/home/willian/MeuScript/WillianSoares/Resultado/is.S.csv')
-dataBt = pd.read_csv('/home/willian/MeuScript/WillianSoares/Resultado/bt.S.csv')
-dataEp = pd.read_csv('/home/willian/MeuScript/WillianSoares/Resultado/ep.S.csv')
-dataCg = pd.read_csv('/home/willian/MeuScript/WillianSoares/Resultado/cg.S.csv')
-dataMg = pd.read_csv('/home/willian/MeuScript/WillianSoares/Resultado/mg.S.csv')
-dataFt = pd.read_csv('/home/willian/MeuScript/WillianSoares/Resultado/ft.S.csv')
-dataSp = pd.read_csv('/home/willian/MeuScript/WillianSoares/Resultado/sp.S.csv')
-dataLu = pd.read_csv('/home/willian/MeuScript/WillianSoares/Resultado/lu.S.csv')
+dataIs = pd.read_csv('/home/willian/WillianSoares/Resultado/is.S.csv')
+dataBt = pd.read_csv('/home/willian/WillianSoares/Resultado/bt.S.csv')
+dataEp = pd.read_csv('/home/willian/WillianSoares/Resultado/ep.S.csv')
+dataCg = pd.read_csv('/home/willian/WillianSoares/Resultado/cg.S.csv')
+dataMg = pd.read_csv('/home/willian/WillianSoares/Resultado/mg.S.csv')
+dataFt = pd.read_csv('/home/willian/WillianSoares/Resultado/ft.S.csv')
+dataSp = pd.read_csv('/home/willian/WillianSoares/Resultado/sp.S.csv')
+dataLu = pd.read_csv('/home/willian/WillianSoares/Resultado/lu.S.csv')
 #dataIs = pd.read_csv('/home/willian/MeuScript/WillianSoares/Resultado/is.S.csv')
 
 #Calcula a media dos valores na coluna "timeExec" e atribui o resultado a variavel como float
