@@ -19,7 +19,7 @@ Executa()
 {
 	kernel=$1 #O kernel que sera executado
 
-	for i in `seq 1 2` #Executa o mesmo benchmark de 1 até n
+	for i in `seq 1 40` #Executa o mesmo benchmark de 1 até n
 		do
 			#Executa o benchmark e guarda no diretorio Resultado
 			~/MeuScript/WillianSoares/NPB3.3.1/NPB3.3-SER/bin/$kernel.S.x >> ~/MeuScript/WillianSoares/Resultado/$kernel.S.out 
@@ -75,8 +75,8 @@ CallPython()
 
 ### Inicio da execucao das funcoes ###
 
-#Download 		#Faz o download do NPB3.3.1
-#Compile		#Compila os arquivos 
-#RunBenchmarks	#Executa todos os 8 benchmarks
-#RunParsing		#Realiza o parsing dos dados obtidos das execucoes
+Download 		#Faz o download do NPB3.3.1
+Compile			#Compila os arquivos 
+RunBenchmarks	#Executa todos os 8 benchmarks
+RunParsing		#Realiza o parsing dos dados obtidos das execucoes
 CallPython		#Calcula a media do tempo de execucoes dos benchmarks
