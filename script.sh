@@ -69,14 +69,15 @@ RunParsing()
 CallPython()
 {
 	cd ~/WillianSoares
-	python pyscript.py
+	python pyscript.py 		#Cria os graficos de barras e salva como pdf
+	python linegraphs.py 	#Cria os graficos estilo linha e salva como pdf
 }
 
 
 ### Inicio da execucao das funcoes ###
 
-Download 		#Faz o download do NPB3.3.1
-Compile			#Compila os arquivos 
-RunBenchmarks	#Executa todos os 8 benchmarks
-RunParsing		#Realiza o parsing dos dados obtidos das execucoes
-CallPython		#Calcula a media do tempo de execucoes dos benchmarks
+#Download 		#Faz o download do NPB3.3.1
+#Compile			#Compila os arquivos 
+#RunBenchmarks	#Executa todos os 8 benchmarks
+#RunParsing		#Realiza o parsing dos dados obtidos das execucoes
+CallPython		#Calcula a media do tempo de execucoes dos benchmarks e cria os graficos
