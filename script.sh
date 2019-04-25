@@ -75,7 +75,7 @@ CallPython()
 
 ### Inicio da execucao das funcoes ###
 
-#Download 		#Faz o download do NPB3.3.1
+Download 		#Faz o download do NPB3.3.1
 Compile			#Compila os arquivos 
 RunBenchmarks	#Executa todos os 8 benchmarks
 RunParsing		#Realiza o parsing dos dados obtidos das execucoes
