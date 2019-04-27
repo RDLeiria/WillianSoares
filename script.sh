@@ -9,9 +9,12 @@ Download()
 
 Compile()
 {
-	cd NPB3.3.1/NPB3.3-SER/ #Caminha ate o diretorio
+	cd NPB3.3.1/NPB3.3-MPI/ #Caminha ate o diretorio
 	cp config/suite.def.template config/suite.def #Faz uma copia suite.def
 	cp config/make.def.template config/make.def #Faz uma copia make.def
+	
+	#Muda o compilador f77 para o mpif77 e o cc para o mpicc
+	sed -i -e 's/\<f77\>/mpif77/g' -e 's/\<cc\>/mpicc/g' config/make.def 
 	make suite #Compila os benchmarks
 }
 
@@ -76,8 +79,8 @@ CallPython()
 
 ### Inicio da execucao das funcoes ###
 
-#Download 		#Faz o download do NPB3.3.1
-#Compile			#Compila os arquivos 
+Download 		#Faz o download do NPB3.3.1
+Compile			#Compila os arquivos 
 #RunBenchmarks	#Executa todos os 8 benchmarks
 #RunParsing		#Realiza o parsing dos dados obtidos das execucoes
-CallPython		#Calcula a media do tempo de execucoes dos benchmarks e cria os graficos
+#CallPython		#Calcula a media do tempo de execucoes dos benchmarks e cria os graficos
