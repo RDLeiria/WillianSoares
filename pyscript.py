@@ -7,15 +7,18 @@ import pandas as pd
 #Trabalhando com csv e pythom, reference: https://datatofish.com/use-pandas-to-calculate-stats-from-an-imported-csv-file/
 #Trabalhando com graficos e python, reference: https://python-graph-gallery.com/8-add-confidence-interval-on-barplot/
 
+
+# Funcao para percorrer a lista de benchmarks
+
 #Atribui o arquivo csv para as variaveis
-dataIs = pd.read_csv('~/WillianSoares/Resultado/is.S.csv')
-dataBt = pd.read_csv('~/WillianSoares/Resultado/bt.S.csv')
-dataEp = pd.read_csv('~/WillianSoares/Resultado/ep.S.csv')
-dataCg = pd.read_csv('~/WillianSoares/Resultado/cg.S.csv')
-dataMg = pd.read_csv('~/WillianSoares/Resultado/mg.S.csv')
-dataFt = pd.read_csv('~/WillianSoares/Resultado/ft.S.csv')
-dataSp = pd.read_csv('~/WillianSoares/Resultado/sp.S.csv')
-dataLu = pd.read_csv('~/WillianSoares/Resultado/lu.S.csv')
+dataIs = pd.read_csv('~/WillianSoares/Resultado/is.S.1.csv')
+dataBt = pd.read_csv('~/WillianSoares/Resultado/bt.S.1.csv')
+dataEp = pd.read_csv('~/WillianSoares/Resultado/ep.S.1.csv')
+dataCg = pd.read_csv('~/WillianSoares/Resultado/cg.S.1.csv')
+dataMg = pd.read_csv('~/WillianSoares/Resultado/mg.S.1.csv')
+dataFt = pd.read_csv('~/WillianSoares/Resultado/ft.S.1.csv')
+dataSp = pd.read_csv('~/WillianSoares/Resultado/sp.S.1.csv')
+dataLu = pd.read_csv('~/WillianSoares/Resultado/lu.S.1.csv')
 #dataIs = pd.read_csv('/home/willian/MeuScript/WillianSoares/Resultado/is.S.csv')
 
 #Calcula a media dos valores na coluna "timeExec" e atribui o resultado a variavel como float
@@ -85,4 +88,4 @@ plt.legend()
 #plt.show()
 
 # Save as pdf
-plt.savefig("barGraph.pdf")
+plt.savefig("Graficos/barGraph.pdf")

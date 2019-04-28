@@ -41,4 +41,4 @@ plt.grid()
 #plt.show()
 
 # Save as pdf
-plt.savefig("lineGraph.pdf")
+plt.savefig("Graficos/lineGraph.pdf")
