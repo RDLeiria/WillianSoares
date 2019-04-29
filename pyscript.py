@@ -77,7 +77,7 @@ r1 = np.arange(len(bars1))
 #r3 = [x + barWidth for x in r2]
 
 # Create blue bars
-plt.bar(r1, bars1, width = barWidth, color = 'blue', edgecolor = 'black', yerr=yer1, capsize=7, label='Serial')
+plt.bar(r1, bars1, width = barWidth, color = 'blue', edgecolor = 'black', yerr=yer1, capsize=7, label='Nativo')
  
 # Create red bars
 #plt.bar(r2, bars2, width = barWidth, color = 'red', edgecolor = 'black', yerr=yer2, capsize=7, label='KVM')
@@ -95,4 +95,4 @@ plt.legend()
 #plt.show()
 
 # Save as pdf
-plt.savefig("Graficos/barGraph.pdf")
+plt.savefig("Graficos/class-"+classe+"-procs-"+processos+".pdf")

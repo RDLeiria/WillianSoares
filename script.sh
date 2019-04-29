@@ -91,6 +91,6 @@ CallPython()
 
 ### Inicio da execucao das funcoes ###
  Compile			# Compila os arquivos 
-# RunBenchmarks		# Executa todos os 8 benchmarks, gera os arquivos ".out"
-# RunParsing			# Realiza o parsing dos dados obtidos das execucoes, gera os arquivos ".csv"
-# CallPython			# Calcula a media do tempo de execucoes dos benchmarks e cria os graficos
+ RunBenchmarks		# Executa todos os 8 benchmarks, gera os arquivos ".out"
+ RunParsing			# Realiza o parsing dos dados obtidos das execucoes, gera os arquivos ".csv"
+ CallPython			# Calcula a media do tempo de execucoes dos benchmarks e cria os graficos
