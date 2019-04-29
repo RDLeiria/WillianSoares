@@ -1,53 +1,60 @@
-#usado na parte de criacao dos graficos
+# usado para receber argumentos
+import sys
+# usado  na parte de criacao dos graficos
 import numpy as np
 import matplotlib.pyplot as plt
-#usado na parte do csv
+# usado na parte do csv
 import pandas as pd
 
 #Trabalhando com csv e pythom, reference: https://datatofish.com/use-pandas-to-calculate-stats-from-an-imported-csv-file/
 #Trabalhando com graficos e python, reference: https://python-graph-gallery.com/8-add-confidence-interval-on-barplot/
 
 
-# Funcao para percorrer a lista de benchmarks
+# Teste de passagem de argumento do arquivo script.sh
+classe = sys.argv[1]
+processos = sys.argv[2]
 
-#Atribui o arquivo csv para as variaveis
-dataIs = pd.read_csv('~/WillianSoares/Resultado/is.S.1.csv')
-dataBt = pd.read_csv('~/WillianSoares/Resultado/bt.S.1.csv')
-dataEp = pd.read_csv('~/WillianSoares/Resultado/ep.S.1.csv')
-dataCg = pd.read_csv('~/WillianSoares/Resultado/cg.S.1.csv')
-dataMg = pd.read_csv('~/WillianSoares/Resultado/mg.S.1.csv')
-dataFt = pd.read_csv('~/WillianSoares/Resultado/ft.S.1.csv')
-dataSp = pd.read_csv('~/WillianSoares/Resultado/sp.S.1.csv')
-dataLu = pd.read_csv('~/WillianSoares/Resultado/lu.S.1.csv')
-#dataIs = pd.read_csv('/home/willian/MeuScript/WillianSoares/Resultado/is.S.csv')
+print "A classe eh: "+classe
+print "Quantidade de processos: "+processos
 
-#Calcula a media dos valores na coluna "timeExec" e atribui o resultado a variavel como float
-mediaIs = dataIs['timeExec'].mean()
-mediaBt = dataBt['timeExec'].mean()
-mediaEp = dataEp['timeExec'].mean()
-mediaCg = dataCg['timeExec'].mean()
-mediaMg = dataMg['timeExec'].mean()
-mediaFt = dataFt['timeExec'].mean()
-mediaSp = dataSp['timeExec'].mean()
-mediaLu = dataLu['timeExec'].mean()
 
-#Imprime o resultado doa media
-print "IS " + str(mediaIs)
-print "BT " + str(mediaBt)
-print "EP " + str(mediaEp)
-print "CG " + str(mediaCg)
-print "MG " + str(mediaMg)
-print "FT " + str(mediaFt)
-print "SP " + str(mediaSp)
-print "LU " + str(mediaLu)
+#-------------------- Gera os sufixos dos csv ------------------------------------------------------
 
-#--------------------Criacao dos graficos de barra ---------------------------
+listaBenchmarks = ["is", "ep", "cg", "mg", "ft", "bt", "sp", "lu"]
+detalhesBenchmarks=[]
+for x in xrange(0,8):
+	#cria os sufixos ex: "is.S.1" para montar os graficos
+	y = (listaBenchmarks[x]+"."+classe+"."+processos)
+	detalhesBenchmarks.append(y)
+
+#-------------------- Leitura do conteudo csv ------------------------------------------------------
+
+readData=[]
+for x in xrange(0,8):
+	y = pd.read_csv('~/WillianSoares/Resultado/'+detalhesBenchmarks[x]+'.csv')
+	readData.append(y)
+
+#-------------------- Calcula a media dos benchmarks do conteudo csv -------------------------------
+
+timeExecMean=[]
+for x in xrange(0,8):
+	y = readData[x]['timeExec'].mean()
+	timeExecMean.append(y)
+
+
+#--------------------Imprime o conteudo dos graficos de barra --------------------------------------
+
+for x in xrange(0,8):
+	print (listaBenchmarks[x], timeExecMean[x])
+
+#--------------------Criacao dos graficos de barra -------------------------------------------------
 
 # largura das barras
 barWidth = 0.3
 
 # Choose the height of the blue bars
-bars1 = [mediaIs, mediaBt, mediaEp, mediaCg, mediaMg, mediaFt, mediaSp, mediaLu]
+bars1 = [timeExecMean[0], timeExecMean[1], timeExecMean[2], timeExecMean[3], 
+		timeExecMean[4], timeExecMean[5], timeExecMean[6], timeExecMean[7]]
  
 # Choose the height of the red bars
 #bars2 = [10.8, 9.5, 4.5, 10.8, 9.5, 4.5, 10.8, 9.5]
