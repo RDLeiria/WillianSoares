@@ -3,14 +3,15 @@
 # Argumentos recebidos da funcao input
 
 echo "To no script.sh"
-if [ $# -lt 3 ]; then
+if [ $# -lt 4 ]; then
    echo "Faltou utilizar pelo menos um argumento!"
    exit 1
 fi 
-#echo "Numero de argumentos: $#"
-classe=$1
-nprocessos=$2
-repeticoes=$3
+
+classe=$1		# Classe dos benchmarks
+nprocessos=$2	# Quantidade de processos
+repeticoes=$3 	# Total de repeticoes para cada benchmark
+indice=$4		# Indice do arquivo input.sh
 
 # Imprime a classe e a quantidade de processos definidas
 #echo $classe $nprocessos
@@ -23,11 +24,21 @@ Compile()
 	
 	# Muda o compilador f77 para o mpif77 e o cc para o mpicc
 	sed -i -e 's/\<f77\>/mpif77/g' -e 's/\<cc\>/mpicc/g' config/make.def 
+	
 	# Define a classe dos benchmarks e os processos de acordo com o arquivo input.sh
 	sed -i -e "s/\<[A-Z]\>/$classe/g" config/suite.def 
 	sed -i -e "s/\<[0-9]\>/$nprocessos/g" config/suite.def 
+	
+	make is CLASS=$classe NPROCS=$nprocessos
+	make ep CLASS=$classe NPROCS=$nprocessos
+	make cg CLASS=$classe NPROCS=$nprocessos
+	make mg CLASS=$classe NPROCS=$nprocessos	
+	make ft CLASS=$classe NPROCS=$nprocessos
+	make bt CLASS=$classe NPROCS=$nprocessos
+	make sp CLASS=$classe NPROCS=$nprocessos
+	make lu CLASS=$classe NPROCS=$nprocessos
 
-	make suite #Compila os benchmarks
+	#make suite #Compila os benchmarks
 }
 
 RunBenchmarks() 
@@ -44,12 +55,16 @@ RunBenchmarks()
 Executa()
 {	
 	kernel=$1 #O kernel que sera executado
-	echo $kernel
+	cd ~/WillianSoares/NPB3.3.1/NPB3.3-MPI/bin
+	#echo $(pwd)
 
 	for i in `seq 1 $repeticoes` #Executa o mesmo benchmark de 1 até n
 			do
+			echo $kernel
 			#Executa o benchmark e guarda no diretorio Resultado
-				~/WillianSoares/NPB3.3.1/NPB3.3-MPI/bin/$kernel.$classe.$nprocessos >> ~/WillianSoares/Resultado/$kernel.$classe.$nprocessos.out 
+			 	#cd /WillianSoares/NPB3.3.1/NPB3.3-MPI/bin
+			 	mpirun -np $nprocessos $kernel.$classe.$nprocessos >> ~/WillianSoares/Resultado/$kernel.$classe.$nprocessos.out 
+			 	#exec mpirun -np $nprocessos $($kernel.$classe.$nprocessos) >> ~/WillianSoares/Resultado/$kernel.$classe.$nprocessos.out 
 			done
 }
 
@@ -86,7 +101,7 @@ CallPython()
 {
 	cd ~/WillianSoares
 	python pyscript.py $classe $nprocessos	#Cria os graficos de barras e salva como pdf
-	# python linegraphs.py 	#Cria os graficos estilo linha e salva como pdf
+	python linegraphs.py $indice			#Cria os graficos estilo linha e salva como pdf
 }
 
 ### Inicio da execucao das funcoes ###

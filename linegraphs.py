@@ -1,3 +1,4 @@
+
 #--------------------Criacao dos graficos de linha ---------------------------
 
 # -*- coding: utf-8 -*-
@@ -12,8 +13,16 @@ Original file is located at
 #Reference https://python-graph-gallery.com/122-multiple-lines-chart/
 #Reference: https://stackoverflow.com/questions/44813601/how-to-set-x-axis-values-in-matplotlib-python
 
+# usado para receber argumentos
+import sys
+
+# Executa novamente o script
+import subprocess
+
 import numpy as np
 import matplotlib.pyplot as plt
+
+indice = sys.argv[1]
 
 x = [1, 2, 8, 16]
 
@@ -42,3 +51,11 @@ plt.grid()
 
 # Save as pdf
 plt.savefig("Graficos/lineGraph.pdf")
+
+# Excuta o script novamente
+print "conteudo indice"
+print indice
+intIndice = int(indice)
+intIndice=intIndice+1
+if intIndice!=6:
+	subprocess.call("./input.sh '%s'" % intIndice, shell=True)
