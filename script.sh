@@ -11,8 +11,8 @@ fi
 classe=$1		# Classe dos benchmarks
 nprocessos=$2	# Quantidade de processos
 repeticoes=$3 	# Total de repeticoes para cada benchmark
-indice=$4		# Indice do arquivo input.sh
-ambiente=$5		# Label para identificar o ambiente dos experimentos
+ambiente=$4		# Label para identificar o ambiente dos experimentos
+indice=$5		# Indice do arquivo input.sh
 
 # Imprime a classe e a quantidade de processos definidas
 #echo $classe $nprocessos
@@ -116,10 +116,19 @@ CallPython()
 	python linegraphs.py $indice			#Cria os graficos estilo linha e salva como pdf
 }
 
+NextNumNos() # Executa o script novamente para o proximo num de nos definido na lista do arquivo input.sh
+{
+	cd ~/WillianSoares
+
+	indice="$((indice +1))"
+	./input.sh $indice	
+}
+
 ### Inicio da execucao das funcoes ###
  Directories 		# Cria os diretorios para os graficos e resultados
 # Download 			# Realiza o download do NPB
  Compile			# Compila os arquivos 
  RunBenchmarks		# Executa todos os 8 benchmarks, gera os arquivos ".out"
- RunParsing			# Realiza o parsing dos dados obtidos das execucoes, gera os arquivos ".csv"
- #CallPython			# Calcula a media do tempo de execucoes dos benchmarks e cria os graficos
+ RunParsing 		# Realiza o parsing dos dados obtidos das execucoes, gera os arquivos ".csv"
+ #CallPython		# Calcula a media do tempo de execucoes dos benchmarks e cria os graficos
+ NextNumNos
