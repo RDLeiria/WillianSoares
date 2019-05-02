@@ -3,8 +3,8 @@
 # Argumentos recebidos da funcao input
 
 echo "To no script.sh"
-if [ $# -lt 4 ]; then
-   echo "Faltou utilizar pelo menos um argumento!"
+if [ $# -lt 5 ]; then
+   echo "Faltou utilizar pelo menos 5 argumentos!"
    exit 1
 fi 
 
@@ -12,11 +12,24 @@ classe=$1		# Classe dos benchmarks
 nprocessos=$2	# Quantidade de processos
 repeticoes=$3 	# Total de repeticoes para cada benchmark
 indice=$4		# Indice do arquivo input.sh
+ambiente=$5		# Label para identificar o ambiente dos experimentos
 
 # Imprime a classe e a quantidade de processos definidas
 #echo $classe $nprocessos
 
-Compile()
+Directories()
+{
+	mkdir ${ambiente}Resultado #Cria um diretorio para os resultados dos benchmarks
+	mkdir ${ambiente}Graficos #Cria um diretorio para os graficos
+}
+
+Download() # Realiza o download NPB
+{
+	wget https://www.nas.nasa.gov/assets/npb/NPB3.3.1.tar.gz #Download do NPB
+	tar -xf NPB3.3.1.tar.gz #Descompactar NPB
+}
+
+Compile() # Compila os benchmarks de acordo com o arquivo de input.sh
 {
 	cd NPB3.3.1/NPB3.3-MPI/ # Caminha ate o diretorio
 	cp config/suite.def.template config/suite.def # Faz uma copia suite.def
@@ -63,11 +76,10 @@ Executa()
 			echo $kernel
 			#Executa o benchmark e guarda no diretorio Resultado
 			 	#cd /WillianSoares/NPB3.3.1/NPB3.3-MPI/bin
-			 	mpirun -np $nprocessos $kernel.$classe.$nprocessos >> ~/WillianSoares/Resultado/$kernel.$classe.$nprocessos.out 
+			 	mpirun -np $nprocessos $kernel.$classe.$nprocessos >> ~/WillianSoares/${ambiente}Resultado/$ambiente.$kernel.$classe.$nprocessos.out 
 			 	#exec mpirun -np $nprocessos $($kernel.$classe.$nprocessos) >> ~/WillianSoares/Resultado/$kernel.$classe.$nprocessos.out 
 			done
 }
-
 
 RunParsing()
 {
@@ -82,19 +94,19 @@ RunParsing()
 Parsing()
 {
 	kernel=$1 #O kernel que sera executado
-	cd ~/WillianSoares/Resultado
+	cd ~/WillianSoares/${ambiente}Resultado
 
 	# Cria o arquivo csv
-	echo "timeExec, class, mops, benchmark, nNos, nCores" > $kernel.$classe.$nprocessos.csv #cabecalho do arquivo
+	echo "timeExec, class, mops, benchmark, nNos, nCores" > $ambiente.$kernel.$classe.$nprocessos.csv #cabecalho do arquivo
 	#echo "$(Parser);;$kernel;;" >> $kernel.S.csv 
-	echo "$(Parser)" >> $kernel.$classe.$nprocessos.csv 
+	echo "$(Parser)" >> $ambiente.$kernel.$classe.$nprocessos.csv 
 	#Guarda no arquivo csv apenas o tempo em segundo das execucoes	
 	#Parser >> $kernel.S.csv 
 }
 
 Parser()
 {
-	grep "Time in seconds" $kernel.$classe.$nprocessos.out | sed 's/ //g' | cut -d "=" -f2
+	grep "Time in seconds" $ambiente.$kernel.$classe.$nprocessos.out | sed 's/ //g' | cut -d "=" -f2
 }
 
 CallPython()
@@ -105,7 +117,9 @@ CallPython()
 }
 
 ### Inicio da execucao das funcoes ###
+ Directories 		# Cria os diretorios para os graficos e resultados
+# Download 			# Realiza o download do NPB
  Compile			# Compila os arquivos 
  RunBenchmarks		# Executa todos os 8 benchmarks, gera os arquivos ".out"
  RunParsing			# Realiza o parsing dos dados obtidos das execucoes, gera os arquivos ".csv"
- CallPython			# Calcula a media do tempo de execucoes dos benchmarks e cria os graficos
+ #CallPython			# Calcula a media do tempo de execucoes dos benchmarks e cria os graficos
