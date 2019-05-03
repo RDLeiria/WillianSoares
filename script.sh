@@ -20,7 +20,7 @@ indice=$5		# Indice do arquivo input.sh
 Directories()
 {
 	mkdir ${ambiente}Resultado #Cria um diretorio para os resultados dos benchmarks
-	mkdir ${ambiente}Graficos #Cria um diretorio para os graficos
+	#mkdir ${ambiente}Graficos #Cria um diretorio para os graficos
 }
 
 Download() # Realiza o download NPB

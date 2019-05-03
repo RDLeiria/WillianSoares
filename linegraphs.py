@@ -13,49 +13,119 @@ Original file is located at
 #Reference https://python-graph-gallery.com/122-multiple-lines-chart/
 #Reference: https://stackoverflow.com/questions/44813601/how-to-set-x-axis-values-in-matplotlib-python
 
+# Auxilia a verificar a existencia de um arquivo
+import os.path
+
 # usado para receber argumentos
 import sys
-
-# Executa novamente o script
-import subprocess
 
 import numpy as np
 import matplotlib.pyplot as plt
 
-indice = sys.argv[1]
+# usado na parte do csv
+import pandas as pd
 
-x = [1, 2, 8, 16]
+classe 	  =	sys.argv[1]
+benchmark = sys.argv[2]
+
+#-------------------- Decide o numero de nos para cada benchnmark ---------------------------------------
+
+listaNosBenchmarksCgToMg= [1, 2, 4, 8, 16]
+listaNosBenchmarksBtSp  = [1, 4, 9, 16]
+listaNosBenchmarksEp    = [1, 2, 4, 8, 9, 16]
+
+listaBenchmarks5	   = ["cg", "is", "lu", "ft", "mg"]
+listaBenchmarks2	   = ["bt", "sp"]
+listaBenchmarks1	   = ["ep"]
+
+
+if benchmark in listaBenchmarks5:
+	listaDeNodos = listaNosBenchmarksCgToMg
+
+if benchmark in listaBenchmarks2:
+	listaDeNodos = listaNosBenchmarksBtSp
+
+if benchmark in listaBenchmarks1:
+	listaDeNodos = listaNosBenchmarksEp
+
+#-------------------- Gera os sufixos dos csv ------------------------------------------------------
+
+nativoDetalhesBenchmarks = []
+kvmDetalhesBenchmarks	 = []
+esxiDetalhesBenchmarks	 = []
+
+for x in xrange(0,len(listaDeNodos)):
+	#cria os sufixos ex: "is.S.1" para montar os graficos
+	y1 = ("Nativo."+benchmark+"."+classe+"."+str(listaDeNodos[x])+".csv")
+	y2 = ("KVM."+benchmark+"."+classe+"."+str(listaDeNodos[x])+".csv")
+	y3 = ("ESXi."+benchmark+"."+classe+"."+str(listaDeNodos[x])+".csv")
+	nativoDetalhesBenchmarks.append(y1)
+	kvmDetalhesBenchmarks.append(y2)
+	esxiDetalhesBenchmarks.append(y3)
+
+#print (nativoDetalhesBenchmarks)
+#print (kvmDetalhesBenchmarks)
+#print (esxiDetalhesBenchmarks)
+
+#-------------------- Leitura do conteudo csv ------------------------------------------------------
+
+nativoReadData=[]
+kvmReadData=[]
+esxiReadData=[]
+
+for x in xrange(0,len(listaDeNodos)):
+	y1 = pd.read_csv('~/WillianSoares/NativoResultado/'+nativoDetalhesBenchmarks[x])
+	y2 = pd.read_csv('~/WillianSoares/KVMResultado/'+kvmDetalhesBenchmarks[x])
+	y3 = pd.read_csv('~/WillianSoares/ESXiResultado/'+esxiDetalhesBenchmarks[x])
+	nativoReadData.append(y1)
+	kvmReadData.append(y2)
+	esxiReadData.append(y3)
+
+#print(nativoReadData)
+#print(kvmReadData)
+#print(esxiReadData)
+
+
+#-------------------- Calcula a media dos benchmarks do conteudo csv -------------------------------
+
+nativoTimeExecMean=[]
+kvmTimeExecMean=[]
+esxiTimeExecMean=[]
+
+for x in xrange(0,len(listaDeNodos)):
+	y1 = nativoReadData[x]['timeExec'].mean()
+	y2 = kvmReadData[x]['timeExec'].mean()
+	y3 = esxiReadData[x]['timeExec'].mean()
+	nativoTimeExecMean.append(y1)
+	kvmTimeExecMean.append(y2)
+	esxiTimeExecMean.append(y3)
+
+#print (nativoTimeExecMean)
+#print (kvmTimeExecMean)
+#print (esxiTimeExecMean)
+
+#-------------------- Cria o grafico de linhas  -------------------------------------------------------
+
 
 # create an index for each tick position
-xi = [i for i in range(0, len(x))]
-y1 = [300, 100, 50, 20]
-y2 = [280, 80, 45, 15]
-y3 = [250, 70, 40, 13]
+xi = listaDeNodos
 
 #plt.ylim(0.8,1.4)
 
 # plot the index for the x-values
-plt.plot(xi, y1, marker='o', linestyle='-', color='r', label='KVM') 
-plt.plot(xi, y2, marker='x', linestyle='--', color='b', label='ESXi') 
-plt.plot(xi, y3, marker='*', linestyle='--', color='g', label='Nativo') 
+plt.plot(xi, nativoTimeExecMean, marker='o', linestyle='-', color='r', label='Nativo') 
+plt.plot(xi, kvmTimeExecMean, marker='x', linestyle='--', color='b', label='ESXi') 
+plt.plot(xi, esxiTimeExecMean, marker='*', linestyle='--', color='g', label='Nativo') 
 
-plt.xlabel('Processadores')
+plt.xlabel('Quantidade de nos')
 plt.ylabel('Tempo (S)') 
-plt.xticks(xi, x)
-plt.title('(A) NPB-MPI-BT (Tempo Medio)')
-plt.legend()
-plt.grid()
+plt.xticks(xi, listaDeNodos)
+plt.title("Classe: "+classe+" Benchmark "+benchmark)
+plt.legend(loc='upper right')
+#plt.grid()
 
 # Show graph
-#plt.show()
+plt.show()
 
 # Save as pdf
-plt.savefig("Graficos/lineGraph.pdf")
-
-# Excuta o script novamente
-print "conteudo indice"
-print indice
-intIndice = int(indice)
-intIndice=intIndice+1
-if intIndice!=6:
-	subprocess.call("./input.sh '%s'" % intIndice, shell=True)
+#plt.savefig("Classe: "+classe+" Benchmark "+benchmark+".pdf")

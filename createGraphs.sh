@@ -12,7 +12,15 @@ BarGraphsCreate()
 
 LineGraphsCreate()
 {
-
+#	python linegraphs.py S is
+#	python linegraphs.py S ep
+#	python linegraphs.py S cg
+#	python linegraphs.py S mg
+#	python linegraphs.py S ft
+#	python linegraphs.py S bt
+#	python linegraphs.py S sp
+	python linegraphs.py S lu
 }
 
-BarGraphsCreate
+#BarGraphsCreate
+LineGraphsCreate
