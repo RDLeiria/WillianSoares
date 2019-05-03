@@ -124,8 +124,10 @@ plt.title("Classe: "+classe+" Benchmark "+benchmark)
 plt.legend(loc='upper right')
 #plt.grid()
 
+plt.gca().yaxis.grid(True, linestyle='--')
+
 # Show graph
-plt.show()
+#plt.show()
 
 # Save as pdf
-#plt.savefig("Classe: "+classe+" Benchmark "+benchmark+".pdf")
+plt.savefig("Classe: "+classe+" Benchmark "+benchmark+".pdf")

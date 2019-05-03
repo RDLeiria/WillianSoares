@@ -148,7 +148,8 @@ plt.ylabel('Time in seconds (Lower is better)')
 plt.xlabel('Benchmarks')
 plt.title('Tempo Medio\n Classe: '+classe+' Numero de nos: '+processos)
 plt.legend(loc='upper right')
-plt.grid(linestyle='--')
+
+plt.gca().yaxis.grid(True, linestyle='--')
 
 # Show graphic
 #plt.show()
