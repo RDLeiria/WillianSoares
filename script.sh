@@ -70,10 +70,10 @@ Executa()
 	kernel=$1 #O kernel que sera executado
 	cd ~/WillianSoares/NPB3.3.1/NPB3.3-MPI/bin
 	#echo $(pwd)
+	echo $kernel
 
 	for i in `seq 1 $repeticoes` #Executa o mesmo benchmark de 1 até n
 			do
-			echo $kernel
 			#Executa o benchmark e guarda no diretorio Resultado
 			 	#cd /WillianSoares/NPB3.3.1/NPB3.3-MPI/bin
 			 	mpirun -np $nprocessos $kernel.$classe.$nprocessos >> ~/WillianSoares/${ambiente}Resultado/$ambiente.$kernel.$classe.$nprocessos.out 
@@ -126,9 +126,9 @@ NextNumNos() # Executa o script novamente para o proximo num de nos definido na 
 
 ### Inicio da execucao das funcoes ###
  Directories 		# Cria os diretorios para os graficos e resultados
-# Download 			# Realiza o download do NPB
+ #Download 			# Realiza o download do NPB
  Compile			# Compila os arquivos 
  RunBenchmarks		# Executa todos os 8 benchmarks, gera os arquivos ".out"
  RunParsing 		# Realiza o parsing dos dados obtidos das execucoes, gera os arquivos ".csv"
  #CallPython		# Calcula a media do tempo de execucoes dos benchmarks e cria os graficos
- NextNumNos
+ #NextNumNos			
