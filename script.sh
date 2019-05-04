@@ -19,14 +19,18 @@ indice=$5		# Indice do arquivo input.sh
 
 Directories()
 {
-	mkdir ${ambiente}Resultado #Cria um diretorio para os resultados dos benchmarks
+	if [[ ! -d "${ambiente}Resultado" ]]; then
+		mkdir ${ambiente}Resultado #Cria um diretorio para os resultados dos benchmarks
+	fi	
 	#mkdir ${ambiente}Graficos #Cria um diretorio para os graficos
 }
 
 Download() # Realiza o download NPB
 {
-	wget https://www.nas.nasa.gov/assets/npb/NPB3.3.1.tar.gz #Download do NPB
-	tar -xf NPB3.3.1.tar.gz #Descompactar NPB
+	if [[ ! -d "NPB3.3.1" ]]; then
+		wget https://www.nas.nasa.gov/assets/npb/NPB3.3.1.tar.gz #Download do NPB
+		tar -xf NPB3.3.1.tar.gz #Descompactar NPB
+	fi
 }
 
 Compile() # Compila os benchmarks de acordo com o arquivo de input.sh
@@ -126,9 +130,9 @@ NextNumNos() # Executa o script novamente para o proximo num de nos definido na 
 
 ### Inicio da execucao das funcoes ###
  Directories 		# Cria os diretorios para os graficos e resultados
- #Download 			# Realiza o download do NPB
- Compile			# Compila os arquivos 
- RunBenchmarks		# Executa todos os 8 benchmarks, gera os arquivos ".out"
- RunParsing 		# Realiza o parsing dos dados obtidos das execucoes, gera os arquivos ".csv"
+ Download 			# Realiza o download do NPB
+ #Compile			# Compila os arquivos 
+ #RunBenchmarks		# Executa todos os 8 benchmarks, gera os arquivos ".out"
+ #RunParsing 		# Realiza o parsing dos dados obtidos das execucoes, gera os arquivos ".csv"
  #CallPython		# Calcula a media do tempo de execucoes dos benchmarks e cria os graficos
  #NextNumNos			
