@@ -130,9 +130,9 @@ NextNumNos() # Executa o script novamente para o proximo num de nos definido na 
 
 ### Inicio da execucao das funcoes ###
  Directories 		# Cria os diretorios para os graficos e resultados
- Download 			# Realiza o download do NPB
- Compile			# Compila os arquivos 
+ Download 		# Realiza o download do NPB
+ Compile		# Compila os arquivos 
  RunBenchmarks		# Executa todos os 8 benchmarks, gera os arquivos ".txt"
- RunParsing 		# Realiza o parsing dos dados obtidos das execucoes, gera os arquivos ".csv"
+ #RunParsing 		# Realiza o parsing dos dados obtidos das execucoes, gera os arquivos ".csv"
  #CallPython		# Calcula a media do tempo de execucoes dos benchmarks e cria os graficos
- #NextNumNos			
+ NextNumNos
