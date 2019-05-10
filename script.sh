@@ -3,8 +3,8 @@
 # Argumentos recebidos da funcao input
 
 echo "To no script.sh"
-if [ $# -lt 5 ]; then
-   echo "Faltou utilizar pelo menos 5 argumentos!"
+if [ $# -lt 6 ]; then
+   echo "Faltou utilizar pelo menos 6 argumentos!"
    exit 1
 fi 
 
@@ -12,7 +12,10 @@ classe=$1		# Classe dos benchmarks
 nprocessos=$2	# Quantidade de processos
 repeticoes=$3 	# Total de repeticoes para cada benchmark
 ambiente=$4		# Label para identificar o ambiente dos experimentos
-indice=$5		# Indice do arquivo input.sh
+ram=$5			# Quantidade de mem ram utilizada no experimento
+disc=$6			# Quantidade tamanho do HD utilizado no experimento
+
+hdInfo="_("$ram"R_"$disc"HD)"
 
 # Imprime a classe e a quantidade de processos definidas
 #echo $classe $nprocessos
@@ -31,6 +34,17 @@ Download() # Realiza o download NPB
 		wget https://www.nas.nasa.gov/assets/npb/NPB3.3.1.tar.gz #Download do NPB
 		tar -xf NPB3.3.1.tar.gz #Descompactar NPB
 	fi
+}
+
+ChooseBenchmakrs()
+{
+	#if [[ $nprocessos -eq 1 ]]; then
+		listOfBenchmarks=(is ep cg mg ft bt sp lu)
+		#echo ${listOfBenchmarks[@]}
+
+		#kkk=("${listOfBenchmarks[@]}")
+		#echo ${kkk[2]}
+	#fi
 }
 
 Compile() # Compila os benchmarks de acordo com o arquivo de input.sh
@@ -61,8 +75,9 @@ Compile() # Compila os benchmarks de acordo com o arquivo de input.sh
 RunBenchmarks() 
 {
 	#echo "RunBenchmarks"
-	ARRAY=(is ep cg mg ft bt sp lu)
+	ARRAY=("${listOfBenchmarks[@]}")
 	#len=${#ARRAY[@]} #retorna a quantidade de elementos no array
+	
 	for i in `seq 0 7` #laco de repeticao para executar todos os benchmarks do array
 		do
 			Executa ${ARRAY[$i]}
@@ -75,11 +90,13 @@ Executa()
 	cd ~/WillianSoares/NPB3.3.1/NPB3.3-MPI/bin
 	#echo $(pwd)
 	#echo $kernel
+ 
 
 	for i in `seq 1 $repeticoes` #Executa o mesmo benchmark de 1 até n
 			do
 			#Executa o benchmark e guarda no diretorio Resultado
 			 	#cd /WillianSoares/NPB3.3.1/NPB3.3-MPI/bin
+			 	#mpirun -np $nprocessos ./$kernel.$classe.$nprocessos >> ~/WillianSoares/${ambiente}Resultado/$ambiente.$kernel.$classe.$nprocessos.txt 
 			 	mpirun -np $nprocessos ./$kernel.$classe.$nprocessos >> ~/WillianSoares/${ambiente}Resultado/$ambiente.$kernel.$classe.$nprocessos.txt 
 			 	#exec mpirun -np $nprocessos $($kernel.$classe.$nprocessos) >> ~/WillianSoares/Resultado/$kernel.$classe.$nprocessos.txt 
 			done
@@ -87,7 +104,7 @@ Executa()
 
 RunParsing()
 {
-	ARRAY=(is ep cg mg ft bt sp lu)
+	ARRAY=("${listOfBenchmarks[@]}")
 	#len=${#ARRAY[@]} #retorna a quantidade de elementos no array
 	for i in `seq 0 7` #laco de repeticao para realizar o parsing dos dados
 		do
@@ -131,8 +148,9 @@ NextNumNos() # Executa o script novamente para o proximo num de nos definido na 
 ### Inicio da execucao das funcoes ###
  Directories 		# Cria os diretorios para os graficos e resultados
  Download 			# Realiza o download do NPB
+ ChooseBenchmakrs	# Escolhe os benchmarks baseado no numero de nodos
  Compile			# Compila os arquivos 
  RunBenchmarks		# Executa todos os 8 benchmarks, gera os arquivos ".txt"
- RunParsing 		# Realiza o parsing dos dados obtidos das execucoes, gera os arquivos ".csv"
+ #RunParsing 		# Realiza o parsing dos dados obtidos das execucoes, gera os arquivos ".csv"
  #CallPython		# Calcula a media do tempo de execucoes dos benchmarks e cria os graficos
  #NextNumNos			

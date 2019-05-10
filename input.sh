@@ -1,18 +1,12 @@
 #!/bin/bash
+classe=S 
+nodes=2
+repeticoes=2
+ambiente=Nativo 
+ram=4 
+disc=32
 
-if [ $# -lt 1 ]; then
-   echo "Faltou utilizar pelo menos um argumento!"
-   exit 1
-fi 
+./script.sh $classe $nodes $repeticoes $ambiente $ram $disc
 
-indexProcess=$1 # Recebe o indice zero para executar os processos
 
-if [[ $indexProcess -eq 7 ]]; then
-	exit 1
-fi
 
-# Define a classe do problema
-classe=S repeticoes=1 ambiente=Nativo
-listProcess=(1 2 4 8 9 16 32) 
-processos=${listProcess[${indexProcess}]}
-./script.sh $classe $processos $repeticoes $ambiente $indexProcess
