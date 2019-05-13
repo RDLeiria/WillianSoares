@@ -3,7 +3,7 @@
 # Argumentos recebidos da funcao input
 
 echo "To no script.sh"
-if [ $# -lt 6 ]; then
+if [ $# -lt 7 ]; then
    echo "Faltou utilizar pelo menos 6 argumentos!"
    exit 1
 fi 
@@ -14,16 +14,23 @@ repeticoes=$3 	# Total de repeticoes para cada benchmark
 ambiente=$4		# Label para identificar o ambiente dos experimentos
 ram=$5			# Quantidade de mem ram utilizada no experimento
 disc=$6			# Quantidade tamanho do HD utilizado no experimento
+exp=$7
 
 hdInfo="_("$ram"R_"$disc"HD)"
+
 
 # Imprime a classe e a quantidade de processos definidas
 #echo $classe $nprocessos
 
 Directories()
-{
+{	
+	
+	if [[ ! -d "Experimento${exp}" ]]; then
+		mkdir resultados/Experimento${exp} #Cria um diretorio para os resultados dos benchmarks
+	fi	
+
 	if [[ ! -d "${ambiente}Resultado" ]]; then
-		mkdir ${ambiente}Resultado #Cria um diretorio para os resultados dos benchmarks
+		mkdir resultados/Experimento${exp}/${ambiente}Resultado #Cria um diretorio para os resultados dos benchmarks
 	fi	
 	#mkdir ${ambiente}Graficos #Cria um diretorio para os graficos
 }
@@ -38,13 +45,7 @@ Download() # Realiza o download NPB
 
 ChooseBenchmakrs()
 {
-	#if [[ $nprocessos -eq 1 ]]; then
-		listOfBenchmarks=(is ep cg mg ft bt sp lu)
-		#echo ${listOfBenchmarks[@]}
-
-		#kkk=("${listOfBenchmarks[@]}")
-		#echo ${kkk[2]}
-	#fi
+	listOfBenchmarks=(is ep cg mg ft bt sp lu)
 }
 
 Compile() # Compila os benchmarks de acordo com o arquivo de input.sh
@@ -60,23 +61,13 @@ Compile() # Compila os benchmarks de acordo com o arquivo de input.sh
 	sed -i -e "s/\<[A-Z]\>/$classe/g" config/suite.def 
 	sed -i -e "s/\<[0-9]\>/$nprocessos/g" config/suite.def 
 	
-	make is CLASS=$classe NPROCS=$nprocessos
-	make ep CLASS=$classe NPROCS=$nprocessos
-	make cg CLASS=$classe NPROCS=$nprocessos
-	make mg CLASS=$classe NPROCS=$nprocessos	
-	make ft CLASS=$classe NPROCS=$nprocessos
-	make bt CLASS=$classe NPROCS=$nprocessos
-	make sp CLASS=$classe NPROCS=$nprocessos
-	make lu CLASS=$classe NPROCS=$nprocessos
-
-	#make suite #Compila os benchmarks
+	make suite #Compila os benchmarks
 }
 
 RunBenchmarks() 
 {
 	#echo "RunBenchmarks"
 	ARRAY=("${listOfBenchmarks[@]}")
-	#len=${#ARRAY[@]} #retorna a quantidade de elementos no array
 	
 	for i in `seq 0 7` #laco de repeticao para executar todos os benchmarks do array
 		do
@@ -88,17 +79,10 @@ Executa()
 {	
 	kernel=$1 #O kernel que sera executado
 	cd ~/WillianSoares/NPB3.3.1/NPB3.3-MPI/bin
-	#echo $(pwd)
-	#echo $kernel
- 
-
 	for i in `seq 1 $repeticoes` #Executa o mesmo benchmark de 1 até n
 			do
-			#Executa o benchmark e guarda no diretorio Resultado
-			 	#cd /WillianSoares/NPB3.3.1/NPB3.3-MPI/bin
-			 	#mpirun -np $nprocessos ./$kernel.$classe.$nprocessos >> ~/WillianSoares/${ambiente}Resultado/$ambiente.$kernel.$classe.$nprocessos.txt 
-			 	mpirun -np $nprocessos ./$kernel.$classe.$nprocessos >> ~/WillianSoares/${ambiente}Resultado/$ambiente.$kernel.$classe.$nprocessos.txt 
-			 	#exec mpirun -np $nprocessos $($kernel.$classe.$nprocessos) >> ~/WillianSoares/Resultado/$kernel.$classe.$nprocessos.txt 
+				#Executa o benchmark e guarda no diretorio Resultado
+			 	mpirun -np $nprocessos ./$kernel.$classe.$nprocessos >> ~/WillianSoares/Experimento${exp}/${ambiente}Resultado/$ambiente.$kernel.$classe.$nprocessos.txt 
 			done
 }
 
@@ -115,34 +99,17 @@ RunParsing()
 Parsing()
 {
 	kernel=$1 #O kernel que sera executado
-	cd ~/WillianSoares/${ambiente}Resultado
+	cd ~/WillianSoares/resultados/Experimento${exp}/
 
 	# Cria o arquivo csv
-	echo "timeExec, class, mops, benchmark, nNos, nCores" > $ambiente.$kernel.$classe.$nprocessos.csv #cabecalho do arquivo
-	#echo "$(Parser);;$kernel;;" >> $kernel.S.csv 
-	echo "$(Parser)" >> $ambiente.$kernel.$classe.$nprocessos.csv 
-	#Guarda no arquivo csv apenas o tempo em segundo das execucoes	
-	#Parser >> $kernel.S.csv 
+	echo "timeExec, class, mops, benchmark, nNos, nCores" > ${ambiente}Resultado/$ambiente.$kernel.$classe.$nprocessos.csv #cabecalho do arquivo
+	echo "$(Parser)" >> ${ambiente}Resultado/$ambiente.$kernel.$classe.$nprocessos.csv 
 }
 
 Parser()
 {
+	cd ~/WillianSoares/resultados/Experimento${exp}/${ambiente}Resultado
 	grep "Time in seconds" $ambiente.$kernel.$classe.$nprocessos.txt | sed 's/ //g' | cut -d "=" -f2
-}
-
-CallPython()
-{
-	cd ~/WillianSoares
-	python pyscript.py $classe $nprocessos	#Cria os graficos de barras e salva como pdf
-	python linegraphs.py $indice			#Cria os graficos estilo linha e salva como pdf
-}
-
-NextNumNos() # Executa o script novamente para o proximo num de nos definido na lista do arquivo input.sh
-{
-	cd ~/WillianSoares
-
-	indice="$((indice +1))"
-	./input.sh $indice	
 }
 
 ### Inicio da execucao das funcoes ###
@@ -151,6 +118,4 @@ NextNumNos() # Executa o script novamente para o proximo num de nos definido na 
  ChooseBenchmakrs	# Escolhe os benchmarks baseado no numero de nodos
  Compile			# Compila os arquivos 
  RunBenchmarks		# Executa todos os 8 benchmarks, gera os arquivos ".txt"
- #RunParsing 		# Realiza o parsing dos dados obtidos das execucoes, gera os arquivos ".csv"
- #CallPython		# Calcula a media do tempo de execucoes dos benchmarks e cria os graficos
- #NextNumNos			
+ RunParsing 		# Realiza o parsing dos dados obtidos das execucoes, gera os arquivos ".csv"
