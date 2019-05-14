@@ -30,9 +30,9 @@ benchmark = sys.argv[2]
 
 #-------------------- Decide o numero de nos para cada benchnmark ---------------------------------------
 
-listaNosBenchmarksCgToMg= [1, 2, 4, 8, 16]
-listaNosBenchmarksBtSp  = [1, 4, 9, 16]
-listaNosBenchmarksEp    = [1, 2, 4, 8, 9, 16]
+listaNosBenchmarksCgToMg= [1, 2, 4, 8, 16, 32]
+listaNosBenchmarksBtSp  = [1, 4, 9, 16, 32]
+listaNosBenchmarksEp    = [1, 2, 4, 8, 9, 16, 32]
 
 listaBenchmarks5	   = ["cg", "is", "lu", "ft", "mg"]
 listaBenchmarks2	   = ["bt", "sp"]
@@ -114,8 +114,8 @@ xi = listaDeNodos
 
 # plot the index for the x-values
 plt.plot(xi, nativoTimeExecMean, marker='o', linestyle='-', color='r', label='Nativo') 
-plt.plot(xi, kvmTimeExecMean, marker='x', linestyle='--', color='b', label='ESXi') 
-plt.plot(xi, esxiTimeExecMean, marker='*', linestyle='--', color='g', label='Nativo') 
+plt.plot(xi, kvmTimeExecMean, marker='x', linestyle='--', color='b', label='KVM') 
+plt.plot(xi, esxiTimeExecMean, marker='*', linestyle='--', color='g', label='ESXi') 
 
 plt.xlabel('Quantidade de nos')
 plt.ylabel('Tempo (S)') 
