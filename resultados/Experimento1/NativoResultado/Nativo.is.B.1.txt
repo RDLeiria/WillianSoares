@@ -1,0 +1,1000 @@
+
+
+ NAS Parallel Benchmarks 3.3 -- IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+ Number of processes:     1
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        B
+ Size            =                 33554432
+ Iterations      =                       10
+ Time in seconds =                     2.99
+ Total processes =                        1
+ Compiled procs  =                        1
+ Mop/s total     =                   112.18
+ Mop/s/process   =                   112.18
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              14 May 2019
+
+ Compile options:
+    MPICC        = mpicc
+    CLINK        = $(MPICC)
+    CMPI_LIB     = -L/usr/local/lib -lmpi
+    CMPI_INC     = -I/usr/local/include
+    CFLAGS       = -O
+    CLINKFLAGS   = -O
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+ Number of processes:     1
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        B
+ Size            =                 33554432
+ Iterations      =                       10
+ Time in seconds =                     2.97
+ Total processes =                        1
+ Compiled procs  =                        1
+ Mop/s total     =                   112.82
+ Mop/s/process   =                   112.82
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              14 May 2019
+
+ Compile options:
+    MPICC        = mpicc
+    CLINK        = $(MPICC)
+    CMPI_LIB     = -L/usr/local/lib -lmpi
+    CMPI_INC     = -I/usr/local/include
+    CFLAGS       = -O
+    CLINKFLAGS   = -O
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+ Number of processes:     1
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        B
+ Size            =                 33554432
+ Iterations      =                       10
+ Time in seconds =                     3.02
+ Total processes =                        1
+ Compiled procs  =                        1
+ Mop/s total     =                   111.09
+ Mop/s/process   =                   111.09
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              14 May 2019
+
+ Compile options:
+    MPICC        = mpicc
+    CLINK        = $(MPICC)
+    CMPI_LIB     = -L/usr/local/lib -lmpi
+    CMPI_INC     = -I/usr/local/include
+    CFLAGS       = -O
+    CLINKFLAGS   = -O
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+ Number of processes:     1
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        B
+ Size            =                 33554432
+ Iterations      =                       10
+ Time in seconds =                     3.01
+ Total processes =                        1
+ Compiled procs  =                        1
+ Mop/s total     =                   111.65
+ Mop/s/process   =                   111.65
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              14 May 2019
+
+ Compile options:
+    MPICC        = mpicc
+    CLINK        = $(MPICC)
+    CMPI_LIB     = -L/usr/local/lib -lmpi
+    CMPI_INC     = -I/usr/local/include
+    CFLAGS       = -O
+    CLINKFLAGS   = -O
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+ Number of processes:     1
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        B
+ Size            =                 33554432
+ Iterations      =                       10
+ Time in seconds =                     3.01
+ Total processes =                        1
+ Compiled procs  =                        1
+ Mop/s total     =                   111.54
+ Mop/s/process   =                   111.54
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              14 May 2019
+
+ Compile options:
+    MPICC        = mpicc
+    CLINK        = $(MPICC)
+    CMPI_LIB     = -L/usr/local/lib -lmpi
+    CMPI_INC     = -I/usr/local/include
+    CFLAGS       = -O
+    CLINKFLAGS   = -O
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+ Number of processes:     1
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        B
+ Size            =                 33554432
+ Iterations      =                       10
+ Time in seconds =                     3.01
+ Total processes =                        1
+ Compiled procs  =                        1
+ Mop/s total     =                   111.49
+ Mop/s/process   =                   111.49
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              14 May 2019
+
+ Compile options:
+    MPICC        = mpicc
+    CLINK        = $(MPICC)
+    CMPI_LIB     = -L/usr/local/lib -lmpi
+    CMPI_INC     = -I/usr/local/include
+    CFLAGS       = -O
+    CLINKFLAGS   = -O
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+ Number of processes:     1
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        B
+ Size            =                 33554432
+ Iterations      =                       10
+ Time in seconds =                     2.97
+ Total processes =                        1
+ Compiled procs  =                        1
+ Mop/s total     =                   112.86
+ Mop/s/process   =                   112.86
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              14 May 2019
+
+ Compile options:
+    MPICC        = mpicc
+    CLINK        = $(MPICC)
+    CMPI_LIB     = -L/usr/local/lib -lmpi
+    CMPI_INC     = -I/usr/local/include
+    CFLAGS       = -O
+    CLINKFLAGS   = -O
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+ Number of processes:     1
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        B
+ Size            =                 33554432
+ Iterations      =                       10
+ Time in seconds =                     3.01
+ Total processes =                        1
+ Compiled procs  =                        1
+ Mop/s total     =                   111.61
+ Mop/s/process   =                   111.61
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              14 May 2019
+
+ Compile options:
+    MPICC        = mpicc
+    CLINK        = $(MPICC)
+    CMPI_LIB     = -L/usr/local/lib -lmpi
+    CMPI_INC     = -I/usr/local/include
+    CFLAGS       = -O
+    CLINKFLAGS   = -O
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+ Number of processes:     1
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        B
+ Size            =                 33554432
+ Iterations      =                       10
+ Time in seconds =                     3.01
+ Total processes =                        1
+ Compiled procs  =                        1
+ Mop/s total     =                   111.56
+ Mop/s/process   =                   111.56
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              14 May 2019
+
+ Compile options:
+    MPICC        = mpicc
+    CLINK        = $(MPICC)
+    CMPI_LIB     = -L/usr/local/lib -lmpi
+    CMPI_INC     = -I/usr/local/include
+    CFLAGS       = -O
+    CLINKFLAGS   = -O
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+ Number of processes:     1
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        B
+ Size            =                 33554432
+ Iterations      =                       10
+ Time in seconds =                     3.00
+ Total processes =                        1
+ Compiled procs  =                        1
+ Mop/s total     =                   111.82
+ Mop/s/process   =                   111.82
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              14 May 2019
+
+ Compile options:
+    MPICC        = mpicc
+    CLINK        = $(MPICC)
+    CMPI_LIB     = -L/usr/local/lib -lmpi
+    CMPI_INC     = -I/usr/local/include
+    CFLAGS       = -O
+    CLINKFLAGS   = -O
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+ Number of processes:     1
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        B
+ Size            =                 33554432
+ Iterations      =                       10
+ Time in seconds =                     3.01
+ Total processes =                        1
+ Compiled procs  =                        1
+ Mop/s total     =                   111.55
+ Mop/s/process   =                   111.55
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              14 May 2019
+
+ Compile options:
+    MPICC        = mpicc
+    CLINK        = $(MPICC)
+    CMPI_LIB     = -L/usr/local/lib -lmpi
+    CMPI_INC     = -I/usr/local/include
+    CFLAGS       = -O
+    CLINKFLAGS   = -O
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+ Number of processes:     1
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        B
+ Size            =                 33554432
+ Iterations      =                       10
+ Time in seconds =                     3.01
+ Total processes =                        1
+ Compiled procs  =                        1
+ Mop/s total     =                   111.57
+ Mop/s/process   =                   111.57
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              14 May 2019
+
+ Compile options:
+    MPICC        = mpicc
+    CLINK        = $(MPICC)
+    CMPI_LIB     = -L/usr/local/lib -lmpi
+    CMPI_INC     = -I/usr/local/include
+    CFLAGS       = -O
+    CLINKFLAGS   = -O
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+ Number of processes:     1
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        B
+ Size            =                 33554432
+ Iterations      =                       10
+ Time in seconds =                     2.98
+ Total processes =                        1
+ Compiled procs  =                        1
+ Mop/s total     =                   112.56
+ Mop/s/process   =                   112.56
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              14 May 2019
+
+ Compile options:
+    MPICC        = mpicc
+    CLINK        = $(MPICC)
+    CMPI_LIB     = -L/usr/local/lib -lmpi
+    CMPI_INC     = -I/usr/local/include
+    CFLAGS       = -O
+    CLINKFLAGS   = -O
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+ Number of processes:     1
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        B
+ Size            =                 33554432
+ Iterations      =                       10
+ Time in seconds =                     3.00
+ Total processes =                        1
+ Compiled procs  =                        1
+ Mop/s total     =                   111.81
+ Mop/s/process   =                   111.81
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              14 May 2019
+
+ Compile options:
+    MPICC        = mpicc
+    CLINK        = $(MPICC)
+    CMPI_LIB     = -L/usr/local/lib -lmpi
+    CMPI_INC     = -I/usr/local/include
+    CFLAGS       = -O
+    CLINKFLAGS   = -O
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+ Number of processes:     1
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        B
+ Size            =                 33554432
+ Iterations      =                       10
+ Time in seconds =                     2.97
+ Total processes =                        1
+ Compiled procs  =                        1
+ Mop/s total     =                   112.85
+ Mop/s/process   =                   112.85
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              14 May 2019
+
+ Compile options:
+    MPICC        = mpicc
+    CLINK        = $(MPICC)
+    CMPI_LIB     = -L/usr/local/lib -lmpi
+    CMPI_INC     = -I/usr/local/include
+    CFLAGS       = -O
+    CLINKFLAGS   = -O
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+ Number of processes:     1
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        B
+ Size            =                 33554432
+ Iterations      =                       10
+ Time in seconds =                     3.01
+ Total processes =                        1
+ Compiled procs  =                        1
+ Mop/s total     =                   111.56
+ Mop/s/process   =                   111.56
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              14 May 2019
+
+ Compile options:
+    MPICC        = mpicc
+    CLINK        = $(MPICC)
+    CMPI_LIB     = -L/usr/local/lib -lmpi
+    CMPI_INC     = -I/usr/local/include
+    CFLAGS       = -O
+    CLINKFLAGS   = -O
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+ Number of processes:     1
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        B
+ Size            =                 33554432
+ Iterations      =                       10
+ Time in seconds =                     3.02
+ Total processes =                        1
+ Compiled procs  =                        1
+ Mop/s total     =                   111.05
+ Mop/s/process   =                   111.05
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              14 May 2019
+
+ Compile options:
+    MPICC        = mpicc
+    CLINK        = $(MPICC)
+    CMPI_LIB     = -L/usr/local/lib -lmpi
+    CMPI_INC     = -I/usr/local/include
+    CFLAGS       = -O
+    CLINKFLAGS   = -O
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+ Number of processes:     1
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        B
+ Size            =                 33554432
+ Iterations      =                       10
+ Time in seconds =                     3.02
+ Total processes =                        1
+ Compiled procs  =                        1
+ Mop/s total     =                   111.07
+ Mop/s/process   =                   111.07
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              14 May 2019
+
+ Compile options:
+    MPICC        = mpicc
+    CLINK        = $(MPICC)
+    CMPI_LIB     = -L/usr/local/lib -lmpi
+    CMPI_INC     = -I/usr/local/include
+    CFLAGS       = -O
+    CLINKFLAGS   = -O
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+ Number of processes:     1
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        B
+ Size            =                 33554432
+ Iterations      =                       10
+ Time in seconds =                     2.97
+ Total processes =                        1
+ Compiled procs  =                        1
+ Mop/s total     =                   112.82
+ Mop/s/process   =                   112.82
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              14 May 2019
+
+ Compile options:
+    MPICC        = mpicc
+    CLINK        = $(MPICC)
+    CMPI_LIB     = -L/usr/local/lib -lmpi
+    CMPI_INC     = -I/usr/local/include
+    CFLAGS       = -O
+    CLINKFLAGS   = -O
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+ Number of processes:     1
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        B
+ Size            =                 33554432
+ Iterations      =                       10
+ Time in seconds =                     3.01
+ Total processes =                        1
+ Compiled procs  =                        1
+ Mop/s total     =                   111.48
+ Mop/s/process   =                   111.48
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              14 May 2019
+
+ Compile options:
+    MPICC        = mpicc
+    CLINK        = $(MPICC)
+    CMPI_LIB     = -L/usr/local/lib -lmpi
+    CMPI_INC     = -I/usr/local/include
+    CFLAGS       = -O
+    CLINKFLAGS   = -O
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
