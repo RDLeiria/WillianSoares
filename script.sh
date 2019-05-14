@@ -82,7 +82,7 @@ Executa()
 	for i in `seq 1 $repeticoes` #Executa o mesmo benchmark de 1 até n
 			do
 				#Executa o benchmark e guarda no diretorio Resultado
-			 	mpirun -np $nprocessos ./$kernel.$classe.$nprocessos >> ~/WillianSoares/Experimento${exp}/${ambiente}Resultado/$ambiente.$kernel.$classe.$nprocessos.txt 
+			 	mpirun -np $nprocessos ./$kernel.$classe.$nprocessos >> ~/WillianSoares/resultados/Experimento${exp}/${ambiente}Resultado/$ambiente.$kernel.$classe.$nprocessos.txt 
 			done
 }
 
