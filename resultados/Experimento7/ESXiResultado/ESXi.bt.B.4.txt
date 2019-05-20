@@ -1,0 +1,1340 @@
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  200    dt:   0.0003000
+ Number of active processes:     4
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1423359722929E+04 0.1423359722929E+04 0.1070287152945E-13
+           2 0.9933052259015E+02 0.9933052259015E+02 0.7153317200312E-15
+           3 0.3564602564454E+03 0.3564602564454E+03 0.5900255245348E-14
+           4 0.3248544795908E+03 0.3248544795908E+03 0.9798945854817E-14
+           5 0.3270754125466E+04 0.3270754125466E+04 0.1223502756335E-13
+ Comparison of RMS-norms of solution error
+           1 0.5296984714094E+02 0.5296984714094E+02 0.9389868800427E-15
+           2 0.4463289611567E+01 0.4463289611567E+01 0.1293476388601E-13
+           3 0.1312257334221E+02 0.1312257334221E+02 0.1258908460682E-13
+           4 0.1200692532356E+02 0.1200692532356E+02 0.6805440394643E-14
+           5 0.1245957615104E+03 0.1245957615104E+03 0.1003690013030E-13
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      200
+ Time in seconds =                    91.65
+ Total processes =                        4
+ Compiled procs  =                        4
+ Mop/s total     =                  7661.29
+ Mop/s/process   =                  1915.32
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              18 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  200    dt:   0.0003000
+ Number of active processes:     4
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1423359722929E+04 0.1423359722929E+04 0.1070287152945E-13
+           2 0.9933052259015E+02 0.9933052259015E+02 0.7153317200312E-15
+           3 0.3564602564454E+03 0.3564602564454E+03 0.5900255245348E-14
+           4 0.3248544795908E+03 0.3248544795908E+03 0.9798945854817E-14
+           5 0.3270754125466E+04 0.3270754125466E+04 0.1223502756335E-13
+ Comparison of RMS-norms of solution error
+           1 0.5296984714094E+02 0.5296984714094E+02 0.9389868800427E-15
+           2 0.4463289611567E+01 0.4463289611567E+01 0.1293476388601E-13
+           3 0.1312257334221E+02 0.1312257334221E+02 0.1258908460682E-13
+           4 0.1200692532356E+02 0.1200692532356E+02 0.6805440394643E-14
+           5 0.1245957615104E+03 0.1245957615104E+03 0.1003690013030E-13
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      200
+ Time in seconds =                    91.67
+ Total processes =                        4
+ Compiled procs  =                        4
+ Mop/s total     =                  7659.48
+ Mop/s/process   =                  1914.87
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              18 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  200    dt:   0.0003000
+ Number of active processes:     4
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1423359722929E+04 0.1423359722929E+04 0.1070287152945E-13
+           2 0.9933052259015E+02 0.9933052259015E+02 0.7153317200312E-15
+           3 0.3564602564454E+03 0.3564602564454E+03 0.5900255245348E-14
+           4 0.3248544795908E+03 0.3248544795908E+03 0.9798945854817E-14
+           5 0.3270754125466E+04 0.3270754125466E+04 0.1223502756335E-13
+ Comparison of RMS-norms of solution error
+           1 0.5296984714094E+02 0.5296984714094E+02 0.9389868800427E-15
+           2 0.4463289611567E+01 0.4463289611567E+01 0.1293476388601E-13
+           3 0.1312257334221E+02 0.1312257334221E+02 0.1258908460682E-13
+           4 0.1200692532356E+02 0.1200692532356E+02 0.6805440394643E-14
+           5 0.1245957615104E+03 0.1245957615104E+03 0.1003690013030E-13
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      200
+ Time in seconds =                    91.62
+ Total processes =                        4
+ Compiled procs  =                        4
+ Mop/s total     =                  7663.81
+ Mop/s/process   =                  1915.95
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              18 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  200    dt:   0.0003000
+ Number of active processes:     4
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1423359722929E+04 0.1423359722929E+04 0.1070287152945E-13
+           2 0.9933052259015E+02 0.9933052259015E+02 0.7153317200312E-15
+           3 0.3564602564454E+03 0.3564602564454E+03 0.5900255245348E-14
+           4 0.3248544795908E+03 0.3248544795908E+03 0.9798945854817E-14
+           5 0.3270754125466E+04 0.3270754125466E+04 0.1223502756335E-13
+ Comparison of RMS-norms of solution error
+           1 0.5296984714094E+02 0.5296984714094E+02 0.9389868800427E-15
+           2 0.4463289611567E+01 0.4463289611567E+01 0.1293476388601E-13
+           3 0.1312257334221E+02 0.1312257334221E+02 0.1258908460682E-13
+           4 0.1200692532356E+02 0.1200692532356E+02 0.6805440394643E-14
+           5 0.1245957615104E+03 0.1245957615104E+03 0.1003690013030E-13
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      200
+ Time in seconds =                    91.69
+ Total processes =                        4
+ Compiled procs  =                        4
+ Mop/s total     =                  7657.89
+ Mop/s/process   =                  1914.47
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              18 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  200    dt:   0.0003000
+ Number of active processes:     4
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1423359722929E+04 0.1423359722929E+04 0.1070287152945E-13
+           2 0.9933052259015E+02 0.9933052259015E+02 0.7153317200312E-15
+           3 0.3564602564454E+03 0.3564602564454E+03 0.5900255245348E-14
+           4 0.3248544795908E+03 0.3248544795908E+03 0.9798945854817E-14
+           5 0.3270754125466E+04 0.3270754125466E+04 0.1223502756335E-13
+ Comparison of RMS-norms of solution error
+           1 0.5296984714094E+02 0.5296984714094E+02 0.9389868800427E-15
+           2 0.4463289611567E+01 0.4463289611567E+01 0.1293476388601E-13
+           3 0.1312257334221E+02 0.1312257334221E+02 0.1258908460682E-13
+           4 0.1200692532356E+02 0.1200692532356E+02 0.6805440394643E-14
+           5 0.1245957615104E+03 0.1245957615104E+03 0.1003690013030E-13
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      200
+ Time in seconds =                    91.65
+ Total processes =                        4
+ Compiled procs  =                        4
+ Mop/s total     =                  7661.38
+ Mop/s/process   =                  1915.35
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              18 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  200    dt:   0.0003000
+ Number of active processes:     4
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1423359722929E+04 0.1423359722929E+04 0.1070287152945E-13
+           2 0.9933052259015E+02 0.9933052259015E+02 0.7153317200312E-15
+           3 0.3564602564454E+03 0.3564602564454E+03 0.5900255245348E-14
+           4 0.3248544795908E+03 0.3248544795908E+03 0.9798945854817E-14
+           5 0.3270754125466E+04 0.3270754125466E+04 0.1223502756335E-13
+ Comparison of RMS-norms of solution error
+           1 0.5296984714094E+02 0.5296984714094E+02 0.9389868800427E-15
+           2 0.4463289611567E+01 0.4463289611567E+01 0.1293476388601E-13
+           3 0.1312257334221E+02 0.1312257334221E+02 0.1258908460682E-13
+           4 0.1200692532356E+02 0.1200692532356E+02 0.6805440394643E-14
+           5 0.1245957615104E+03 0.1245957615104E+03 0.1003690013030E-13
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      200
+ Time in seconds =                    91.63
+ Total processes =                        4
+ Compiled procs  =                        4
+ Mop/s total     =                  7663.59
+ Mop/s/process   =                  1915.90
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              18 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  200    dt:   0.0003000
+ Number of active processes:     4
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1423359722929E+04 0.1423359722929E+04 0.1070287152945E-13
+           2 0.9933052259015E+02 0.9933052259015E+02 0.7153317200312E-15
+           3 0.3564602564454E+03 0.3564602564454E+03 0.5900255245348E-14
+           4 0.3248544795908E+03 0.3248544795908E+03 0.9798945854817E-14
+           5 0.3270754125466E+04 0.3270754125466E+04 0.1223502756335E-13
+ Comparison of RMS-norms of solution error
+           1 0.5296984714094E+02 0.5296984714094E+02 0.9389868800427E-15
+           2 0.4463289611567E+01 0.4463289611567E+01 0.1293476388601E-13
+           3 0.1312257334221E+02 0.1312257334221E+02 0.1258908460682E-13
+           4 0.1200692532356E+02 0.1200692532356E+02 0.6805440394643E-14
+           5 0.1245957615104E+03 0.1245957615104E+03 0.1003690013030E-13
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      200
+ Time in seconds =                    91.73
+ Total processes =                        4
+ Compiled procs  =                        4
+ Mop/s total     =                  7655.15
+ Mop/s/process   =                  1913.79
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              18 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  200    dt:   0.0003000
+ Number of active processes:     4
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1423359722929E+04 0.1423359722929E+04 0.1070287152945E-13
+           2 0.9933052259015E+02 0.9933052259015E+02 0.7153317200312E-15
+           3 0.3564602564454E+03 0.3564602564454E+03 0.5900255245348E-14
+           4 0.3248544795908E+03 0.3248544795908E+03 0.9798945854817E-14
+           5 0.3270754125466E+04 0.3270754125466E+04 0.1223502756335E-13
+ Comparison of RMS-norms of solution error
+           1 0.5296984714094E+02 0.5296984714094E+02 0.9389868800427E-15
+           2 0.4463289611567E+01 0.4463289611567E+01 0.1293476388601E-13
+           3 0.1312257334221E+02 0.1312257334221E+02 0.1258908460682E-13
+           4 0.1200692532356E+02 0.1200692532356E+02 0.6805440394643E-14
+           5 0.1245957615104E+03 0.1245957615104E+03 0.1003690013030E-13
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      200
+ Time in seconds =                    91.73
+ Total processes =                        4
+ Compiled procs  =                        4
+ Mop/s total     =                  7655.24
+ Mop/s/process   =                  1913.81
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              18 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  200    dt:   0.0003000
+ Number of active processes:     4
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1423359722929E+04 0.1423359722929E+04 0.1070287152945E-13
+           2 0.9933052259015E+02 0.9933052259015E+02 0.7153317200312E-15
+           3 0.3564602564454E+03 0.3564602564454E+03 0.5900255245348E-14
+           4 0.3248544795908E+03 0.3248544795908E+03 0.9798945854817E-14
+           5 0.3270754125466E+04 0.3270754125466E+04 0.1223502756335E-13
+ Comparison of RMS-norms of solution error
+           1 0.5296984714094E+02 0.5296984714094E+02 0.9389868800427E-15
+           2 0.4463289611567E+01 0.4463289611567E+01 0.1293476388601E-13
+           3 0.1312257334221E+02 0.1312257334221E+02 0.1258908460682E-13
+           4 0.1200692532356E+02 0.1200692532356E+02 0.6805440394643E-14
+           5 0.1245957615104E+03 0.1245957615104E+03 0.1003690013030E-13
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      200
+ Time in seconds =                    91.92
+ Total processes =                        4
+ Compiled procs  =                        4
+ Mop/s total     =                  7638.77
+ Mop/s/process   =                  1909.69
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              18 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  200    dt:   0.0003000
+ Number of active processes:     4
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1423359722929E+04 0.1423359722929E+04 0.1070287152945E-13
+           2 0.9933052259015E+02 0.9933052259015E+02 0.7153317200312E-15
+           3 0.3564602564454E+03 0.3564602564454E+03 0.5900255245348E-14
+           4 0.3248544795908E+03 0.3248544795908E+03 0.9798945854817E-14
+           5 0.3270754125466E+04 0.3270754125466E+04 0.1223502756335E-13
+ Comparison of RMS-norms of solution error
+           1 0.5296984714094E+02 0.5296984714094E+02 0.9389868800427E-15
+           2 0.4463289611567E+01 0.4463289611567E+01 0.1293476388601E-13
+           3 0.1312257334221E+02 0.1312257334221E+02 0.1258908460682E-13
+           4 0.1200692532356E+02 0.1200692532356E+02 0.6805440394643E-14
+           5 0.1245957615104E+03 0.1245957615104E+03 0.1003690013030E-13
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      200
+ Time in seconds =                    91.64
+ Total processes =                        4
+ Compiled procs  =                        4
+ Mop/s total     =                  7662.60
+ Mop/s/process   =                  1915.65
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              18 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  200    dt:   0.0003000
+ Number of active processes:     4
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1423359722929E+04 0.1423359722929E+04 0.1070287152945E-13
+           2 0.9933052259015E+02 0.9933052259015E+02 0.7153317200312E-15
+           3 0.3564602564454E+03 0.3564602564454E+03 0.5900255245348E-14
+           4 0.3248544795908E+03 0.3248544795908E+03 0.9798945854817E-14
+           5 0.3270754125466E+04 0.3270754125466E+04 0.1223502756335E-13
+ Comparison of RMS-norms of solution error
+           1 0.5296984714094E+02 0.5296984714094E+02 0.9389868800427E-15
+           2 0.4463289611567E+01 0.4463289611567E+01 0.1293476388601E-13
+           3 0.1312257334221E+02 0.1312257334221E+02 0.1258908460682E-13
+           4 0.1200692532356E+02 0.1200692532356E+02 0.6805440394643E-14
+           5 0.1245957615104E+03 0.1245957615104E+03 0.1003690013030E-13
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      200
+ Time in seconds =                    91.54
+ Total processes =                        4
+ Compiled procs  =                        4
+ Mop/s total     =                  7670.66
+ Mop/s/process   =                  1917.67
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              18 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  200    dt:   0.0003000
+ Number of active processes:     4
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1423359722929E+04 0.1423359722929E+04 0.1070287152945E-13
+           2 0.9933052259015E+02 0.9933052259015E+02 0.7153317200312E-15
+           3 0.3564602564454E+03 0.3564602564454E+03 0.5900255245348E-14
+           4 0.3248544795908E+03 0.3248544795908E+03 0.9798945854817E-14
+           5 0.3270754125466E+04 0.3270754125466E+04 0.1223502756335E-13
+ Comparison of RMS-norms of solution error
+           1 0.5296984714094E+02 0.5296984714094E+02 0.9389868800427E-15
+           2 0.4463289611567E+01 0.4463289611567E+01 0.1293476388601E-13
+           3 0.1312257334221E+02 0.1312257334221E+02 0.1258908460682E-13
+           4 0.1200692532356E+02 0.1200692532356E+02 0.6805440394643E-14
+           5 0.1245957615104E+03 0.1245957615104E+03 0.1003690013030E-13
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      200
+ Time in seconds =                    91.65
+ Total processes =                        4
+ Compiled procs  =                        4
+ Mop/s total     =                  7661.52
+ Mop/s/process   =                  1915.38
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              18 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  200    dt:   0.0003000
+ Number of active processes:     4
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1423359722929E+04 0.1423359722929E+04 0.1070287152945E-13
+           2 0.9933052259015E+02 0.9933052259015E+02 0.7153317200312E-15
+           3 0.3564602564454E+03 0.3564602564454E+03 0.5900255245348E-14
+           4 0.3248544795908E+03 0.3248544795908E+03 0.9798945854817E-14
+           5 0.3270754125466E+04 0.3270754125466E+04 0.1223502756335E-13
+ Comparison of RMS-norms of solution error
+           1 0.5296984714094E+02 0.5296984714094E+02 0.9389868800427E-15
+           2 0.4463289611567E+01 0.4463289611567E+01 0.1293476388601E-13
+           3 0.1312257334221E+02 0.1312257334221E+02 0.1258908460682E-13
+           4 0.1200692532356E+02 0.1200692532356E+02 0.6805440394643E-14
+           5 0.1245957615104E+03 0.1245957615104E+03 0.1003690013030E-13
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      200
+ Time in seconds =                    91.47
+ Total processes =                        4
+ Compiled procs  =                        4
+ Mop/s total     =                  7676.29
+ Mop/s/process   =                  1919.07
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              18 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  200    dt:   0.0003000
+ Number of active processes:     4
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1423359722929E+04 0.1423359722929E+04 0.1070287152945E-13
+           2 0.9933052259015E+02 0.9933052259015E+02 0.7153317200312E-15
+           3 0.3564602564454E+03 0.3564602564454E+03 0.5900255245348E-14
+           4 0.3248544795908E+03 0.3248544795908E+03 0.9798945854817E-14
+           5 0.3270754125466E+04 0.3270754125466E+04 0.1223502756335E-13
+ Comparison of RMS-norms of solution error
+           1 0.5296984714094E+02 0.5296984714094E+02 0.9389868800427E-15
+           2 0.4463289611567E+01 0.4463289611567E+01 0.1293476388601E-13
+           3 0.1312257334221E+02 0.1312257334221E+02 0.1258908460682E-13
+           4 0.1200692532356E+02 0.1200692532356E+02 0.6805440394643E-14
+           5 0.1245957615104E+03 0.1245957615104E+03 0.1003690013030E-13
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      200
+ Time in seconds =                    91.74
+ Total processes =                        4
+ Compiled procs  =                        4
+ Mop/s total     =                  7654.20
+ Mop/s/process   =                  1913.55
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              18 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  200    dt:   0.0003000
+ Number of active processes:     4
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1423359722929E+04 0.1423359722929E+04 0.1070287152945E-13
+           2 0.9933052259015E+02 0.9933052259015E+02 0.7153317200312E-15
+           3 0.3564602564454E+03 0.3564602564454E+03 0.5900255245348E-14
+           4 0.3248544795908E+03 0.3248544795908E+03 0.9798945854817E-14
+           5 0.3270754125466E+04 0.3270754125466E+04 0.1223502756335E-13
+ Comparison of RMS-norms of solution error
+           1 0.5296984714094E+02 0.5296984714094E+02 0.9389868800427E-15
+           2 0.4463289611567E+01 0.4463289611567E+01 0.1293476388601E-13
+           3 0.1312257334221E+02 0.1312257334221E+02 0.1258908460682E-13
+           4 0.1200692532356E+02 0.1200692532356E+02 0.6805440394643E-14
+           5 0.1245957615104E+03 0.1245957615104E+03 0.1003690013030E-13
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      200
+ Time in seconds =                    91.67
+ Total processes =                        4
+ Compiled procs  =                        4
+ Mop/s total     =                  7659.66
+ Mop/s/process   =                  1914.92
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              18 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  200    dt:   0.0003000
+ Number of active processes:     4
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1423359722929E+04 0.1423359722929E+04 0.1070287152945E-13
+           2 0.9933052259015E+02 0.9933052259015E+02 0.7153317200312E-15
+           3 0.3564602564454E+03 0.3564602564454E+03 0.5900255245348E-14
+           4 0.3248544795908E+03 0.3248544795908E+03 0.9798945854817E-14
+           5 0.3270754125466E+04 0.3270754125466E+04 0.1223502756335E-13
+ Comparison of RMS-norms of solution error
+           1 0.5296984714094E+02 0.5296984714094E+02 0.9389868800427E-15
+           2 0.4463289611567E+01 0.4463289611567E+01 0.1293476388601E-13
+           3 0.1312257334221E+02 0.1312257334221E+02 0.1258908460682E-13
+           4 0.1200692532356E+02 0.1200692532356E+02 0.6805440394643E-14
+           5 0.1245957615104E+03 0.1245957615104E+03 0.1003690013030E-13
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      200
+ Time in seconds =                    91.72
+ Total processes =                        4
+ Compiled procs  =                        4
+ Mop/s total     =                  7655.32
+ Mop/s/process   =                  1913.83
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              18 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  200    dt:   0.0003000
+ Number of active processes:     4
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1423359722929E+04 0.1423359722929E+04 0.1070287152945E-13
+           2 0.9933052259015E+02 0.9933052259015E+02 0.7153317200312E-15
+           3 0.3564602564454E+03 0.3564602564454E+03 0.5900255245348E-14
+           4 0.3248544795908E+03 0.3248544795908E+03 0.9798945854817E-14
+           5 0.3270754125466E+04 0.3270754125466E+04 0.1223502756335E-13
+ Comparison of RMS-norms of solution error
+           1 0.5296984714094E+02 0.5296984714094E+02 0.9389868800427E-15
+           2 0.4463289611567E+01 0.4463289611567E+01 0.1293476388601E-13
+           3 0.1312257334221E+02 0.1312257334221E+02 0.1258908460682E-13
+           4 0.1200692532356E+02 0.1200692532356E+02 0.6805440394643E-14
+           5 0.1245957615104E+03 0.1245957615104E+03 0.1003690013030E-13
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      200
+ Time in seconds =                    91.75
+ Total processes =                        4
+ Compiled procs  =                        4
+ Mop/s total     =                  7653.08
+ Mop/s/process   =                  1913.27
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              18 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  200    dt:   0.0003000
+ Number of active processes:     4
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1423359722929E+04 0.1423359722929E+04 0.1070287152945E-13
+           2 0.9933052259015E+02 0.9933052259015E+02 0.7153317200312E-15
+           3 0.3564602564454E+03 0.3564602564454E+03 0.5900255245348E-14
+           4 0.3248544795908E+03 0.3248544795908E+03 0.9798945854817E-14
+           5 0.3270754125466E+04 0.3270754125466E+04 0.1223502756335E-13
+ Comparison of RMS-norms of solution error
+           1 0.5296984714094E+02 0.5296984714094E+02 0.9389868800427E-15
+           2 0.4463289611567E+01 0.4463289611567E+01 0.1293476388601E-13
+           3 0.1312257334221E+02 0.1312257334221E+02 0.1258908460682E-13
+           4 0.1200692532356E+02 0.1200692532356E+02 0.6805440394643E-14
+           5 0.1245957615104E+03 0.1245957615104E+03 0.1003690013030E-13
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      200
+ Time in seconds =                    91.71
+ Total processes =                        4
+ Compiled procs  =                        4
+ Mop/s total     =                  7656.39
+ Mop/s/process   =                  1914.10
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              18 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  200    dt:   0.0003000
+ Number of active processes:     4
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1423359722929E+04 0.1423359722929E+04 0.1070287152945E-13
+           2 0.9933052259015E+02 0.9933052259015E+02 0.7153317200312E-15
+           3 0.3564602564454E+03 0.3564602564454E+03 0.5900255245348E-14
+           4 0.3248544795908E+03 0.3248544795908E+03 0.9798945854817E-14
+           5 0.3270754125466E+04 0.3270754125466E+04 0.1223502756335E-13
+ Comparison of RMS-norms of solution error
+           1 0.5296984714094E+02 0.5296984714094E+02 0.9389868800427E-15
+           2 0.4463289611567E+01 0.4463289611567E+01 0.1293476388601E-13
+           3 0.1312257334221E+02 0.1312257334221E+02 0.1258908460682E-13
+           4 0.1200692532356E+02 0.1200692532356E+02 0.6805440394643E-14
+           5 0.1245957615104E+03 0.1245957615104E+03 0.1003690013030E-13
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      200
+ Time in seconds =                    91.66
+ Total processes =                        4
+ Compiled procs  =                        4
+ Mop/s total     =                  7660.52
+ Mop/s/process   =                  1915.13
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              18 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  200    dt:   0.0003000
+ Number of active processes:     4
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1423359722929E+04 0.1423359722929E+04 0.1070287152945E-13
+           2 0.9933052259015E+02 0.9933052259015E+02 0.7153317200312E-15
+           3 0.3564602564454E+03 0.3564602564454E+03 0.5900255245348E-14
+           4 0.3248544795908E+03 0.3248544795908E+03 0.9798945854817E-14
+           5 0.3270754125466E+04 0.3270754125466E+04 0.1223502756335E-13
+ Comparison of RMS-norms of solution error
+           1 0.5296984714094E+02 0.5296984714094E+02 0.9389868800427E-15
+           2 0.4463289611567E+01 0.4463289611567E+01 0.1293476388601E-13
+           3 0.1312257334221E+02 0.1312257334221E+02 0.1258908460682E-13
+           4 0.1200692532356E+02 0.1200692532356E+02 0.6805440394643E-14
+           5 0.1245957615104E+03 0.1245957615104E+03 0.1003690013030E-13
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      200
+ Time in seconds =                    91.64
+ Total processes =                        4
+ Compiled procs  =                        4
+ Mop/s total     =                  7662.55
+ Mop/s/process   =                  1915.64
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              18 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
