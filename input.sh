@@ -1,13 +1,29 @@
 #!/bin/bash
-classe=S 		#classe do programa
-nodes=1			#quantidade de nodes ativos
-repeticoes=1	#numero total de repeticoes para cada benchmark
-ambiente=KVM 	#ambienete dos experimentos
-ram=4 			#quantidade mem ram utilizada
-disc=32			#tamanho do hd utilizado
-exp=22			#identificacao do experimento
+# Classe do benchmakrs
+class=B 
 
-./script.sh $classe $nodes $repeticoes $ambiente $ram $disc $exp
+# Quantidade de cores por vm
+cores=2 
+
+# Quantidade de nos utilizados
+nodes=0
+
+# Numero total de repeticoes para cada benchmark
+repeticoes=20 
+
+# Ambienete dos experimentos
+ambiente=Nativo 
+
+# Quantidade mem ram utilizada
+ram=4 
+
+# Tamanho do hd utilizado
+disc=32	
+
+# Identificacao do experimento
+exp=42 
+
+./script.sh $class $cores $repeticoes $ambiente $ram $disc $exp $nodes
 
 
 

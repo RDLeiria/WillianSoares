@@ -3,8 +3,8 @@
 # Argumentos recebidos da funcao input
 
 echo "To no script.sh"
-if [ $# -lt 7 ]; then
-   echo "Faltou utilizar pelo menos 6 argumentos!"
+if [ $# -lt 8 ]; then
+   echo "Faltou utilizar pelo menos 8 argumentos!"
    exit 1
 fi 
 
@@ -14,7 +14,8 @@ repeticoes=$3 	# Total de repeticoes para cada benchmark
 ambiente=$4		# Label para identificar o ambiente dos experimentos
 ram=$5			# Quantidade de mem ram utilizada no experimento
 disc=$6			# Quantidade tamanho do HD utilizado no experimento
-exp=$7
+exp=$7			# Identificacao do experimento
+node=$8			# Quantidade de vms utilizadas
 
 hdInfo="_("$ram"R_"$disc"HD)"
 
@@ -24,15 +25,20 @@ hdInfo="_("$ram"R_"$disc"HD)"
 
 Directories()
 {	
-	
+	# Cria um diretorio para os resultados dos benchmarks
 	if [[ ! -d "Experimento${exp}" ]]; then
-		mkdir resultados/Experimento${exp} #Cria um diretorio para os resultados dos benchmarks
+		mkdir resultados/Experimento${exp}
 	fi	
 
+	# Cria um diretorio para os resultados dos benchmarks
 	if [[ ! -d "${ambiente}Resultado" ]]; then
-		mkdir resultados/Experimento${exp}/${ambiente}Resultado #Cria um diretorio para os resultados dos benchmarks
+		mkdir resultados/Experimento${exp}/${ambiente}Resultado
 	fi	
-	#mkdir ${ambiente}Graficos #Cria um diretorio para os graficos
+	
+	# Cria um diretorio para os graficos
+	if [[ ! -d "Graficos" ]]; then
+		mkdir Graficos 
+	fi
 }
 
 Download() # Realiza o download NPB
@@ -79,11 +85,22 @@ Executa()
 {	
 	kernel=$1 #O kernel que sera executado
 	cd ~/WillianSoares/NPB3.3.1/NPB3.3-MPI/bin
-	for i in `seq 1 $repeticoes` #Executa o mesmo benchmark de 1 até n
-			do
-				#Executa o benchmark e guarda no diretorio Resultado
-			 	mpirun -np $nprocessos ./$kernel.$classe.$nprocessos >> ~/WillianSoares/resultados/Experimento${exp}/${ambiente}Resultado/$ambiente.$kernel.$classe.$nprocessos.txt 
-			done
+
+	if [[ node -eq 0 ]]; then
+		for i in `seq 1 $repeticoes` #Executa o mesmo benchmark de 1 até n
+				do
+					#Executa o benchmark e guarda no diretorio Resultado
+				 	mpirun -np $nprocessos ./$kernel.$classe.$nprocessos >> ~/WillianSoares/resultados/Experimento${exp}/${ambiente}Resultado/$ambiente.$kernel.$classe.$nprocessos.txt 
+				done
+	fi
+
+	if [[ node -gt 0 ]]; then
+		for i in `seq 1 $repeticoes` #Executa o mesmo benchmark de 1 até n
+				do
+					#Executa o benchmark e guarda no diretorio Resultado
+					mpirun --machinefile /home/willian/WillianSoares/host.txt -np $nprocessos ./$kernel.$classe.$nproc$
+				done
+	fi
 }
 
 RunParsing()
@@ -117,5 +134,5 @@ Parser()
  Download 			# Realiza o download do NPB
  ChooseBenchmakrs	# Escolhe os benchmarks baseado no numero de nodos
  Compile			# Compila os arquivos 
- RunBenchmarks		# Executa todos os 8 benchmarks, gera os arquivos ".txt"
- RunParsing 		# Realiza o parsing dos dados obtidos das execucoes, gera os arquivos ".csv"
+ #RunBenchmarks		# Executa todos os 8 benchmarks, gera os arquivos ".txt"
+ #RunParsing 		# Realiza o parsing dos dados obtidos das execucoes, gera os arquivos ".csv"
