@@ -95,12 +95,13 @@ Executa()
 	fi
 
 	if [[ node -gt 0 ]]; then
-		for i in `seq 1 $repeticoes` #Executa o mesmo benchmark de 1 até n
-				do
-					#Executa o benchmark e guarda no diretorio Resultado
-					mpirun --machinefile /home/willian/WillianSoares/host.txt -np $nprocessos ./$kernel.$classe.$nproc$
-				done
-	fi
+        for i in `seq 1 $repeticoes` #Executa o mesmo benchmark de 1 até n
+    			do
+                	#Executa o benchmark e guarda no diretorio Resultado
+                    mpirun --machinefile /home/willian/WillianSoares/host.txt -np $node ./$kernel.$classe.$nproces$ >> ~/WillianSoares/resultados/Experimento${exp}/${ambiente}Resultado/$ambiente.$kernel.$classe.$nprocessos.txt
+                    #mpirun --machinefile /home/willian/WillianSoares/host.txt -np $nprocessos ./$kernel.$clas$
+                done
+    fi
 }
 
 RunParsing()
