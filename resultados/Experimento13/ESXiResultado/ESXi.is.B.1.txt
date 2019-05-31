@@ -1,0 +1,240 @@
+
+
+ NAS Parallel Benchmarks 3.3 -- IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+ Number of processes:     2
+
+ ERROR: compiled for 1 processes
+ Number of active processes: 2
+ Exiting program!
+
+
+
+ NAS Parallel Benchmarks 3.3 -- IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+ Number of processes:     2
+
+ ERROR: compiled for 1 processes
+ Number of active processes: 2
+ Exiting program!
+
+
+
+ NAS Parallel Benchmarks 3.3 -- IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+ Number of processes:     2
+
+ ERROR: compiled for 1 processes
+ Number of active processes: 2
+ Exiting program!
+
+
+
+ NAS Parallel Benchmarks 3.3 -- IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+ Number of processes:     2
+
+ ERROR: compiled for 1 processes
+ Number of active processes: 2
+ Exiting program!
+
+
+
+ NAS Parallel Benchmarks 3.3 -- IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+ Number of processes:     2
+
+ ERROR: compiled for 1 processes
+ Number of active processes: 2
+ Exiting program!
+
+
+
+ NAS Parallel Benchmarks 3.3 -- IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+ Number of processes:     2
+
+ ERROR: compiled for 1 processes
+ Number of active processes: 2
+ Exiting program!
+
+
+
+ NAS Parallel Benchmarks 3.3 -- IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+ Number of processes:     2
+
+ ERROR: compiled for 1 processes
+ Number of active processes: 2
+ Exiting program!
+
+
+
+ NAS Parallel Benchmarks 3.3 -- IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+ Number of processes:     2
+
+ ERROR: compiled for 1 processes
+ Number of active processes: 2
+ Exiting program!
+
+
+
+ NAS Parallel Benchmarks 3.3 -- IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+ Number of processes:     2
+
+ ERROR: compiled for 1 processes
+ Number of active processes: 2
+ Exiting program!
+
+
+
+ NAS Parallel Benchmarks 3.3 -- IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+ Number of processes:     2
+
+ ERROR: compiled for 1 processes
+ Number of active processes: 2
+ Exiting program!
+
+
+
+ NAS Parallel Benchmarks 3.3 -- IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+ Number of processes:     2
+
+ ERROR: compiled for 1 processes
+ Number of active processes: 2
+ Exiting program!
+
+
+
+ NAS Parallel Benchmarks 3.3 -- IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+ Number of processes:     2
+
+ ERROR: compiled for 1 processes
+ Number of active processes: 2
+ Exiting program!
+
+
+
+ NAS Parallel Benchmarks 3.3 -- IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+ Number of processes:     2
+
+ ERROR: compiled for 1 processes
+ Number of active processes: 2
+ Exiting program!
+
+
+
+ NAS Parallel Benchmarks 3.3 -- IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+ Number of processes:     2
+
+ ERROR: compiled for 1 processes
+ Number of active processes: 2
+ Exiting program!
+
+
+
+ NAS Parallel Benchmarks 3.3 -- IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+ Number of processes:     2
+
+ ERROR: compiled for 1 processes
+ Number of active processes: 2
+ Exiting program!
+
+
+
+ NAS Parallel Benchmarks 3.3 -- IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+ Number of processes:     2
+
+ ERROR: compiled for 1 processes
+ Number of active processes: 2
+ Exiting program!
+
+
+
+ NAS Parallel Benchmarks 3.3 -- IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+ Number of processes:     2
+
+ ERROR: compiled for 1 processes
+ Number of active processes: 2
+ Exiting program!
+
+
+
+ NAS Parallel Benchmarks 3.3 -- IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+ Number of processes:     2
+
+ ERROR: compiled for 1 processes
+ Number of active processes: 2
+ Exiting program!
+
+
+
+ NAS Parallel Benchmarks 3.3 -- IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+ Number of processes:     2
+
+ ERROR: compiled for 1 processes
+ Number of active processes: 2
+ Exiting program!
+
+
+
+ NAS Parallel Benchmarks 3.3 -- IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+ Number of processes:     2
+
+ ERROR: compiled for 1 processes
+ Number of active processes: 2
+ Exiting program!
+
