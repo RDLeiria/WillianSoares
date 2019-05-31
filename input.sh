@@ -6,7 +6,10 @@ class=B
 cores=2 
 
 # Quantidade  total de cores de todas vms
-cpuTotal=2
+cpuTotal=4
+
+# Informa se eh mais de uma vm
+numVms=2
 
 # Numero total de repeticoes para cada benchmark
 repeticoes=20 
@@ -21,6 +24,6 @@ ram=4
 disc=32	
 
 # Identificacao do experimento
-exp=13 
+exp=42
 
-./script.sh $class $cores $repeticoes $ambiente $ram $disc $exp $cpuTotal
+./script.sh $class $cores $repeticoes $ambiente $ram $disc $exp $cpuTotal $numVms
