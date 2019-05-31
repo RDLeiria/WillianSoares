@@ -98,7 +98,11 @@ Executa()
         for i in `seq 1 $repeticoes` #Executa o mesmo benchmark de 1 até n
     			do
                 	#Executa o benchmark e guarda no diretorio Resultado
+<<<<<<< HEAD
                     mpirun --machinefile /home/willian/WillianSoares/host.txt -np $node ./$kernel.$classe.$nprocessos >> ~/WillianSoares/resultados/Experimento${exp}/${ambiente}Resultado/$ambiente.$kernel.$classe.$nprocessos.txt
+=======
+                    mpirun --machinefile /home/willian/WillianSoares/host.txt -np $node ./$kernel.$classe.$nproces >> ~/WillianSoares/resultados/Experimento${exp}/${ambiente}Resultado/$ambiente.$kernel.$classe.$nprocessos.txt
+>>>>>>> ceb3f4847238f3ea1988a63a28db01247bc845ce
                     #mpirun --machinefile /home/willian/WillianSoares/host.txt -np $nprocessos ./$kernel.$clas$
                 done
     fi

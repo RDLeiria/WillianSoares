@@ -3,16 +3,16 @@
 class=B 
 
 # Quantidade de cores por vm
-cores=2 
+cores=1 
 
 # Quantidade de nos utilizados
-nodes=0
+nodes=2
 
 # Numero total de repeticoes para cada benchmark
 repeticoes=20 
 
 # Ambienete dos experimentos
-ambiente=Nativo 
+ambiente=ESXi 
 
 # Quantidade mem ram utilizada
 ram=4 
@@ -21,9 +21,6 @@ ram=4
 disc=32	
 
 # Identificacao do experimento
-exp=42 
+exp=13 
 
 ./script.sh $class $cores $repeticoes $ambiente $ram $disc $exp $nodes
-
-
-
