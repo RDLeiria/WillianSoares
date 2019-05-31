@@ -2,7 +2,7 @@
 # Classe do benchmakrs
 class=B 
 
-# Quantidade de cores por vm
+# Quantidade total de cores
 cores=2 
 
 # Quantidade de nos utilizados
