@@ -98,7 +98,15 @@ Executa()
         for i in `seq 1 $repeticoes` #Executa o mesmo benchmark de 1 até n
     			do
                 	#Executa o benchmark e guarda no diretorio Resultado
+<<<<<<< HEAD
                     mpirun --machinefile /home/willian/WillianSoares/host.txt -np $node ./$kernel.$classe.$nprocessos >> ~/WillianSoares/resultados/Experimento${exp}/${ambiente}Resultado/$ambiente.$kernel.$classe.$nprocessos.txt
+=======
+<<<<<<< HEAD
+                    mpirun --machinefile /home/willian/WillianSoares/host.txt -np $node ./$kernel.$classe.$nprocessos >> ~/WillianSoares/resultados/Experimento${exp}/${ambiente}Resultado/$ambiente.$kernel.$classe.$nprocessos.txt
+=======
+                    mpirun --machinefile /home/willian/WillianSoares/host.txt -np $node ./$kernel.$classe.$nproces >> ~/WillianSoares/resultados/Experimento${exp}/${ambiente}Resultado/$ambiente.$kernel.$classe.$nprocessos.txt
+>>>>>>> ceb3f4847238f3ea1988a63a28db01247bc845ce
+>>>>>>> ba179b701676c37716c6d8ee9c670c0468e2a1b5
                     #mpirun --machinefile /home/willian/WillianSoares/host.txt -np $nprocessos ./$kernel.$clas$
                 done
     fi
@@ -135,5 +143,5 @@ Parser()
  Download 			# Realiza o download do NPB
  ChooseBenchmakrs	# Escolhe os benchmarks baseado no numero de nodos
  Compile			# Compila os arquivos 
- #RunBenchmarks		# Executa todos os 8 benchmarks, gera os arquivos ".txt"
- #RunParsing 		# Realiza o parsing dos dados obtidos das execucoes, gera os arquivos ".csv"
+ RunBenchmarks		# Executa todos os 8 benchmarks, gera os arquivos ".txt"
+ RunParsing 		# Realiza o parsing dos dados obtidos das execucoes, gera os arquivos ".csv"
