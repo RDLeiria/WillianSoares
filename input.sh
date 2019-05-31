@@ -2,13 +2,8 @@
 # Classe do benchmakrs
 class=B 
 
-<<<<<<< HEAD
 # Quantidade total de cores
 cores=2 
-=======
-# Quantidade de cores por vm
-cores=1 
->>>>>>> ba179b701676c37716c6d8ee9c670c0468e2a1b5
 
 # Quantidade de nos utilizados
 nodes=2
