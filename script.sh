@@ -15,7 +15,7 @@ ambiente=$4		# Label para identificar o ambiente dos experimentos
 ram=$5			# Quantidade de mem ram utilizada no experimento
 disc=$6			# Quantidade tamanho do HD utilizado no experimento
 exp=$7			# Identificacao do experimento
-node=$8			# Quantidade de vms utilizadas
+cpuTotal=$8		# Quantidade total de cpus utilizadas
 
 hdInfo="_("$ram"R_"$disc"HD)"
 
@@ -98,7 +98,7 @@ Executa()
         for i in `seq 1 $repeticoes` #Executa o mesmo benchmark de 1 até n
     			do
                 	#Executa o benchmark e guarda no diretorio Resultado
-                    mpirun --machinefile /home/willian/WillianSoares/host.txt -np $node ./$kernel.$classe.$nprocessos >> ~/WillianSoares/resultados/Experimento${exp}/${ambiente}Resultado/$ambiente.$kernel.$classe.$nprocessos.txt
+                    mpirun --machinefile /home/willian/WillianSoares/host.txt -np $cpuTotal ./$kernel.$classe.$nprocessos >> ~/WillianSoares/resultados/Experimento${exp}/${ambiente}Resultado/$ambiente.$kernel.$classe.$nprocessos.txt
                     #mpirun --machinefile /home/willian/WillianSoares/host.txt -np $nprocessos ./$kernel.$clas$
                 done
     fi

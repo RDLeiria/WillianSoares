@@ -2,11 +2,11 @@
 # Classe do benchmakrs
 class=B 
 
-# Quantidade total de cores
+# Quantidade de cores por vm
 cores=2 
 
-# Quantidade de nos utilizados
-nodes=2
+# Quantidade  total de cores de todas vms
+cpuTotal=2
 
 # Numero total de repeticoes para cada benchmark
 repeticoes=20 
@@ -23,4 +23,4 @@ disc=32
 # Identificacao do experimento
 exp=13 
 
-./script.sh $class $cores $repeticoes $ambiente $ram $disc $exp $nodes
+./script.sh $class $cores $repeticoes $ambiente $ram $disc $exp $cpuTotal
