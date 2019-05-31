@@ -3,7 +3,7 @@
 # Argumentos recebidos da funcao input
 
 echo "To no script.sh"
-if [ $# -lt 8 ]; then
+if [ $# -lt 9 ]; then
    echo "Faltou utilizar pelo menos 8 argumentos!"
    exit 1
 fi 
@@ -16,6 +16,7 @@ ram=$5			# Quantidade de mem ram utilizada no experimento
 disc=$6			# Quantidade tamanho do HD utilizado no experimento
 exp=$7			# Identificacao do experimento
 cpuTotal=$8		# Quantidade total de cpus utilizadas
+numVms=$9
 
 hdInfo="_("$ram"R_"$disc"HD)"
 
@@ -86,7 +87,7 @@ Executa()
 	kernel=$1 #O kernel que sera executado
 	cd ~/WillianSoares/NPB3.3.1/NPB3.3-MPI/bin
 
-	if [[ node -eq 0 ]]; then
+	if [[ numVms -le 1 ]]; then
 		for i in `seq 1 $repeticoes` #Executa o mesmo benchmark de 1 até n
 				do
 					#Executa o benchmark e guarda no diretorio Resultado
@@ -94,11 +95,11 @@ Executa()
 				done
 	fi
 
-	if [[ node -gt 0 ]]; then
+	if [[ numVms -gt 1 ]]; then
         for i in `seq 1 $repeticoes` #Executa o mesmo benchmark de 1 até n
     			do
                 	#Executa o benchmark e guarda no diretorio Resultado
-                    mpirun --machinefile /home/willian/WillianSoares/host.txt -np $cpuTotal ./$kernel.$classe.$nprocessos >> ~/WillianSoares/resultados/Experimento${exp}/${ambiente}Resultado/$ambiente.$kernel.$classe.$nprocessos.txt
+ 	                mpirun --machinefile /home/willian/WillianSoares/host.txt -np $cpuTotal ./$kernel.$classe.$nprocessos >> ~/WillianSoares/resultados/Experimento${exp}/${ambiente}Resultado/$ambiente.$kernel.$classe.$nprocessos.txt
                     #mpirun --machinefile /home/willian/WillianSoares/host.txt -np $nprocessos ./$kernel.$clas$
                 done
     fi
