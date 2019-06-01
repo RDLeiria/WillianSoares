@@ -1,0 +1,1100 @@
+
+
+ NAS Parallel Benchmarks 3.3 -- MG Benchmark
+
+ No input file. Using compiled defaults 
+ Size:  256x 256x 256  (class B)
+ Iterations:   20
+ WARNING: compiled for      4 processes 
+ Number of active processes:      8
+
+
+ Initialization time:           5.350 seconds
+
+  iter    1
+  iter    5
+  iter   10
+  iter   15
+  iter   20
+
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ L2 Norm is  0.1800564401355E-05
+ Error is    0.9784868172241E-13
+
+
+ MG Benchmark Completed.
+ Class           =                        B
+ Size            =            256x 256x 256
+ Iterations      =                       20
+ Time in seconds =                    23.28
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   836.14
+ Mop/s/process   =                   104.52
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              31 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- MG Benchmark
+
+ No input file. Using compiled defaults 
+ Size:  256x 256x 256  (class B)
+ Iterations:   20
+ WARNING: compiled for      4 processes 
+ Number of active processes:      8
+
+
+ Initialization time:           3.152 seconds
+
+  iter    1
+  iter    5
+  iter   10
+  iter   15
+  iter   20
+
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ L2 Norm is  0.1800564401355E-05
+ Error is    0.9784868172241E-13
+
+
+ MG Benchmark Completed.
+ Class           =                        B
+ Size            =            256x 256x 256
+ Iterations      =                       20
+ Time in seconds =                    24.32
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   800.30
+ Mop/s/process   =                   100.04
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              31 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- MG Benchmark
+
+ No input file. Using compiled defaults 
+ Size:  256x 256x 256  (class B)
+ Iterations:   20
+ WARNING: compiled for      4 processes 
+ Number of active processes:      8
+
+
+ Initialization time:           3.783 seconds
+
+  iter    1
+  iter    5
+  iter   10
+  iter   15
+  iter   20
+
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ L2 Norm is  0.1800564401355E-05
+ Error is    0.9784868172241E-13
+
+
+ MG Benchmark Completed.
+ Class           =                        B
+ Size            =            256x 256x 256
+ Iterations      =                       20
+ Time in seconds =                    23.79
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   817.97
+ Mop/s/process   =                   102.25
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              31 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- MG Benchmark
+
+ No input file. Using compiled defaults 
+ Size:  256x 256x 256  (class B)
+ Iterations:   20
+ WARNING: compiled for      4 processes 
+ Number of active processes:      8
+
+
+ Initialization time:           4.041 seconds
+
+  iter    1
+  iter    5
+  iter   10
+  iter   15
+  iter   20
+
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ L2 Norm is  0.1800564401355E-05
+ Error is    0.9784868172241E-13
+
+
+ MG Benchmark Completed.
+ Class           =                        B
+ Size            =            256x 256x 256
+ Iterations      =                       20
+ Time in seconds =                    24.04
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   809.57
+ Mop/s/process   =                   101.20
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              31 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- MG Benchmark
+
+ No input file. Using compiled defaults 
+ Size:  256x 256x 256  (class B)
+ Iterations:   20
+ WARNING: compiled for      4 processes 
+ Number of active processes:      8
+
+
+ Initialization time:           3.866 seconds
+
+  iter    1
+  iter    5
+  iter   10
+  iter   15
+  iter   20
+
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ L2 Norm is  0.1800564401355E-05
+ Error is    0.9784868172241E-13
+
+
+ MG Benchmark Completed.
+ Class           =                        B
+ Size            =            256x 256x 256
+ Iterations      =                       20
+ Time in seconds =                    22.93
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   848.69
+ Mop/s/process   =                   106.09
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              31 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- MG Benchmark
+
+ No input file. Using compiled defaults 
+ Size:  256x 256x 256  (class B)
+ Iterations:   20
+ WARNING: compiled for      4 processes 
+ Number of active processes:      8
+
+
+ Initialization time:           2.990 seconds
+
+  iter    1
+  iter    5
+  iter   10
+  iter   15
+  iter   20
+
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ L2 Norm is  0.1800564401355E-05
+ Error is    0.9784868172241E-13
+
+
+ MG Benchmark Completed.
+ Class           =                        B
+ Size            =            256x 256x 256
+ Iterations      =                       20
+ Time in seconds =                    25.34
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   768.08
+ Mop/s/process   =                    96.01
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              31 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- MG Benchmark
+
+ No input file. Using compiled defaults 
+ Size:  256x 256x 256  (class B)
+ Iterations:   20
+ WARNING: compiled for      4 processes 
+ Number of active processes:      8
+
+
+ Initialization time:           3.763 seconds
+
+  iter    1
+  iter    5
+  iter   10
+  iter   15
+  iter   20
+
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ L2 Norm is  0.1800564401355E-05
+ Error is    0.9784868172241E-13
+
+
+ MG Benchmark Completed.
+ Class           =                        B
+ Size            =            256x 256x 256
+ Iterations      =                       20
+ Time in seconds =                    24.65
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   789.67
+ Mop/s/process   =                    98.71
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              31 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- MG Benchmark
+
+ No input file. Using compiled defaults 
+ Size:  256x 256x 256  (class B)
+ Iterations:   20
+ WARNING: compiled for      4 processes 
+ Number of active processes:      8
+
+
+ Initialization time:           4.189 seconds
+
+  iter    1
+  iter    5
+  iter   10
+  iter   15
+  iter   20
+
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ L2 Norm is  0.1800564401355E-05
+ Error is    0.9784868172241E-13
+
+
+ MG Benchmark Completed.
+ Class           =                        B
+ Size            =            256x 256x 256
+ Iterations      =                       20
+ Time in seconds =                    25.17
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   773.35
+ Mop/s/process   =                    96.67
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              31 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- MG Benchmark
+
+ No input file. Using compiled defaults 
+ Size:  256x 256x 256  (class B)
+ Iterations:   20
+ WARNING: compiled for      4 processes 
+ Number of active processes:      8
+
+
+ Initialization time:           3.549 seconds
+
+  iter    1
+  iter    5
+  iter   10
+  iter   15
+  iter   20
+
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ L2 Norm is  0.1800564401355E-05
+ Error is    0.9784868172241E-13
+
+
+ MG Benchmark Completed.
+ Class           =                        B
+ Size            =            256x 256x 256
+ Iterations      =                       20
+ Time in seconds =                    23.60
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   824.55
+ Mop/s/process   =                   103.07
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              31 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- MG Benchmark
+
+ No input file. Using compiled defaults 
+ Size:  256x 256x 256  (class B)
+ Iterations:   20
+ WARNING: compiled for      4 processes 
+ Number of active processes:      8
+
+
+ Initialization time:           3.676 seconds
+
+  iter    1
+  iter    5
+  iter   10
+  iter   15
+  iter   20
+
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ L2 Norm is  0.1800564401355E-05
+ Error is    0.9784868172241E-13
+
+
+ MG Benchmark Completed.
+ Class           =                        B
+ Size            =            256x 256x 256
+ Iterations      =                       20
+ Time in seconds =                    25.93
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   750.66
+ Mop/s/process   =                    93.83
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              31 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- MG Benchmark
+
+ No input file. Using compiled defaults 
+ Size:  256x 256x 256  (class B)
+ Iterations:   20
+ WARNING: compiled for      4 processes 
+ Number of active processes:      8
+
+
+ Initialization time:           3.957 seconds
+
+  iter    1
+  iter    5
+  iter   10
+  iter   15
+  iter   20
+
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ L2 Norm is  0.1800564401355E-05
+ Error is    0.9784868172241E-13
+
+
+ MG Benchmark Completed.
+ Class           =                        B
+ Size            =            256x 256x 256
+ Iterations      =                       20
+ Time in seconds =                    24.26
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   802.28
+ Mop/s/process   =                   100.29
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              31 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- MG Benchmark
+
+ No input file. Using compiled defaults 
+ Size:  256x 256x 256  (class B)
+ Iterations:   20
+ WARNING: compiled for      4 processes 
+ Number of active processes:      8
+
+
+ Initialization time:           3.244 seconds
+
+  iter    1
+  iter    5
+  iter   10
+  iter   15
+  iter   20
+
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ L2 Norm is  0.1800564401355E-05
+ Error is    0.9784868172241E-13
+
+
+ MG Benchmark Completed.
+ Class           =                        B
+ Size            =            256x 256x 256
+ Iterations      =                       20
+ Time in seconds =                    20.85
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   933.43
+ Mop/s/process   =                   116.68
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              31 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- MG Benchmark
+
+ No input file. Using compiled defaults 
+ Size:  256x 256x 256  (class B)
+ Iterations:   20
+ WARNING: compiled for      4 processes 
+ Number of active processes:      8
+
+
+ Initialization time:           3.011 seconds
+
+  iter    1
+  iter    5
+  iter   10
+  iter   15
+  iter   20
+
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ L2 Norm is  0.1800564401355E-05
+ Error is    0.9784868172241E-13
+
+
+ MG Benchmark Completed.
+ Class           =                        B
+ Size            =            256x 256x 256
+ Iterations      =                       20
+ Time in seconds =                    23.55
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   826.49
+ Mop/s/process   =                   103.31
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              31 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- MG Benchmark
+
+ No input file. Using compiled defaults 
+ Size:  256x 256x 256  (class B)
+ Iterations:   20
+ WARNING: compiled for      4 processes 
+ Number of active processes:      8
+
+
+ Initialization time:           3.349 seconds
+
+  iter    1
+  iter    5
+  iter   10
+  iter   15
+  iter   20
+
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ L2 Norm is  0.1800564401355E-05
+ Error is    0.9784868172241E-13
+
+
+ MG Benchmark Completed.
+ Class           =                        B
+ Size            =            256x 256x 256
+ Iterations      =                       20
+ Time in seconds =                    22.86
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   851.41
+ Mop/s/process   =                   106.43
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              31 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- MG Benchmark
+
+ No input file. Using compiled defaults 
+ Size:  256x 256x 256  (class B)
+ Iterations:   20
+ WARNING: compiled for      4 processes 
+ Number of active processes:      8
+
+
+ Initialization time:           3.304 seconds
+
+  iter    1
+  iter    5
+  iter   10
+  iter   15
+  iter   20
+
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ L2 Norm is  0.1800564401355E-05
+ Error is    0.9784868172241E-13
+
+
+ MG Benchmark Completed.
+ Class           =                        B
+ Size            =            256x 256x 256
+ Iterations      =                       20
+ Time in seconds =                    23.46
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   829.70
+ Mop/s/process   =                   103.71
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              31 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- MG Benchmark
+
+ No input file. Using compiled defaults 
+ Size:  256x 256x 256  (class B)
+ Iterations:   20
+ WARNING: compiled for      4 processes 
+ Number of active processes:      8
+
+
+ Initialization time:           3.938 seconds
+
+  iter    1
+  iter    5
+  iter   10
+  iter   15
+  iter   20
+
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ L2 Norm is  0.1800564401355E-05
+ Error is    0.9784868172241E-13
+
+
+ MG Benchmark Completed.
+ Class           =                        B
+ Size            =            256x 256x 256
+ Iterations      =                       20
+ Time in seconds =                    23.89
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   814.77
+ Mop/s/process   =                   101.85
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              31 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- MG Benchmark
+
+ No input file. Using compiled defaults 
+ Size:  256x 256x 256  (class B)
+ Iterations:   20
+ WARNING: compiled for      4 processes 
+ Number of active processes:      8
+
+
+ Initialization time:           3.203 seconds
+
+  iter    1
+  iter    5
+  iter   10
+  iter   15
+  iter   20
+
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ L2 Norm is  0.1800564401355E-05
+ Error is    0.9784868172241E-13
+
+
+ MG Benchmark Completed.
+ Class           =                        B
+ Size            =            256x 256x 256
+ Iterations      =                       20
+ Time in seconds =                    23.01
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   845.94
+ Mop/s/process   =                   105.74
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              31 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- MG Benchmark
+
+ No input file. Using compiled defaults 
+ Size:  256x 256x 256  (class B)
+ Iterations:   20
+ WARNING: compiled for      4 processes 
+ Number of active processes:      8
+
+
+ Initialization time:           3.755 seconds
+
+  iter    1
+  iter    5
+  iter   10
+  iter   15
+  iter   20
+
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ L2 Norm is  0.1800564401355E-05
+ Error is    0.9784868172241E-13
+
+
+ MG Benchmark Completed.
+ Class           =                        B
+ Size            =            256x 256x 256
+ Iterations      =                       20
+ Time in seconds =                    24.59
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   791.59
+ Mop/s/process   =                    98.95
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              31 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- MG Benchmark
+
+ No input file. Using compiled defaults 
+ Size:  256x 256x 256  (class B)
+ Iterations:   20
+ WARNING: compiled for      4 processes 
+ Number of active processes:      8
+
+
+ Initialization time:           3.415 seconds
+
+  iter    1
+  iter    5
+  iter   10
+  iter   15
+  iter   20
+
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ L2 Norm is  0.1800564401355E-05
+ Error is    0.9784868172241E-13
+
+
+ MG Benchmark Completed.
+ Class           =                        B
+ Size            =            256x 256x 256
+ Iterations      =                       20
+ Time in seconds =                    25.16
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   773.50
+ Mop/s/process   =                    96.69
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              31 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- MG Benchmark
+
+ No input file. Using compiled defaults 
+ Size:  256x 256x 256  (class B)
+ Iterations:   20
+ WARNING: compiled for      4 processes 
+ Number of active processes:      8
+
+
+ Initialization time:           3.789 seconds
+
+  iter    1
+  iter    5
+  iter   10
+  iter   15
+  iter   20
+
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ L2 Norm is  0.1800564401355E-05
+ Error is    0.9784868172241E-13
+
+
+ MG Benchmark Completed.
+ Class           =                        B
+ Size            =            256x 256x 256
+ Iterations      =                       20
+ Time in seconds =                    23.22
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   838.09
+ Mop/s/process   =                   104.76
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              31 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+

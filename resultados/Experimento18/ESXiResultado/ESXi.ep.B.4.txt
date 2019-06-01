@@ -1,0 +1,1100 @@
+
+ NAS Parallel Benchmarks 3.3 -- EP Benchmark
+
+ Number of random numbers generated:      2147483648
+ Number of active processes:                       8
+
+EP Benchmark Results:
+
+CPU Time =   14.5246
+N = 2^   30
+No. Gaussian Pairs =     843345606.
+Sums =     4.033815542441809D+04   -2.660669192812147D+04
+Counts:
+  0     393058470.
+  1     375280898.
+  2      70460742.
+  3       4438852.
+  4        105691.
+  5           948.
+  6             5.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        B
+ Size            =               2147483648
+ Iterations      =                        0
+ Time in seconds =                    14.52
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   147.85
+ Mop/s/process   =                    18.48
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              31 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+ NAS Parallel Benchmarks 3.3 -- EP Benchmark
+
+ Number of random numbers generated:      2147483648
+ Number of active processes:                       8
+
+EP Benchmark Results:
+
+CPU Time =   13.9402
+N = 2^   30
+No. Gaussian Pairs =     843345606.
+Sums =     4.033815542441809D+04   -2.660669192812147D+04
+Counts:
+  0     393058470.
+  1     375280898.
+  2      70460742.
+  3       4438852.
+  4        105691.
+  5           948.
+  6             5.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        B
+ Size            =               2147483648
+ Iterations      =                        0
+ Time in seconds =                    13.94
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   154.05
+ Mop/s/process   =                    19.26
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              31 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+ NAS Parallel Benchmarks 3.3 -- EP Benchmark
+
+ Number of random numbers generated:      2147483648
+ Number of active processes:                       8
+
+EP Benchmark Results:
+
+CPU Time =   14.0411
+N = 2^   30
+No. Gaussian Pairs =     843345606.
+Sums =     4.033815542441809D+04   -2.660669192812147D+04
+Counts:
+  0     393058470.
+  1     375280898.
+  2      70460742.
+  3       4438852.
+  4        105691.
+  5           948.
+  6             5.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        B
+ Size            =               2147483648
+ Iterations      =                        0
+ Time in seconds =                    14.04
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   152.94
+ Mop/s/process   =                    19.12
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              31 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+ NAS Parallel Benchmarks 3.3 -- EP Benchmark
+
+ Number of random numbers generated:      2147483648
+ Number of active processes:                       8
+
+EP Benchmark Results:
+
+CPU Time =   13.9701
+N = 2^   30
+No. Gaussian Pairs =     843345606.
+Sums =     4.033815542441809D+04   -2.660669192812147D+04
+Counts:
+  0     393058470.
+  1     375280898.
+  2      70460742.
+  3       4438852.
+  4        105691.
+  5           948.
+  6             5.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        B
+ Size            =               2147483648
+ Iterations      =                        0
+ Time in seconds =                    13.97
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   153.72
+ Mop/s/process   =                    19.21
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              31 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+ NAS Parallel Benchmarks 3.3 -- EP Benchmark
+
+ Number of random numbers generated:      2147483648
+ Number of active processes:                       8
+
+EP Benchmark Results:
+
+CPU Time =   13.8780
+N = 2^   30
+No. Gaussian Pairs =     843345606.
+Sums =     4.033815542441809D+04   -2.660669192812147D+04
+Counts:
+  0     393058470.
+  1     375280898.
+  2      70460742.
+  3       4438852.
+  4        105691.
+  5           948.
+  6             5.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        B
+ Size            =               2147483648
+ Iterations      =                        0
+ Time in seconds =                    13.88
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   154.74
+ Mop/s/process   =                    19.34
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              31 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+ NAS Parallel Benchmarks 3.3 -- EP Benchmark
+
+ Number of random numbers generated:      2147483648
+ Number of active processes:                       8
+
+EP Benchmark Results:
+
+CPU Time =   13.8421
+N = 2^   30
+No. Gaussian Pairs =     843345606.
+Sums =     4.033815542441809D+04   -2.660669192812147D+04
+Counts:
+  0     393058470.
+  1     375280898.
+  2      70460742.
+  3       4438852.
+  4        105691.
+  5           948.
+  6             5.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        B
+ Size            =               2147483648
+ Iterations      =                        0
+ Time in seconds =                    13.84
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   155.14
+ Mop/s/process   =                    19.39
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              31 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+ NAS Parallel Benchmarks 3.3 -- EP Benchmark
+
+ Number of random numbers generated:      2147483648
+ Number of active processes:                       8
+
+EP Benchmark Results:
+
+CPU Time =   14.0700
+N = 2^   30
+No. Gaussian Pairs =     843345606.
+Sums =     4.033815542441809D+04   -2.660669192812147D+04
+Counts:
+  0     393058470.
+  1     375280898.
+  2      70460742.
+  3       4438852.
+  4        105691.
+  5           948.
+  6             5.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        B
+ Size            =               2147483648
+ Iterations      =                        0
+ Time in seconds =                    14.07
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   152.63
+ Mop/s/process   =                    19.08
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              31 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+ NAS Parallel Benchmarks 3.3 -- EP Benchmark
+
+ Number of random numbers generated:      2147483648
+ Number of active processes:                       8
+
+EP Benchmark Results:
+
+CPU Time =   14.0922
+N = 2^   30
+No. Gaussian Pairs =     843345606.
+Sums =     4.033815542441809D+04   -2.660669192812147D+04
+Counts:
+  0     393058470.
+  1     375280898.
+  2      70460742.
+  3       4438852.
+  4        105691.
+  5           948.
+  6             5.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        B
+ Size            =               2147483648
+ Iterations      =                        0
+ Time in seconds =                    14.09
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   152.39
+ Mop/s/process   =                    19.05
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              31 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+ NAS Parallel Benchmarks 3.3 -- EP Benchmark
+
+ Number of random numbers generated:      2147483648
+ Number of active processes:                       8
+
+EP Benchmark Results:
+
+CPU Time =   13.9661
+N = 2^   30
+No. Gaussian Pairs =     843345606.
+Sums =     4.033815542441809D+04   -2.660669192812147D+04
+Counts:
+  0     393058470.
+  1     375280898.
+  2      70460742.
+  3       4438852.
+  4        105691.
+  5           948.
+  6             5.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        B
+ Size            =               2147483648
+ Iterations      =                        0
+ Time in seconds =                    13.97
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   153.76
+ Mop/s/process   =                    19.22
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              31 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+ NAS Parallel Benchmarks 3.3 -- EP Benchmark
+
+ Number of random numbers generated:      2147483648
+ Number of active processes:                       8
+
+EP Benchmark Results:
+
+CPU Time =   13.9809
+N = 2^   30
+No. Gaussian Pairs =     843345606.
+Sums =     4.033815542441809D+04   -2.660669192812147D+04
+Counts:
+  0     393058470.
+  1     375280898.
+  2      70460742.
+  3       4438852.
+  4        105691.
+  5           948.
+  6             5.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        B
+ Size            =               2147483648
+ Iterations      =                        0
+ Time in seconds =                    13.98
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   153.60
+ Mop/s/process   =                    19.20
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              31 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+ NAS Parallel Benchmarks 3.3 -- EP Benchmark
+
+ Number of random numbers generated:      2147483648
+ Number of active processes:                       8
+
+EP Benchmark Results:
+
+CPU Time =   13.9072
+N = 2^   30
+No. Gaussian Pairs =     843345606.
+Sums =     4.033815542441809D+04   -2.660669192812147D+04
+Counts:
+  0     393058470.
+  1     375280898.
+  2      70460742.
+  3       4438852.
+  4        105691.
+  5           948.
+  6             5.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        B
+ Size            =               2147483648
+ Iterations      =                        0
+ Time in seconds =                    13.91
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   154.42
+ Mop/s/process   =                    19.30
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              31 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+ NAS Parallel Benchmarks 3.3 -- EP Benchmark
+
+ Number of random numbers generated:      2147483648
+ Number of active processes:                       8
+
+EP Benchmark Results:
+
+CPU Time =   13.9535
+N = 2^   30
+No. Gaussian Pairs =     843345606.
+Sums =     4.033815542441809D+04   -2.660669192812147D+04
+Counts:
+  0     393058470.
+  1     375280898.
+  2      70460742.
+  3       4438852.
+  4        105691.
+  5           948.
+  6             5.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        B
+ Size            =               2147483648
+ Iterations      =                        0
+ Time in seconds =                    13.95
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   153.90
+ Mop/s/process   =                    19.24
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              31 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+ NAS Parallel Benchmarks 3.3 -- EP Benchmark
+
+ Number of random numbers generated:      2147483648
+ Number of active processes:                       8
+
+EP Benchmark Results:
+
+CPU Time =   13.9567
+N = 2^   30
+No. Gaussian Pairs =     843345606.
+Sums =     4.033815542441809D+04   -2.660669192812147D+04
+Counts:
+  0     393058470.
+  1     375280898.
+  2      70460742.
+  3       4438852.
+  4        105691.
+  5           948.
+  6             5.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        B
+ Size            =               2147483648
+ Iterations      =                        0
+ Time in seconds =                    13.96
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   153.87
+ Mop/s/process   =                    19.23
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              31 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+ NAS Parallel Benchmarks 3.3 -- EP Benchmark
+
+ Number of random numbers generated:      2147483648
+ Number of active processes:                       8
+
+EP Benchmark Results:
+
+CPU Time =   14.0762
+N = 2^   30
+No. Gaussian Pairs =     843345606.
+Sums =     4.033815542441809D+04   -2.660669192812147D+04
+Counts:
+  0     393058470.
+  1     375280898.
+  2      70460742.
+  3       4438852.
+  4        105691.
+  5           948.
+  6             5.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        B
+ Size            =               2147483648
+ Iterations      =                        0
+ Time in seconds =                    14.08
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   152.56
+ Mop/s/process   =                    19.07
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              31 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+ NAS Parallel Benchmarks 3.3 -- EP Benchmark
+
+ Number of random numbers generated:      2147483648
+ Number of active processes:                       8
+
+EP Benchmark Results:
+
+CPU Time =   13.9607
+N = 2^   30
+No. Gaussian Pairs =     843345606.
+Sums =     4.033815542441809D+04   -2.660669192812147D+04
+Counts:
+  0     393058470.
+  1     375280898.
+  2      70460742.
+  3       4438852.
+  4        105691.
+  5           948.
+  6             5.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        B
+ Size            =               2147483648
+ Iterations      =                        0
+ Time in seconds =                    13.96
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   153.82
+ Mop/s/process   =                    19.23
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              31 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+ NAS Parallel Benchmarks 3.3 -- EP Benchmark
+
+ Number of random numbers generated:      2147483648
+ Number of active processes:                       8
+
+EP Benchmark Results:
+
+CPU Time =   13.8902
+N = 2^   30
+No. Gaussian Pairs =     843345606.
+Sums =     4.033815542441809D+04   -2.660669192812147D+04
+Counts:
+  0     393058470.
+  1     375280898.
+  2      70460742.
+  3       4438852.
+  4        105691.
+  5           948.
+  6             5.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        B
+ Size            =               2147483648
+ Iterations      =                        0
+ Time in seconds =                    13.89
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   154.60
+ Mop/s/process   =                    19.33
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              31 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+ NAS Parallel Benchmarks 3.3 -- EP Benchmark
+
+ Number of random numbers generated:      2147483648
+ Number of active processes:                       8
+
+EP Benchmark Results:
+
+CPU Time =   14.0301
+N = 2^   30
+No. Gaussian Pairs =     843345606.
+Sums =     4.033815542441809D+04   -2.660669192812147D+04
+Counts:
+  0     393058470.
+  1     375280898.
+  2      70460742.
+  3       4438852.
+  4        105691.
+  5           948.
+  6             5.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        B
+ Size            =               2147483648
+ Iterations      =                        0
+ Time in seconds =                    14.03
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   153.06
+ Mop/s/process   =                    19.13
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              31 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+ NAS Parallel Benchmarks 3.3 -- EP Benchmark
+
+ Number of random numbers generated:      2147483648
+ Number of active processes:                       8
+
+EP Benchmark Results:
+
+CPU Time =   13.9521
+N = 2^   30
+No. Gaussian Pairs =     843345606.
+Sums =     4.033815542441809D+04   -2.660669192812147D+04
+Counts:
+  0     393058470.
+  1     375280898.
+  2      70460742.
+  3       4438852.
+  4        105691.
+  5           948.
+  6             5.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        B
+ Size            =               2147483648
+ Iterations      =                        0
+ Time in seconds =                    13.95
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   153.92
+ Mop/s/process   =                    19.24
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              31 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+ NAS Parallel Benchmarks 3.3 -- EP Benchmark
+
+ Number of random numbers generated:      2147483648
+ Number of active processes:                       8
+
+EP Benchmark Results:
+
+CPU Time =   13.9271
+N = 2^   30
+No. Gaussian Pairs =     843345606.
+Sums =     4.033815542441809D+04   -2.660669192812147D+04
+Counts:
+  0     393058470.
+  1     375280898.
+  2      70460742.
+  3       4438852.
+  4        105691.
+  5           948.
+  6             5.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        B
+ Size            =               2147483648
+ Iterations      =                        0
+ Time in seconds =                    13.93
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   154.20
+ Mop/s/process   =                    19.27
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              31 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+ NAS Parallel Benchmarks 3.3 -- EP Benchmark
+
+ Number of random numbers generated:      2147483648
+ Number of active processes:                       8
+
+EP Benchmark Results:
+
+CPU Time =   14.0861
+N = 2^   30
+No. Gaussian Pairs =     843345606.
+Sums =     4.033815542441809D+04   -2.660669192812147D+04
+Counts:
+  0     393058470.
+  1     375280898.
+  2      70460742.
+  3       4438852.
+  4        105691.
+  5           948.
+  6             5.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        B
+ Size            =               2147483648
+ Iterations      =                        0
+ Time in seconds =                    14.09
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   152.45
+ Mop/s/process   =                    19.06
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              31 May 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
