@@ -1,0 +1,300 @@
+
+
+ NAS Parallel Benchmarks 3.3 -- CG Benchmark
+
+ Size:      75000
+ Iterations:    75
+ Number of active processes:     4
+ Number of nonzeroes per row:       13
+ Eigenvalue shift: .600E+02
+
+Error: 
+num of procs allocated   (   4 )
+is not equal to
+compiled number of procs (   2 )
+
+
+
+ NAS Parallel Benchmarks 3.3 -- CG Benchmark
+
+ Size:      75000
+ Iterations:    75
+ Number of active processes:     4
+ Number of nonzeroes per row:       13
+ Eigenvalue shift: .600E+02
+
+Error: 
+num of procs allocated   (   4 )
+is not equal to
+compiled number of procs (   2 )
+
+
+
+ NAS Parallel Benchmarks 3.3 -- CG Benchmark
+
+ Size:      75000
+ Iterations:    75
+ Number of active processes:     4
+ Number of nonzeroes per row:       13
+ Eigenvalue shift: .600E+02
+
+Error: 
+num of procs allocated   (   4 )
+is not equal to
+compiled number of procs (   2 )
+
+
+
+ NAS Parallel Benchmarks 3.3 -- CG Benchmark
+
+ Size:      75000
+ Iterations:    75
+ Number of active processes:     4
+ Number of nonzeroes per row:       13
+ Eigenvalue shift: .600E+02
+
+Error: 
+num of procs allocated   (   4 )
+is not equal to
+compiled number of procs (   2 )
+
+
+
+ NAS Parallel Benchmarks 3.3 -- CG Benchmark
+
+ Size:      75000
+ Iterations:    75
+ Number of active processes:     4
+ Number of nonzeroes per row:       13
+ Eigenvalue shift: .600E+02
+
+Error: 
+num of procs allocated   (   4 )
+is not equal to
+compiled number of procs (   2 )
+
+
+
+ NAS Parallel Benchmarks 3.3 -- CG Benchmark
+
+ Size:      75000
+ Iterations:    75
+ Number of active processes:     4
+ Number of nonzeroes per row:       13
+ Eigenvalue shift: .600E+02
+
+Error: 
+num of procs allocated   (   4 )
+is not equal to
+compiled number of procs (   2 )
+
+
+
+ NAS Parallel Benchmarks 3.3 -- CG Benchmark
+
+ Size:      75000
+ Iterations:    75
+ Number of active processes:     4
+ Number of nonzeroes per row:       13
+ Eigenvalue shift: .600E+02
+
+Error: 
+num of procs allocated   (   4 )
+is not equal to
+compiled number of procs (   2 )
+
+
+
+ NAS Parallel Benchmarks 3.3 -- CG Benchmark
+
+ Size:      75000
+ Iterations:    75
+ Number of active processes:     4
+ Number of nonzeroes per row:       13
+ Eigenvalue shift: .600E+02
+
+Error: 
+num of procs allocated   (   4 )
+is not equal to
+compiled number of procs (   2 )
+
+
+
+ NAS Parallel Benchmarks 3.3 -- CG Benchmark
+
+ Size:      75000
+ Iterations:    75
+ Number of active processes:     4
+ Number of nonzeroes per row:       13
+ Eigenvalue shift: .600E+02
+
+Error: 
+num of procs allocated   (   4 )
+is not equal to
+compiled number of procs (   2 )
+
+
+
+ NAS Parallel Benchmarks 3.3 -- CG Benchmark
+
+ Size:      75000
+ Iterations:    75
+ Number of active processes:     4
+ Number of nonzeroes per row:       13
+ Eigenvalue shift: .600E+02
+
+Error: 
+num of procs allocated   (   4 )
+is not equal to
+compiled number of procs (   2 )
+
+
+
+ NAS Parallel Benchmarks 3.3 -- CG Benchmark
+
+ Size:      75000
+ Iterations:    75
+ Number of active processes:     4
+ Number of nonzeroes per row:       13
+ Eigenvalue shift: .600E+02
+
+Error: 
+num of procs allocated   (   4 )
+is not equal to
+compiled number of procs (   2 )
+
+
+
+ NAS Parallel Benchmarks 3.3 -- CG Benchmark
+
+ Size:      75000
+ Iterations:    75
+ Number of active processes:     4
+ Number of nonzeroes per row:       13
+ Eigenvalue shift: .600E+02
+
+Error: 
+num of procs allocated   (   4 )
+is not equal to
+compiled number of procs (   2 )
+
+
+
+ NAS Parallel Benchmarks 3.3 -- CG Benchmark
+
+ Size:      75000
+ Iterations:    75
+ Number of active processes:     4
+ Number of nonzeroes per row:       13
+ Eigenvalue shift: .600E+02
+
+Error: 
+num of procs allocated   (   4 )
+is not equal to
+compiled number of procs (   2 )
+
+
+
+ NAS Parallel Benchmarks 3.3 -- CG Benchmark
+
+ Size:      75000
+ Iterations:    75
+ Number of active processes:     4
+ Number of nonzeroes per row:       13
+ Eigenvalue shift: .600E+02
+
+Error: 
+num of procs allocated   (   4 )
+is not equal to
+compiled number of procs (   2 )
+
+
+
+ NAS Parallel Benchmarks 3.3 -- CG Benchmark
+
+ Size:      75000
+ Iterations:    75
+ Number of active processes:     4
+ Number of nonzeroes per row:       13
+ Eigenvalue shift: .600E+02
+
+Error: 
+num of procs allocated   (   4 )
+is not equal to
+compiled number of procs (   2 )
+
+
+
+ NAS Parallel Benchmarks 3.3 -- CG Benchmark
+
+ Size:      75000
+ Iterations:    75
+ Number of active processes:     4
+ Number of nonzeroes per row:       13
+ Eigenvalue shift: .600E+02
+
+Error: 
+num of procs allocated   (   4 )
+is not equal to
+compiled number of procs (   2 )
+
+
+
+ NAS Parallel Benchmarks 3.3 -- CG Benchmark
+
+ Size:      75000
+ Iterations:    75
+ Number of active processes:     4
+ Number of nonzeroes per row:       13
+ Eigenvalue shift: .600E+02
+
+Error: 
+num of procs allocated   (   4 )
+is not equal to
+compiled number of procs (   2 )
+
+
+
+ NAS Parallel Benchmarks 3.3 -- CG Benchmark
+
+ Size:      75000
+ Iterations:    75
+ Number of active processes:     4
+ Number of nonzeroes per row:       13
+ Eigenvalue shift: .600E+02
+
+Error: 
+num of procs allocated   (   4 )
+is not equal to
+compiled number of procs (   2 )
+
+
+
+ NAS Parallel Benchmarks 3.3 -- CG Benchmark
+
+ Size:      75000
+ Iterations:    75
+ Number of active processes:     4
+ Number of nonzeroes per row:       13
+ Eigenvalue shift: .600E+02
+
+Error: 
+num of procs allocated   (   4 )
+is not equal to
+compiled number of procs (   2 )
+
+
+
+ NAS Parallel Benchmarks 3.3 -- CG Benchmark
+
+ Size:      75000
+ Iterations:    75
+ Number of active processes:     4
+ Number of nonzeroes per row:       13
+ Eigenvalue shift: .600E+02
+
+Error: 
+num of procs allocated   (   4 )
+is not equal to
+compiled number of procs (   2 )
+
