@@ -1,0 +1,1320 @@
+
+
+ NAS Parallel Benchmarks 3.3 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Size                :  512x 256x 256
+ Iterations          :             20
+ Number of processes :              8
+ Processor array     :         1x   8
+ WARNING: compiled for     4 processes.  Will not verify. 
+ Layout type         :             1D
+ Initialization time =   8.3903315067291260     
+ T =    1     Checksum =    2.605626587366D+02    2.556152605867D+02
+ T =    2     Checksum =    2.593193488457D+02    2.557341267310D+02
+ T =    3     Checksum =    2.588076553732D+02    2.554073565544D+02
+ T =    4     Checksum =    2.585645568036D+02    2.549756781985D+02
+ T =    5     Checksum =    2.583843341677D+02    2.545247479883D+02
+ T =    6     Checksum =    2.582048638560D+02    2.540832407184D+02
+ T =    7     Checksum =    2.580101091351D+02    2.536597383241D+02
+ T =    8     Checksum =    2.577978767372D+02    2.532553910116D+02
+ T =    9     Checksum =    2.575698809011D+02    2.528688489016D+02
+ T =   10     Checksum =    2.573286815789D+02    2.524981563769D+02
+ T =   11     Checksum =    2.570767586958D+02    2.521414266912D+02
+ T =   12     Checksum =    2.568162656368D+02    2.517970364001D+02
+ T =   13     Checksum =    2.565490001972D+02    2.514636417180D+02
+ T =   14     Checksum =    2.562764414014D+02    2.511401384080D+02
+ T =   15     Checksum =    2.559998011737D+02    2.508256118973D+02
+ T =   16     Checksum =    2.557200739054D+02    2.505192934819D+02
+ T =   17     Checksum =    2.554380789486D+02    2.502205262709D+02
+ T =   18     Checksum =    2.551544953469D+02    2.499287401343D+02
+ T =   19     Checksum =    2.548698895722D+02    2.496434337225D+02
+ T =   20     Checksum =    2.545847374244D+02    2.493641616222D+02
+ Result verification failed
+ class = B
+
+
+ FT Benchmark Completed.
+ Class           =                        B
+ Size            =            512x 256x 256
+ Iterations      =                       20
+ Time in seconds =                   220.78
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   416.94
+ Mop/s/process   =                    52.12
+ Operation type  =           floating point
+ Verification    =             UNSUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              05 Jun 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Size                :  512x 256x 256
+ Iterations          :             20
+ Number of processes :              8
+ Processor array     :         1x   8
+ WARNING: compiled for     4 processes.  Will not verify. 
+ Layout type         :             1D
+ Initialization time =   6.7442224025726318     
+ T =    1     Checksum =    2.605626587366D+02    2.556152605867D+02
+ T =    2     Checksum =    2.593193488457D+02    2.557341267310D+02
+ T =    3     Checksum =    2.588076553732D+02    2.554073565544D+02
+ T =    4     Checksum =    2.585645568036D+02    2.549756781985D+02
+ T =    5     Checksum =    2.583843341677D+02    2.545247479883D+02
+ T =    6     Checksum =    2.582048638560D+02    2.540832407184D+02
+ T =    7     Checksum =    2.580101091351D+02    2.536597383241D+02
+ T =    8     Checksum =    2.577978767372D+02    2.532553910116D+02
+ T =    9     Checksum =    2.575698809011D+02    2.528688489016D+02
+ T =   10     Checksum =    2.573286815789D+02    2.524981563769D+02
+ T =   11     Checksum =    2.570767586958D+02    2.521414266912D+02
+ T =   12     Checksum =    2.568162656368D+02    2.517970364001D+02
+ T =   13     Checksum =    2.565490001972D+02    2.514636417180D+02
+ T =   14     Checksum =    2.562764414014D+02    2.511401384080D+02
+ T =   15     Checksum =    2.559998011737D+02    2.508256118973D+02
+ T =   16     Checksum =    2.557200739054D+02    2.505192934819D+02
+ T =   17     Checksum =    2.554380789486D+02    2.502205262709D+02
+ T =   18     Checksum =    2.551544953469D+02    2.499287401343D+02
+ T =   19     Checksum =    2.548698895722D+02    2.496434337225D+02
+ T =   20     Checksum =    2.545847374244D+02    2.493641616222D+02
+ Result verification failed
+ class = B
+
+
+ FT Benchmark Completed.
+ Class           =                        B
+ Size            =            512x 256x 256
+ Iterations      =                       20
+ Time in seconds =                   241.20
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   381.65
+ Mop/s/process   =                    47.71
+ Operation type  =           floating point
+ Verification    =             UNSUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              05 Jun 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Size                :  512x 256x 256
+ Iterations          :             20
+ Number of processes :              8
+ Processor array     :         1x   8
+ WARNING: compiled for     4 processes.  Will not verify. 
+ Layout type         :             1D
+ Initialization time =   10.915574312210083     
+ T =    1     Checksum =    2.605626587366D+02    2.556152605867D+02
+ T =    2     Checksum =    2.593193488457D+02    2.557341267310D+02
+ T =    3     Checksum =    2.588076553732D+02    2.554073565544D+02
+ T =    4     Checksum =    2.585645568036D+02    2.549756781985D+02
+ T =    5     Checksum =    2.583843341677D+02    2.545247479883D+02
+ T =    6     Checksum =    2.582048638560D+02    2.540832407184D+02
+ T =    7     Checksum =    2.580101091351D+02    2.536597383241D+02
+ T =    8     Checksum =    2.577978767372D+02    2.532553910116D+02
+ T =    9     Checksum =    2.575698809011D+02    2.528688489016D+02
+ T =   10     Checksum =    2.573286815789D+02    2.524981563769D+02
+ T =   11     Checksum =    2.570767586958D+02    2.521414266912D+02
+ T =   12     Checksum =    2.568162656368D+02    2.517970364001D+02
+ T =   13     Checksum =    2.565490001972D+02    2.514636417180D+02
+ T =   14     Checksum =    2.562764414014D+02    2.511401384080D+02
+ T =   15     Checksum =    2.559998011737D+02    2.508256118973D+02
+ T =   16     Checksum =    2.557200739054D+02    2.505192934819D+02
+ T =   17     Checksum =    2.554380789486D+02    2.502205262709D+02
+ T =   18     Checksum =    2.551544953469D+02    2.499287401343D+02
+ T =   19     Checksum =    2.548698895722D+02    2.496434337225D+02
+ T =   20     Checksum =    2.545847374244D+02    2.493641616222D+02
+ Result verification failed
+ class = B
+
+
+ FT Benchmark Completed.
+ Class           =                        B
+ Size            =            512x 256x 256
+ Iterations      =                       20
+ Time in seconds =                   200.91
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   458.18
+ Mop/s/process   =                    57.27
+ Operation type  =           floating point
+ Verification    =             UNSUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              05 Jun 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Size                :  512x 256x 256
+ Iterations          :             20
+ Number of processes :              8
+ Processor array     :         1x   8
+ WARNING: compiled for     4 processes.  Will not verify. 
+ Layout type         :             1D
+ Initialization time =   16.260880470275879     
+ T =    1     Checksum =    2.605626587366D+02    2.556152605867D+02
+ T =    2     Checksum =    2.593193488457D+02    2.557341267310D+02
+ T =    3     Checksum =    2.588076553732D+02    2.554073565544D+02
+ T =    4     Checksum =    2.585645568036D+02    2.549756781985D+02
+ T =    5     Checksum =    2.583843341677D+02    2.545247479883D+02
+ T =    6     Checksum =    2.582048638560D+02    2.540832407184D+02
+ T =    7     Checksum =    2.580101091351D+02    2.536597383241D+02
+ T =    8     Checksum =    2.577978767372D+02    2.532553910116D+02
+ T =    9     Checksum =    2.575698809011D+02    2.528688489016D+02
+ T =   10     Checksum =    2.573286815789D+02    2.524981563769D+02
+ T =   11     Checksum =    2.570767586958D+02    2.521414266912D+02
+ T =   12     Checksum =    2.568162656368D+02    2.517970364001D+02
+ T =   13     Checksum =    2.565490001972D+02    2.514636417180D+02
+ T =   14     Checksum =    2.562764414014D+02    2.511401384080D+02
+ T =   15     Checksum =    2.559998011737D+02    2.508256118973D+02
+ T =   16     Checksum =    2.557200739054D+02    2.505192934819D+02
+ T =   17     Checksum =    2.554380789486D+02    2.502205262709D+02
+ T =   18     Checksum =    2.551544953469D+02    2.499287401343D+02
+ T =   19     Checksum =    2.548698895722D+02    2.496434337225D+02
+ T =   20     Checksum =    2.545847374244D+02    2.493641616222D+02
+ Result verification failed
+ class = B
+
+
+ FT Benchmark Completed.
+ Class           =                        B
+ Size            =            512x 256x 256
+ Iterations      =                       20
+ Time in seconds =                   203.39
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   452.60
+ Mop/s/process   =                    56.58
+ Operation type  =           floating point
+ Verification    =             UNSUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              05 Jun 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Size                :  512x 256x 256
+ Iterations          :             20
+ Number of processes :              8
+ Processor array     :         1x   8
+ WARNING: compiled for     4 processes.  Will not verify. 
+ Layout type         :             1D
+ Initialization time =   6.6953988075256348     
+ T =    1     Checksum =    2.605626587366D+02    2.556152605867D+02
+ T =    2     Checksum =    2.593193488457D+02    2.557341267310D+02
+ T =    3     Checksum =    2.588076553732D+02    2.554073565544D+02
+ T =    4     Checksum =    2.585645568036D+02    2.549756781985D+02
+ T =    5     Checksum =    2.583843341677D+02    2.545247479883D+02
+ T =    6     Checksum =    2.582048638560D+02    2.540832407184D+02
+ T =    7     Checksum =    2.580101091351D+02    2.536597383241D+02
+ T =    8     Checksum =    2.577978767372D+02    2.532553910116D+02
+ T =    9     Checksum =    2.575698809011D+02    2.528688489016D+02
+ T =   10     Checksum =    2.573286815789D+02    2.524981563769D+02
+ T =   11     Checksum =    2.570767586958D+02    2.521414266912D+02
+ T =   12     Checksum =    2.568162656368D+02    2.517970364001D+02
+ T =   13     Checksum =    2.565490001972D+02    2.514636417180D+02
+ T =   14     Checksum =    2.562764414014D+02    2.511401384080D+02
+ T =   15     Checksum =    2.559998011737D+02    2.508256118973D+02
+ T =   16     Checksum =    2.557200739054D+02    2.505192934819D+02
+ T =   17     Checksum =    2.554380789486D+02    2.502205262709D+02
+ T =   18     Checksum =    2.551544953469D+02    2.499287401343D+02
+ T =   19     Checksum =    2.548698895722D+02    2.496434337225D+02
+ T =   20     Checksum =    2.545847374244D+02    2.493641616222D+02
+ Result verification failed
+ class = B
+
+
+ FT Benchmark Completed.
+ Class           =                        B
+ Size            =            512x 256x 256
+ Iterations      =                       20
+ Time in seconds =                   168.89
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   545.05
+ Mop/s/process   =                    68.13
+ Operation type  =           floating point
+ Verification    =             UNSUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              05 Jun 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Size                :  512x 256x 256
+ Iterations          :             20
+ Number of processes :              8
+ Processor array     :         1x   8
+ WARNING: compiled for     4 processes.  Will not verify. 
+ Layout type         :             1D
+ Initialization time =   10.689146995544434     
+ T =    1     Checksum =    2.605626587366D+02    2.556152605867D+02
+ T =    2     Checksum =    2.593193488457D+02    2.557341267310D+02
+ T =    3     Checksum =    2.588076553732D+02    2.554073565544D+02
+ T =    4     Checksum =    2.585645568036D+02    2.549756781985D+02
+ T =    5     Checksum =    2.583843341677D+02    2.545247479883D+02
+ T =    6     Checksum =    2.582048638560D+02    2.540832407184D+02
+ T =    7     Checksum =    2.580101091351D+02    2.536597383241D+02
+ T =    8     Checksum =    2.577978767372D+02    2.532553910116D+02
+ T =    9     Checksum =    2.575698809011D+02    2.528688489016D+02
+ T =   10     Checksum =    2.573286815789D+02    2.524981563769D+02
+ T =   11     Checksum =    2.570767586958D+02    2.521414266912D+02
+ T =   12     Checksum =    2.568162656368D+02    2.517970364001D+02
+ T =   13     Checksum =    2.565490001972D+02    2.514636417180D+02
+ T =   14     Checksum =    2.562764414014D+02    2.511401384080D+02
+ T =   15     Checksum =    2.559998011737D+02    2.508256118973D+02
+ T =   16     Checksum =    2.557200739054D+02    2.505192934819D+02
+ T =   17     Checksum =    2.554380789486D+02    2.502205262709D+02
+ T =   18     Checksum =    2.551544953469D+02    2.499287401343D+02
+ T =   19     Checksum =    2.548698895722D+02    2.496434337225D+02
+ T =   20     Checksum =    2.545847374244D+02    2.493641616222D+02
+ Result verification failed
+ class = B
+
+
+ FT Benchmark Completed.
+ Class           =                        B
+ Size            =            512x 256x 256
+ Iterations      =                       20
+ Time in seconds =                   210.17
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   438.00
+ Mop/s/process   =                    54.75
+ Operation type  =           floating point
+ Verification    =             UNSUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              05 Jun 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Size                :  512x 256x 256
+ Iterations          :             20
+ Number of processes :              8
+ Processor array     :         1x   8
+ WARNING: compiled for     4 processes.  Will not verify. 
+ Layout type         :             1D
+ Initialization time =   12.368846654891968     
+ T =    1     Checksum =    2.605626587366D+02    2.556152605867D+02
+ T =    2     Checksum =    2.593193488457D+02    2.557341267310D+02
+ T =    3     Checksum =    2.588076553732D+02    2.554073565544D+02
+ T =    4     Checksum =    2.585645568036D+02    2.549756781985D+02
+ T =    5     Checksum =    2.583843341677D+02    2.545247479883D+02
+ T =    6     Checksum =    2.582048638560D+02    2.540832407184D+02
+ T =    7     Checksum =    2.580101091351D+02    2.536597383241D+02
+ T =    8     Checksum =    2.577978767372D+02    2.532553910116D+02
+ T =    9     Checksum =    2.575698809011D+02    2.528688489016D+02
+ T =   10     Checksum =    2.573286815789D+02    2.524981563769D+02
+ T =   11     Checksum =    2.570767586958D+02    2.521414266912D+02
+ T =   12     Checksum =    2.568162656368D+02    2.517970364001D+02
+ T =   13     Checksum =    2.565490001972D+02    2.514636417180D+02
+ T =   14     Checksum =    2.562764414014D+02    2.511401384080D+02
+ T =   15     Checksum =    2.559998011737D+02    2.508256118973D+02
+ T =   16     Checksum =    2.557200739054D+02    2.505192934819D+02
+ T =   17     Checksum =    2.554380789486D+02    2.502205262709D+02
+ T =   18     Checksum =    2.551544953469D+02    2.499287401343D+02
+ T =   19     Checksum =    2.548698895722D+02    2.496434337225D+02
+ T =   20     Checksum =    2.545847374244D+02    2.493641616222D+02
+ Result verification failed
+ class = B
+
+
+ FT Benchmark Completed.
+ Class           =                        B
+ Size            =            512x 256x 256
+ Iterations      =                       20
+ Time in seconds =                   231.01
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   398.49
+ Mop/s/process   =                    49.81
+ Operation type  =           floating point
+ Verification    =             UNSUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              05 Jun 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Size                :  512x 256x 256
+ Iterations          :             20
+ Number of processes :              8
+ Processor array     :         1x   8
+ WARNING: compiled for     4 processes.  Will not verify. 
+ Layout type         :             1D
+ Initialization time =   8.0050163269042969     
+ T =    1     Checksum =    2.605626587366D+02    2.556152605867D+02
+ T =    2     Checksum =    2.593193488457D+02    2.557341267310D+02
+ T =    3     Checksum =    2.588076553732D+02    2.554073565544D+02
+ T =    4     Checksum =    2.585645568036D+02    2.549756781985D+02
+ T =    5     Checksum =    2.583843341677D+02    2.545247479883D+02
+ T =    6     Checksum =    2.582048638560D+02    2.540832407184D+02
+ T =    7     Checksum =    2.580101091351D+02    2.536597383241D+02
+ T =    8     Checksum =    2.577978767372D+02    2.532553910116D+02
+ T =    9     Checksum =    2.575698809011D+02    2.528688489016D+02
+ T =   10     Checksum =    2.573286815789D+02    2.524981563769D+02
+ T =   11     Checksum =    2.570767586958D+02    2.521414266912D+02
+ T =   12     Checksum =    2.568162656368D+02    2.517970364001D+02
+ T =   13     Checksum =    2.565490001972D+02    2.514636417180D+02
+ T =   14     Checksum =    2.562764414014D+02    2.511401384080D+02
+ T =   15     Checksum =    2.559998011737D+02    2.508256118973D+02
+ T =   16     Checksum =    2.557200739054D+02    2.505192934819D+02
+ T =   17     Checksum =    2.554380789486D+02    2.502205262709D+02
+ T =   18     Checksum =    2.551544953469D+02    2.499287401343D+02
+ T =   19     Checksum =    2.548698895722D+02    2.496434337225D+02
+ T =   20     Checksum =    2.545847374244D+02    2.493641616222D+02
+ Result verification failed
+ class = B
+
+
+ FT Benchmark Completed.
+ Class           =                        B
+ Size            =            512x 256x 256
+ Iterations      =                       20
+ Time in seconds =                   241.82
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   380.66
+ Mop/s/process   =                    47.58
+ Operation type  =           floating point
+ Verification    =             UNSUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              05 Jun 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Size                :  512x 256x 256
+ Iterations          :             20
+ Number of processes :              8
+ Processor array     :         1x   8
+ WARNING: compiled for     4 processes.  Will not verify. 
+ Layout type         :             1D
+ Initialization time =   15.177487134933472     
+ T =    1     Checksum =    2.605626587366D+02    2.556152605867D+02
+ T =    2     Checksum =    2.593193488457D+02    2.557341267310D+02
+ T =    3     Checksum =    2.588076553732D+02    2.554073565544D+02
+ T =    4     Checksum =    2.585645568036D+02    2.549756781985D+02
+ T =    5     Checksum =    2.583843341677D+02    2.545247479883D+02
+ T =    6     Checksum =    2.582048638560D+02    2.540832407184D+02
+ T =    7     Checksum =    2.580101091351D+02    2.536597383241D+02
+ T =    8     Checksum =    2.577978767372D+02    2.532553910116D+02
+ T =    9     Checksum =    2.575698809011D+02    2.528688489016D+02
+ T =   10     Checksum =    2.573286815789D+02    2.524981563769D+02
+ T =   11     Checksum =    2.570767586958D+02    2.521414266912D+02
+ T =   12     Checksum =    2.568162656368D+02    2.517970364001D+02
+ T =   13     Checksum =    2.565490001972D+02    2.514636417180D+02
+ T =   14     Checksum =    2.562764414014D+02    2.511401384080D+02
+ T =   15     Checksum =    2.559998011737D+02    2.508256118973D+02
+ T =   16     Checksum =    2.557200739054D+02    2.505192934819D+02
+ T =   17     Checksum =    2.554380789486D+02    2.502205262709D+02
+ T =   18     Checksum =    2.551544953469D+02    2.499287401343D+02
+ T =   19     Checksum =    2.548698895722D+02    2.496434337225D+02
+ T =   20     Checksum =    2.545847374244D+02    2.493641616222D+02
+ Result verification failed
+ class = B
+
+
+ FT Benchmark Completed.
+ Class           =                        B
+ Size            =            512x 256x 256
+ Iterations      =                       20
+ Time in seconds =                   208.30
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   441.92
+ Mop/s/process   =                    55.24
+ Operation type  =           floating point
+ Verification    =             UNSUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              05 Jun 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Size                :  512x 256x 256
+ Iterations          :             20
+ Number of processes :              8
+ Processor array     :         1x   8
+ WARNING: compiled for     4 processes.  Will not verify. 
+ Layout type         :             1D
+ Initialization time =   4.4133965969085693     
+ T =    1     Checksum =    2.605626587366D+02    2.556152605867D+02
+ T =    2     Checksum =    2.593193488457D+02    2.557341267310D+02
+ T =    3     Checksum =    2.588076553732D+02    2.554073565544D+02
+ T =    4     Checksum =    2.585645568036D+02    2.549756781985D+02
+ T =    5     Checksum =    2.583843341677D+02    2.545247479883D+02
+ T =    6     Checksum =    2.582048638560D+02    2.540832407184D+02
+ T =    7     Checksum =    2.580101091351D+02    2.536597383241D+02
+ T =    8     Checksum =    2.577978767372D+02    2.532553910116D+02
+ T =    9     Checksum =    2.575698809011D+02    2.528688489016D+02
+ T =   10     Checksum =    2.573286815789D+02    2.524981563769D+02
+ T =   11     Checksum =    2.570767586958D+02    2.521414266912D+02
+ T =   12     Checksum =    2.568162656368D+02    2.517970364001D+02
+ T =   13     Checksum =    2.565490001972D+02    2.514636417180D+02
+ T =   14     Checksum =    2.562764414014D+02    2.511401384080D+02
+ T =   15     Checksum =    2.559998011737D+02    2.508256118973D+02
+ T =   16     Checksum =    2.557200739054D+02    2.505192934819D+02
+ T =   17     Checksum =    2.554380789486D+02    2.502205262709D+02
+ T =   18     Checksum =    2.551544953469D+02    2.499287401343D+02
+ T =   19     Checksum =    2.548698895722D+02    2.496434337225D+02
+ T =   20     Checksum =    2.545847374244D+02    2.493641616222D+02
+ Result verification failed
+ class = B
+
+
+ FT Benchmark Completed.
+ Class           =                        B
+ Size            =            512x 256x 256
+ Iterations      =                       20
+ Time in seconds =                   182.72
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   503.80
+ Mop/s/process   =                    62.98
+ Operation type  =           floating point
+ Verification    =             UNSUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              05 Jun 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Size                :  512x 256x 256
+ Iterations          :             20
+ Number of processes :              8
+ Processor array     :         1x   8
+ WARNING: compiled for     4 processes.  Will not verify. 
+ Layout type         :             1D
+ Initialization time =   7.3699967861175537     
+ T =    1     Checksum =    2.605626587366D+02    2.556152605867D+02
+ T =    2     Checksum =    2.593193488457D+02    2.557341267310D+02
+ T =    3     Checksum =    2.588076553732D+02    2.554073565544D+02
+ T =    4     Checksum =    2.585645568036D+02    2.549756781985D+02
+ T =    5     Checksum =    2.583843341677D+02    2.545247479883D+02
+ T =    6     Checksum =    2.582048638560D+02    2.540832407184D+02
+ T =    7     Checksum =    2.580101091351D+02    2.536597383241D+02
+ T =    8     Checksum =    2.577978767372D+02    2.532553910116D+02
+ T =    9     Checksum =    2.575698809011D+02    2.528688489016D+02
+ T =   10     Checksum =    2.573286815789D+02    2.524981563769D+02
+ T =   11     Checksum =    2.570767586958D+02    2.521414266912D+02
+ T =   12     Checksum =    2.568162656368D+02    2.517970364001D+02
+ T =   13     Checksum =    2.565490001972D+02    2.514636417180D+02
+ T =   14     Checksum =    2.562764414014D+02    2.511401384080D+02
+ T =   15     Checksum =    2.559998011737D+02    2.508256118973D+02
+ T =   16     Checksum =    2.557200739054D+02    2.505192934819D+02
+ T =   17     Checksum =    2.554380789486D+02    2.502205262709D+02
+ T =   18     Checksum =    2.551544953469D+02    2.499287401343D+02
+ T =   19     Checksum =    2.548698895722D+02    2.496434337225D+02
+ T =   20     Checksum =    2.545847374244D+02    2.493641616222D+02
+ Result verification failed
+ class = B
+
+
+ FT Benchmark Completed.
+ Class           =                        B
+ Size            =            512x 256x 256
+ Iterations      =                       20
+ Time in seconds =                   211.88
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   434.45
+ Mop/s/process   =                    54.31
+ Operation type  =           floating point
+ Verification    =             UNSUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              05 Jun 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Size                :  512x 256x 256
+ Iterations          :             20
+ Number of processes :              8
+ Processor array     :         1x   8
+ WARNING: compiled for     4 processes.  Will not verify. 
+ Layout type         :             1D
+ Initialization time =   13.737007141113281     
+ T =    1     Checksum =    2.605626587366D+02    2.556152605867D+02
+ T =    2     Checksum =    2.593193488457D+02    2.557341267310D+02
+ T =    3     Checksum =    2.588076553732D+02    2.554073565544D+02
+ T =    4     Checksum =    2.585645568036D+02    2.549756781985D+02
+ T =    5     Checksum =    2.583843341677D+02    2.545247479883D+02
+ T =    6     Checksum =    2.582048638560D+02    2.540832407184D+02
+ T =    7     Checksum =    2.580101091351D+02    2.536597383241D+02
+ T =    8     Checksum =    2.577978767372D+02    2.532553910116D+02
+ T =    9     Checksum =    2.575698809011D+02    2.528688489016D+02
+ T =   10     Checksum =    2.573286815789D+02    2.524981563769D+02
+ T =   11     Checksum =    2.570767586958D+02    2.521414266912D+02
+ T =   12     Checksum =    2.568162656368D+02    2.517970364001D+02
+ T =   13     Checksum =    2.565490001972D+02    2.514636417180D+02
+ T =   14     Checksum =    2.562764414014D+02    2.511401384080D+02
+ T =   15     Checksum =    2.559998011737D+02    2.508256118973D+02
+ T =   16     Checksum =    2.557200739054D+02    2.505192934819D+02
+ T =   17     Checksum =    2.554380789486D+02    2.502205262709D+02
+ T =   18     Checksum =    2.551544953469D+02    2.499287401343D+02
+ T =   19     Checksum =    2.548698895722D+02    2.496434337225D+02
+ T =   20     Checksum =    2.545847374244D+02    2.493641616222D+02
+ Result verification failed
+ class = B
+
+
+ FT Benchmark Completed.
+ Class           =                        B
+ Size            =            512x 256x 256
+ Iterations      =                       20
+ Time in seconds =                   164.02
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   561.23
+ Mop/s/process   =                    70.15
+ Operation type  =           floating point
+ Verification    =             UNSUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              05 Jun 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Size                :  512x 256x 256
+ Iterations          :             20
+ Number of processes :              8
+ Processor array     :         1x   8
+ WARNING: compiled for     4 processes.  Will not verify. 
+ Layout type         :             1D
+ Initialization time =   12.397096872329712     
+ T =    1     Checksum =    2.605626587366D+02    2.556152605867D+02
+ T =    2     Checksum =    2.593193488457D+02    2.557341267310D+02
+ T =    3     Checksum =    2.588076553732D+02    2.554073565544D+02
+ T =    4     Checksum =    2.585645568036D+02    2.549756781985D+02
+ T =    5     Checksum =    2.583843341677D+02    2.545247479883D+02
+ T =    6     Checksum =    2.582048638560D+02    2.540832407184D+02
+ T =    7     Checksum =    2.580101091351D+02    2.536597383241D+02
+ T =    8     Checksum =    2.577978767372D+02    2.532553910116D+02
+ T =    9     Checksum =    2.575698809011D+02    2.528688489016D+02
+ T =   10     Checksum =    2.573286815789D+02    2.524981563769D+02
+ T =   11     Checksum =    2.570767586958D+02    2.521414266912D+02
+ T =   12     Checksum =    2.568162656368D+02    2.517970364001D+02
+ T =   13     Checksum =    2.565490001972D+02    2.514636417180D+02
+ T =   14     Checksum =    2.562764414014D+02    2.511401384080D+02
+ T =   15     Checksum =    2.559998011737D+02    2.508256118973D+02
+ T =   16     Checksum =    2.557200739054D+02    2.505192934819D+02
+ T =   17     Checksum =    2.554380789486D+02    2.502205262709D+02
+ T =   18     Checksum =    2.551544953469D+02    2.499287401343D+02
+ T =   19     Checksum =    2.548698895722D+02    2.496434337225D+02
+ T =   20     Checksum =    2.545847374244D+02    2.493641616222D+02
+ Result verification failed
+ class = B
+
+
+ FT Benchmark Completed.
+ Class           =                        B
+ Size            =            512x 256x 256
+ Iterations      =                       20
+ Time in seconds =                   217.09
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   424.03
+ Mop/s/process   =                    53.00
+ Operation type  =           floating point
+ Verification    =             UNSUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              05 Jun 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Size                :  512x 256x 256
+ Iterations          :             20
+ Number of processes :              8
+ Processor array     :         1x   8
+ WARNING: compiled for     4 processes.  Will not verify. 
+ Layout type         :             1D
+ Initialization time =   7.0105609893798828     
+ T =    1     Checksum =    2.605626587366D+02    2.556152605867D+02
+ T =    2     Checksum =    2.593193488457D+02    2.557341267310D+02
+ T =    3     Checksum =    2.588076553732D+02    2.554073565544D+02
+ T =    4     Checksum =    2.585645568036D+02    2.549756781985D+02
+ T =    5     Checksum =    2.583843341677D+02    2.545247479883D+02
+ T =    6     Checksum =    2.582048638560D+02    2.540832407184D+02
+ T =    7     Checksum =    2.580101091351D+02    2.536597383241D+02
+ T =    8     Checksum =    2.577978767372D+02    2.532553910116D+02
+ T =    9     Checksum =    2.575698809011D+02    2.528688489016D+02
+ T =   10     Checksum =    2.573286815789D+02    2.524981563769D+02
+ T =   11     Checksum =    2.570767586958D+02    2.521414266912D+02
+ T =   12     Checksum =    2.568162656368D+02    2.517970364001D+02
+ T =   13     Checksum =    2.565490001972D+02    2.514636417180D+02
+ T =   14     Checksum =    2.562764414014D+02    2.511401384080D+02
+ T =   15     Checksum =    2.559998011737D+02    2.508256118973D+02
+ T =   16     Checksum =    2.557200739054D+02    2.505192934819D+02
+ T =   17     Checksum =    2.554380789486D+02    2.502205262709D+02
+ T =   18     Checksum =    2.551544953469D+02    2.499287401343D+02
+ T =   19     Checksum =    2.548698895722D+02    2.496434337225D+02
+ T =   20     Checksum =    2.545847374244D+02    2.493641616222D+02
+ Result verification failed
+ class = B
+
+
+ FT Benchmark Completed.
+ Class           =                        B
+ Size            =            512x 256x 256
+ Iterations      =                       20
+ Time in seconds =                   229.26
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   401.53
+ Mop/s/process   =                    50.19
+ Operation type  =           floating point
+ Verification    =             UNSUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              05 Jun 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Size                :  512x 256x 256
+ Iterations          :             20
+ Number of processes :              8
+ Processor array     :         1x   8
+ WARNING: compiled for     4 processes.  Will not verify. 
+ Layout type         :             1D
+ Initialization time =   16.568580150604248     
+ T =    1     Checksum =    2.605626587366D+02    2.556152605867D+02
+ T =    2     Checksum =    2.593193488457D+02    2.557341267310D+02
+ T =    3     Checksum =    2.588076553732D+02    2.554073565544D+02
+ T =    4     Checksum =    2.585645568036D+02    2.549756781985D+02
+ T =    5     Checksum =    2.583843341677D+02    2.545247479883D+02
+ T =    6     Checksum =    2.582048638560D+02    2.540832407184D+02
+ T =    7     Checksum =    2.580101091351D+02    2.536597383241D+02
+ T =    8     Checksum =    2.577978767372D+02    2.532553910116D+02
+ T =    9     Checksum =    2.575698809011D+02    2.528688489016D+02
+ T =   10     Checksum =    2.573286815789D+02    2.524981563769D+02
+ T =   11     Checksum =    2.570767586958D+02    2.521414266912D+02
+ T =   12     Checksum =    2.568162656368D+02    2.517970364001D+02
+ T =   13     Checksum =    2.565490001972D+02    2.514636417180D+02
+ T =   14     Checksum =    2.562764414014D+02    2.511401384080D+02
+ T =   15     Checksum =    2.559998011737D+02    2.508256118973D+02
+ T =   16     Checksum =    2.557200739054D+02    2.505192934819D+02
+ T =   17     Checksum =    2.554380789486D+02    2.502205262709D+02
+ T =   18     Checksum =    2.551544953469D+02    2.499287401343D+02
+ T =   19     Checksum =    2.548698895722D+02    2.496434337225D+02
+ T =   20     Checksum =    2.545847374244D+02    2.493641616222D+02
+ Result verification failed
+ class = B
+
+
+ FT Benchmark Completed.
+ Class           =                        B
+ Size            =            512x 256x 256
+ Iterations      =                       20
+ Time in seconds =                   224.42
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   410.18
+ Mop/s/process   =                    51.27
+ Operation type  =           floating point
+ Verification    =             UNSUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              05 Jun 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Size                :  512x 256x 256
+ Iterations          :             20
+ Number of processes :              8
+ Processor array     :         1x   8
+ WARNING: compiled for     4 processes.  Will not verify. 
+ Layout type         :             1D
+ Initialization time =   9.0397751331329346     
+ T =    1     Checksum =    2.605626587366D+02    2.556152605867D+02
+ T =    2     Checksum =    2.593193488457D+02    2.557341267310D+02
+ T =    3     Checksum =    2.588076553732D+02    2.554073565544D+02
+ T =    4     Checksum =    2.585645568036D+02    2.549756781985D+02
+ T =    5     Checksum =    2.583843341677D+02    2.545247479883D+02
+ T =    6     Checksum =    2.582048638560D+02    2.540832407184D+02
+ T =    7     Checksum =    2.580101091351D+02    2.536597383241D+02
+ T =    8     Checksum =    2.577978767372D+02    2.532553910116D+02
+ T =    9     Checksum =    2.575698809011D+02    2.528688489016D+02
+ T =   10     Checksum =    2.573286815789D+02    2.524981563769D+02
+ T =   11     Checksum =    2.570767586958D+02    2.521414266912D+02
+ T =   12     Checksum =    2.568162656368D+02    2.517970364001D+02
+ T =   13     Checksum =    2.565490001972D+02    2.514636417180D+02
+ T =   14     Checksum =    2.562764414014D+02    2.511401384080D+02
+ T =   15     Checksum =    2.559998011737D+02    2.508256118973D+02
+ T =   16     Checksum =    2.557200739054D+02    2.505192934819D+02
+ T =   17     Checksum =    2.554380789486D+02    2.502205262709D+02
+ T =   18     Checksum =    2.551544953469D+02    2.499287401343D+02
+ T =   19     Checksum =    2.548698895722D+02    2.496434337225D+02
+ T =   20     Checksum =    2.545847374244D+02    2.493641616222D+02
+ Result verification failed
+ class = B
+
+
+ FT Benchmark Completed.
+ Class           =                        B
+ Size            =            512x 256x 256
+ Iterations      =                       20
+ Time in seconds =                   227.28
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   405.02
+ Mop/s/process   =                    50.63
+ Operation type  =           floating point
+ Verification    =             UNSUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              05 Jun 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Size                :  512x 256x 256
+ Iterations          :             20
+ Number of processes :              8
+ Processor array     :         1x   8
+ WARNING: compiled for     4 processes.  Will not verify. 
+ Layout type         :             1D
+ Initialization time =   11.831747531890869     
+ T =    1     Checksum =    2.605626587366D+02    2.556152605867D+02
+ T =    2     Checksum =    2.593193488457D+02    2.557341267310D+02
+ T =    3     Checksum =    2.588076553732D+02    2.554073565544D+02
+ T =    4     Checksum =    2.585645568036D+02    2.549756781985D+02
+ T =    5     Checksum =    2.583843341677D+02    2.545247479883D+02
+ T =    6     Checksum =    2.582048638560D+02    2.540832407184D+02
+ T =    7     Checksum =    2.580101091351D+02    2.536597383241D+02
+ T =    8     Checksum =    2.577978767372D+02    2.532553910116D+02
+ T =    9     Checksum =    2.575698809011D+02    2.528688489016D+02
+ T =   10     Checksum =    2.573286815789D+02    2.524981563769D+02
+ T =   11     Checksum =    2.570767586958D+02    2.521414266912D+02
+ T =   12     Checksum =    2.568162656368D+02    2.517970364001D+02
+ T =   13     Checksum =    2.565490001972D+02    2.514636417180D+02
+ T =   14     Checksum =    2.562764414014D+02    2.511401384080D+02
+ T =   15     Checksum =    2.559998011737D+02    2.508256118973D+02
+ T =   16     Checksum =    2.557200739054D+02    2.505192934819D+02
+ T =   17     Checksum =    2.554380789486D+02    2.502205262709D+02
+ T =   18     Checksum =    2.551544953469D+02    2.499287401343D+02
+ T =   19     Checksum =    2.548698895722D+02    2.496434337225D+02
+ T =   20     Checksum =    2.545847374244D+02    2.493641616222D+02
+ Result verification failed
+ class = B
+
+
+ FT Benchmark Completed.
+ Class           =                        B
+ Size            =            512x 256x 256
+ Iterations      =                       20
+ Time in seconds =                   247.17
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   372.43
+ Mop/s/process   =                    46.55
+ Operation type  =           floating point
+ Verification    =             UNSUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              05 Jun 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Size                :  512x 256x 256
+ Iterations          :             20
+ Number of processes :              8
+ Processor array     :         1x   8
+ WARNING: compiled for     4 processes.  Will not verify. 
+ Layout type         :             1D
+ Initialization time =   2.5998132228851318     
+ T =    1     Checksum =    2.605626587366D+02    2.556152605867D+02
+ T =    2     Checksum =    2.593193488457D+02    2.557341267310D+02
+ T =    3     Checksum =    2.588076553732D+02    2.554073565544D+02
+ T =    4     Checksum =    2.585645568036D+02    2.549756781985D+02
+ T =    5     Checksum =    2.583843341677D+02    2.545247479883D+02
+ T =    6     Checksum =    2.582048638560D+02    2.540832407184D+02
+ T =    7     Checksum =    2.580101091351D+02    2.536597383241D+02
+ T =    8     Checksum =    2.577978767372D+02    2.532553910116D+02
+ T =    9     Checksum =    2.575698809011D+02    2.528688489016D+02
+ T =   10     Checksum =    2.573286815789D+02    2.524981563769D+02
+ T =   11     Checksum =    2.570767586958D+02    2.521414266912D+02
+ T =   12     Checksum =    2.568162656368D+02    2.517970364001D+02
+ T =   13     Checksum =    2.565490001972D+02    2.514636417180D+02
+ T =   14     Checksum =    2.562764414014D+02    2.511401384080D+02
+ T =   15     Checksum =    2.559998011737D+02    2.508256118973D+02
+ T =   16     Checksum =    2.557200739054D+02    2.505192934819D+02
+ T =   17     Checksum =    2.554380789486D+02    2.502205262709D+02
+ T =   18     Checksum =    2.551544953469D+02    2.499287401343D+02
+ T =   19     Checksum =    2.548698895722D+02    2.496434337225D+02
+ T =   20     Checksum =    2.545847374244D+02    2.493641616222D+02
+ Result verification failed
+ class = B
+
+
+ FT Benchmark Completed.
+ Class           =                        B
+ Size            =            512x 256x 256
+ Iterations      =                       20
+ Time in seconds =                   200.87
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   458.27
+ Mop/s/process   =                    57.28
+ Operation type  =           floating point
+ Verification    =             UNSUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              05 Jun 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Size                :  512x 256x 256
+ Iterations          :             20
+ Number of processes :              8
+ Processor array     :         1x   8
+ WARNING: compiled for     4 processes.  Will not verify. 
+ Layout type         :             1D
+ Initialization time =   4.6177532672882080     
+ T =    1     Checksum =    2.605626587366D+02    2.556152605867D+02
+ T =    2     Checksum =    2.593193488457D+02    2.557341267310D+02
+ T =    3     Checksum =    2.588076553732D+02    2.554073565544D+02
+ T =    4     Checksum =    2.585645568036D+02    2.549756781985D+02
+ T =    5     Checksum =    2.583843341677D+02    2.545247479883D+02
+ T =    6     Checksum =    2.582048638560D+02    2.540832407184D+02
+ T =    7     Checksum =    2.580101091351D+02    2.536597383241D+02
+ T =    8     Checksum =    2.577978767372D+02    2.532553910116D+02
+ T =    9     Checksum =    2.575698809011D+02    2.528688489016D+02
+ T =   10     Checksum =    2.573286815789D+02    2.524981563769D+02
+ T =   11     Checksum =    2.570767586958D+02    2.521414266912D+02
+ T =   12     Checksum =    2.568162656368D+02    2.517970364001D+02
+ T =   13     Checksum =    2.565490001972D+02    2.514636417180D+02
+ T =   14     Checksum =    2.562764414014D+02    2.511401384080D+02
+ T =   15     Checksum =    2.559998011737D+02    2.508256118973D+02
+ T =   16     Checksum =    2.557200739054D+02    2.505192934819D+02
+ T =   17     Checksum =    2.554380789486D+02    2.502205262709D+02
+ T =   18     Checksum =    2.551544953469D+02    2.499287401343D+02
+ T =   19     Checksum =    2.548698895722D+02    2.496434337225D+02
+ T =   20     Checksum =    2.545847374244D+02    2.493641616222D+02
+ Result verification failed
+ class = B
+
+
+ FT Benchmark Completed.
+ Class           =                        B
+ Size            =            512x 256x 256
+ Iterations      =                       20
+ Time in seconds =                   256.82
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   358.44
+ Mop/s/process   =                    44.80
+ Operation type  =           floating point
+ Verification    =             UNSUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              05 Jun 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.3 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Size                :  512x 256x 256
+ Iterations          :             20
+ Number of processes :              8
+ Processor array     :         1x   8
+ WARNING: compiled for     4 processes.  Will not verify. 
+ Layout type         :             1D
+ Initialization time =   16.224197864532471     
+ T =    1     Checksum =    2.605626587366D+02    2.556152605867D+02
+ T =    2     Checksum =    2.593193488457D+02    2.557341267310D+02
+ T =    3     Checksum =    2.588076553732D+02    2.554073565544D+02
+ T =    4     Checksum =    2.585645568036D+02    2.549756781985D+02
+ T =    5     Checksum =    2.583843341677D+02    2.545247479883D+02
+ T =    6     Checksum =    2.582048638560D+02    2.540832407184D+02
+ T =    7     Checksum =    2.580101091351D+02    2.536597383241D+02
+ T =    8     Checksum =    2.577978767372D+02    2.532553910116D+02
+ T =    9     Checksum =    2.575698809011D+02    2.528688489016D+02
+ T =   10     Checksum =    2.573286815789D+02    2.524981563769D+02
+ T =   11     Checksum =    2.570767586958D+02    2.521414266912D+02
+ T =   12     Checksum =    2.568162656368D+02    2.517970364001D+02
+ T =   13     Checksum =    2.565490001972D+02    2.514636417180D+02
+ T =   14     Checksum =    2.562764414014D+02    2.511401384080D+02
+ T =   15     Checksum =    2.559998011737D+02    2.508256118973D+02
+ T =   16     Checksum =    2.557200739054D+02    2.505192934819D+02
+ T =   17     Checksum =    2.554380789486D+02    2.502205262709D+02
+ T =   18     Checksum =    2.551544953469D+02    2.499287401343D+02
+ T =   19     Checksum =    2.548698895722D+02    2.496434337225D+02
+ T =   20     Checksum =    2.545847374244D+02    2.493641616222D+02
+ Result verification failed
+ class = B
+
+
+ FT Benchmark Completed.
+ Class           =                        B
+ Size            =            512x 256x 256
+ Iterations      =                       20
+ Time in seconds =                   197.15
+ Total processes =                        8
+ Compiled procs  =                        4
+ Mop/s total     =                   466.92
+ Mop/s/process   =                    58.37
+ Operation type  =           floating point
+ Verification    =             UNSUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              05 Jun 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
