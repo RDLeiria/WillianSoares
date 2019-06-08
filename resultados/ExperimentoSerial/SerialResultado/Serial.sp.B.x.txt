@@ -1,0 +1,1460 @@
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  400    dt:   0.001000
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.6903293579998E+02 0.6903293579998E+02 0.5166989484339E-13
+           2 0.3095134488084E+02 0.3095134488084E+02 0.7667559347018E-13
+           3 0.4103336647017E+02 0.4103336647017E+02 0.1040704726243E-12
+           4 0.3864769009604E+02 0.3864769009604E+02 0.3824106658660E-13
+           5 0.5643482272596E+02 0.5643482272596E+02 0.5640544795653E-13
+ Comparison of RMS-norms of solution error
+           1 0.9810006190188E-02 0.9810006190188E-02 0.4049453876961E-13
+           2 0.1022827905670E-02 0.1022827905670E-02 0.3983496873339E-12
+           3 0.1720597911692E-02 0.1720597911692E-02 0.1511054263145E-12
+           4 0.1694479428231E-02 0.1694479428231E-02 0.8522719542593E-13
+           5 0.1847456263981E-01 0.1847456263981E-01 0.7755970298692E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      400
+ Time in seconds =                   221.00
+ Mop/s total     =                  1606.37
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Jun 2019
+
+ Compile options:
+    F77          = f77
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  400    dt:   0.001000
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.6903293579998E+02 0.6903293579998E+02 0.5166989484339E-13
+           2 0.3095134488084E+02 0.3095134488084E+02 0.7667559347018E-13
+           3 0.4103336647017E+02 0.4103336647017E+02 0.1040704726243E-12
+           4 0.3864769009604E+02 0.3864769009604E+02 0.3824106658660E-13
+           5 0.5643482272596E+02 0.5643482272596E+02 0.5640544795653E-13
+ Comparison of RMS-norms of solution error
+           1 0.9810006190188E-02 0.9810006190188E-02 0.4049453876961E-13
+           2 0.1022827905670E-02 0.1022827905670E-02 0.3983496873339E-12
+           3 0.1720597911692E-02 0.1720597911692E-02 0.1511054263145E-12
+           4 0.1694479428231E-02 0.1694479428231E-02 0.8522719542593E-13
+           5 0.1847456263981E-01 0.1847456263981E-01 0.7755970298692E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      400
+ Time in seconds =                   219.94
+ Mop/s total     =                  1614.16
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Jun 2019
+
+ Compile options:
+    F77          = f77
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  400    dt:   0.001000
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.6903293579998E+02 0.6903293579998E+02 0.5166989484339E-13
+           2 0.3095134488084E+02 0.3095134488084E+02 0.7667559347018E-13
+           3 0.4103336647017E+02 0.4103336647017E+02 0.1040704726243E-12
+           4 0.3864769009604E+02 0.3864769009604E+02 0.3824106658660E-13
+           5 0.5643482272596E+02 0.5643482272596E+02 0.5640544795653E-13
+ Comparison of RMS-norms of solution error
+           1 0.9810006190188E-02 0.9810006190188E-02 0.4049453876961E-13
+           2 0.1022827905670E-02 0.1022827905670E-02 0.3983496873339E-12
+           3 0.1720597911692E-02 0.1720597911692E-02 0.1511054263145E-12
+           4 0.1694479428231E-02 0.1694479428231E-02 0.8522719542593E-13
+           5 0.1847456263981E-01 0.1847456263981E-01 0.7755970298692E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      400
+ Time in seconds =                   221.07
+ Mop/s total     =                  1605.89
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Jun 2019
+
+ Compile options:
+    F77          = f77
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  400    dt:   0.001000
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.6903293579998E+02 0.6903293579998E+02 0.5166989484339E-13
+           2 0.3095134488084E+02 0.3095134488084E+02 0.7667559347018E-13
+           3 0.4103336647017E+02 0.4103336647017E+02 0.1040704726243E-12
+           4 0.3864769009604E+02 0.3864769009604E+02 0.3824106658660E-13
+           5 0.5643482272596E+02 0.5643482272596E+02 0.5640544795653E-13
+ Comparison of RMS-norms of solution error
+           1 0.9810006190188E-02 0.9810006190188E-02 0.4049453876961E-13
+           2 0.1022827905670E-02 0.1022827905670E-02 0.3983496873339E-12
+           3 0.1720597911692E-02 0.1720597911692E-02 0.1511054263145E-12
+           4 0.1694479428231E-02 0.1694479428231E-02 0.8522719542593E-13
+           5 0.1847456263981E-01 0.1847456263981E-01 0.7755970298692E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      400
+ Time in seconds =                   219.84
+ Mop/s total     =                  1614.84
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Jun 2019
+
+ Compile options:
+    F77          = f77
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  400    dt:   0.001000
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.6903293579998E+02 0.6903293579998E+02 0.5166989484339E-13
+           2 0.3095134488084E+02 0.3095134488084E+02 0.7667559347018E-13
+           3 0.4103336647017E+02 0.4103336647017E+02 0.1040704726243E-12
+           4 0.3864769009604E+02 0.3864769009604E+02 0.3824106658660E-13
+           5 0.5643482272596E+02 0.5643482272596E+02 0.5640544795653E-13
+ Comparison of RMS-norms of solution error
+           1 0.9810006190188E-02 0.9810006190188E-02 0.4049453876961E-13
+           2 0.1022827905670E-02 0.1022827905670E-02 0.3983496873339E-12
+           3 0.1720597911692E-02 0.1720597911692E-02 0.1511054263145E-12
+           4 0.1694479428231E-02 0.1694479428231E-02 0.8522719542593E-13
+           5 0.1847456263981E-01 0.1847456263981E-01 0.7755970298692E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      400
+ Time in seconds =                   221.25
+ Mop/s total     =                  1604.54
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Jun 2019
+
+ Compile options:
+    F77          = f77
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  400    dt:   0.001000
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.6903293579998E+02 0.6903293579998E+02 0.5166989484339E-13
+           2 0.3095134488084E+02 0.3095134488084E+02 0.7667559347018E-13
+           3 0.4103336647017E+02 0.4103336647017E+02 0.1040704726243E-12
+           4 0.3864769009604E+02 0.3864769009604E+02 0.3824106658660E-13
+           5 0.5643482272596E+02 0.5643482272596E+02 0.5640544795653E-13
+ Comparison of RMS-norms of solution error
+           1 0.9810006190188E-02 0.9810006190188E-02 0.4049453876961E-13
+           2 0.1022827905670E-02 0.1022827905670E-02 0.3983496873339E-12
+           3 0.1720597911692E-02 0.1720597911692E-02 0.1511054263145E-12
+           4 0.1694479428231E-02 0.1694479428231E-02 0.8522719542593E-13
+           5 0.1847456263981E-01 0.1847456263981E-01 0.7755970298692E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      400
+ Time in seconds =                   221.39
+ Mop/s total     =                  1603.59
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Jun 2019
+
+ Compile options:
+    F77          = f77
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  400    dt:   0.001000
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.6903293579998E+02 0.6903293579998E+02 0.5166989484339E-13
+           2 0.3095134488084E+02 0.3095134488084E+02 0.7667559347018E-13
+           3 0.4103336647017E+02 0.4103336647017E+02 0.1040704726243E-12
+           4 0.3864769009604E+02 0.3864769009604E+02 0.3824106658660E-13
+           5 0.5643482272596E+02 0.5643482272596E+02 0.5640544795653E-13
+ Comparison of RMS-norms of solution error
+           1 0.9810006190188E-02 0.9810006190188E-02 0.4049453876961E-13
+           2 0.1022827905670E-02 0.1022827905670E-02 0.3983496873339E-12
+           3 0.1720597911692E-02 0.1720597911692E-02 0.1511054263145E-12
+           4 0.1694479428231E-02 0.1694479428231E-02 0.8522719542593E-13
+           5 0.1847456263981E-01 0.1847456263981E-01 0.7755970298692E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      400
+ Time in seconds =                   222.51
+ Mop/s total     =                  1595.46
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Jun 2019
+
+ Compile options:
+    F77          = f77
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  400    dt:   0.001000
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.6903293579998E+02 0.6903293579998E+02 0.5166989484339E-13
+           2 0.3095134488084E+02 0.3095134488084E+02 0.7667559347018E-13
+           3 0.4103336647017E+02 0.4103336647017E+02 0.1040704726243E-12
+           4 0.3864769009604E+02 0.3864769009604E+02 0.3824106658660E-13
+           5 0.5643482272596E+02 0.5643482272596E+02 0.5640544795653E-13
+ Comparison of RMS-norms of solution error
+           1 0.9810006190188E-02 0.9810006190188E-02 0.4049453876961E-13
+           2 0.1022827905670E-02 0.1022827905670E-02 0.3983496873339E-12
+           3 0.1720597911692E-02 0.1720597911692E-02 0.1511054263145E-12
+           4 0.1694479428231E-02 0.1694479428231E-02 0.8522719542593E-13
+           5 0.1847456263981E-01 0.1847456263981E-01 0.7755970298692E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      400
+ Time in seconds =                   221.22
+ Mop/s total     =                  1604.78
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Jun 2019
+
+ Compile options:
+    F77          = f77
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  400    dt:   0.001000
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.6903293579998E+02 0.6903293579998E+02 0.5166989484339E-13
+           2 0.3095134488084E+02 0.3095134488084E+02 0.7667559347018E-13
+           3 0.4103336647017E+02 0.4103336647017E+02 0.1040704726243E-12
+           4 0.3864769009604E+02 0.3864769009604E+02 0.3824106658660E-13
+           5 0.5643482272596E+02 0.5643482272596E+02 0.5640544795653E-13
+ Comparison of RMS-norms of solution error
+           1 0.9810006190188E-02 0.9810006190188E-02 0.4049453876961E-13
+           2 0.1022827905670E-02 0.1022827905670E-02 0.3983496873339E-12
+           3 0.1720597911692E-02 0.1720597911692E-02 0.1511054263145E-12
+           4 0.1694479428231E-02 0.1694479428231E-02 0.8522719542593E-13
+           5 0.1847456263981E-01 0.1847456263981E-01 0.7755970298692E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      400
+ Time in seconds =                   222.44
+ Mop/s total     =                  1595.98
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Jun 2019
+
+ Compile options:
+    F77          = f77
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  400    dt:   0.001000
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.6903293579998E+02 0.6903293579998E+02 0.5166989484339E-13
+           2 0.3095134488084E+02 0.3095134488084E+02 0.7667559347018E-13
+           3 0.4103336647017E+02 0.4103336647017E+02 0.1040704726243E-12
+           4 0.3864769009604E+02 0.3864769009604E+02 0.3824106658660E-13
+           5 0.5643482272596E+02 0.5643482272596E+02 0.5640544795653E-13
+ Comparison of RMS-norms of solution error
+           1 0.9810006190188E-02 0.9810006190188E-02 0.4049453876961E-13
+           2 0.1022827905670E-02 0.1022827905670E-02 0.3983496873339E-12
+           3 0.1720597911692E-02 0.1720597911692E-02 0.1511054263145E-12
+           4 0.1694479428231E-02 0.1694479428231E-02 0.8522719542593E-13
+           5 0.1847456263981E-01 0.1847456263981E-01 0.7755970298692E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      400
+ Time in seconds =                   221.26
+ Mop/s total     =                  1604.47
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Jun 2019
+
+ Compile options:
+    F77          = f77
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  400    dt:   0.001000
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.6903293579998E+02 0.6903293579998E+02 0.5166989484339E-13
+           2 0.3095134488084E+02 0.3095134488084E+02 0.7667559347018E-13
+           3 0.4103336647017E+02 0.4103336647017E+02 0.1040704726243E-12
+           4 0.3864769009604E+02 0.3864769009604E+02 0.3824106658660E-13
+           5 0.5643482272596E+02 0.5643482272596E+02 0.5640544795653E-13
+ Comparison of RMS-norms of solution error
+           1 0.9810006190188E-02 0.9810006190188E-02 0.4049453876961E-13
+           2 0.1022827905670E-02 0.1022827905670E-02 0.3983496873339E-12
+           3 0.1720597911692E-02 0.1720597911692E-02 0.1511054263145E-12
+           4 0.1694479428231E-02 0.1694479428231E-02 0.8522719542593E-13
+           5 0.1847456263981E-01 0.1847456263981E-01 0.7755970298692E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      400
+ Time in seconds =                   222.75
+ Mop/s total     =                  1593.79
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Jun 2019
+
+ Compile options:
+    F77          = f77
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  400    dt:   0.001000
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.6903293579998E+02 0.6903293579998E+02 0.5166989484339E-13
+           2 0.3095134488084E+02 0.3095134488084E+02 0.7667559347018E-13
+           3 0.4103336647017E+02 0.4103336647017E+02 0.1040704726243E-12
+           4 0.3864769009604E+02 0.3864769009604E+02 0.3824106658660E-13
+           5 0.5643482272596E+02 0.5643482272596E+02 0.5640544795653E-13
+ Comparison of RMS-norms of solution error
+           1 0.9810006190188E-02 0.9810006190188E-02 0.4049453876961E-13
+           2 0.1022827905670E-02 0.1022827905670E-02 0.3983496873339E-12
+           3 0.1720597911692E-02 0.1720597911692E-02 0.1511054263145E-12
+           4 0.1694479428231E-02 0.1694479428231E-02 0.8522719542593E-13
+           5 0.1847456263981E-01 0.1847456263981E-01 0.7755970298692E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      400
+ Time in seconds =                   221.17
+ Mop/s total     =                  1605.16
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Jun 2019
+
+ Compile options:
+    F77          = f77
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  400    dt:   0.001000
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.6903293579998E+02 0.6903293579998E+02 0.5166989484339E-13
+           2 0.3095134488084E+02 0.3095134488084E+02 0.7667559347018E-13
+           3 0.4103336647017E+02 0.4103336647017E+02 0.1040704726243E-12
+           4 0.3864769009604E+02 0.3864769009604E+02 0.3824106658660E-13
+           5 0.5643482272596E+02 0.5643482272596E+02 0.5640544795653E-13
+ Comparison of RMS-norms of solution error
+           1 0.9810006190188E-02 0.9810006190188E-02 0.4049453876961E-13
+           2 0.1022827905670E-02 0.1022827905670E-02 0.3983496873339E-12
+           3 0.1720597911692E-02 0.1720597911692E-02 0.1511054263145E-12
+           4 0.1694479428231E-02 0.1694479428231E-02 0.8522719542593E-13
+           5 0.1847456263981E-01 0.1847456263981E-01 0.7755970298692E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      400
+ Time in seconds =                   220.00
+ Mop/s total     =                  1613.67
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Jun 2019
+
+ Compile options:
+    F77          = f77
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  400    dt:   0.001000
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.6903293579998E+02 0.6903293579998E+02 0.5166989484339E-13
+           2 0.3095134488084E+02 0.3095134488084E+02 0.7667559347018E-13
+           3 0.4103336647017E+02 0.4103336647017E+02 0.1040704726243E-12
+           4 0.3864769009604E+02 0.3864769009604E+02 0.3824106658660E-13
+           5 0.5643482272596E+02 0.5643482272596E+02 0.5640544795653E-13
+ Comparison of RMS-norms of solution error
+           1 0.9810006190188E-02 0.9810006190188E-02 0.4049453876961E-13
+           2 0.1022827905670E-02 0.1022827905670E-02 0.3983496873339E-12
+           3 0.1720597911692E-02 0.1720597911692E-02 0.1511054263145E-12
+           4 0.1694479428231E-02 0.1694479428231E-02 0.8522719542593E-13
+           5 0.1847456263981E-01 0.1847456263981E-01 0.7755970298692E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      400
+ Time in seconds =                   221.43
+ Mop/s total     =                  1603.24
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Jun 2019
+
+ Compile options:
+    F77          = f77
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  400    dt:   0.001000
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.6903293579998E+02 0.6903293579998E+02 0.5166989484339E-13
+           2 0.3095134488084E+02 0.3095134488084E+02 0.7667559347018E-13
+           3 0.4103336647017E+02 0.4103336647017E+02 0.1040704726243E-12
+           4 0.3864769009604E+02 0.3864769009604E+02 0.3824106658660E-13
+           5 0.5643482272596E+02 0.5643482272596E+02 0.5640544795653E-13
+ Comparison of RMS-norms of solution error
+           1 0.9810006190188E-02 0.9810006190188E-02 0.4049453876961E-13
+           2 0.1022827905670E-02 0.1022827905670E-02 0.3983496873339E-12
+           3 0.1720597911692E-02 0.1720597911692E-02 0.1511054263145E-12
+           4 0.1694479428231E-02 0.1694479428231E-02 0.8522719542593E-13
+           5 0.1847456263981E-01 0.1847456263981E-01 0.7755970298692E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      400
+ Time in seconds =                   219.87
+ Mop/s total     =                  1614.65
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Jun 2019
+
+ Compile options:
+    F77          = f77
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  400    dt:   0.001000
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.6903293579998E+02 0.6903293579998E+02 0.5166989484339E-13
+           2 0.3095134488084E+02 0.3095134488084E+02 0.7667559347018E-13
+           3 0.4103336647017E+02 0.4103336647017E+02 0.1040704726243E-12
+           4 0.3864769009604E+02 0.3864769009604E+02 0.3824106658660E-13
+           5 0.5643482272596E+02 0.5643482272596E+02 0.5640544795653E-13
+ Comparison of RMS-norms of solution error
+           1 0.9810006190188E-02 0.9810006190188E-02 0.4049453876961E-13
+           2 0.1022827905670E-02 0.1022827905670E-02 0.3983496873339E-12
+           3 0.1720597911692E-02 0.1720597911692E-02 0.1511054263145E-12
+           4 0.1694479428231E-02 0.1694479428231E-02 0.8522719542593E-13
+           5 0.1847456263981E-01 0.1847456263981E-01 0.7755970298692E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      400
+ Time in seconds =                   221.17
+ Mop/s total     =                  1605.19
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Jun 2019
+
+ Compile options:
+    F77          = f77
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  400    dt:   0.001000
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.6903293579998E+02 0.6903293579998E+02 0.5166989484339E-13
+           2 0.3095134488084E+02 0.3095134488084E+02 0.7667559347018E-13
+           3 0.4103336647017E+02 0.4103336647017E+02 0.1040704726243E-12
+           4 0.3864769009604E+02 0.3864769009604E+02 0.3824106658660E-13
+           5 0.5643482272596E+02 0.5643482272596E+02 0.5640544795653E-13
+ Comparison of RMS-norms of solution error
+           1 0.9810006190188E-02 0.9810006190188E-02 0.4049453876961E-13
+           2 0.1022827905670E-02 0.1022827905670E-02 0.3983496873339E-12
+           3 0.1720597911692E-02 0.1720597911692E-02 0.1511054263145E-12
+           4 0.1694479428231E-02 0.1694479428231E-02 0.8522719542593E-13
+           5 0.1847456263981E-01 0.1847456263981E-01 0.7755970298692E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      400
+ Time in seconds =                   219.74
+ Mop/s total     =                  1615.58
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Jun 2019
+
+ Compile options:
+    F77          = f77
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  400    dt:   0.001000
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.6903293579998E+02 0.6903293579998E+02 0.5166989484339E-13
+           2 0.3095134488084E+02 0.3095134488084E+02 0.7667559347018E-13
+           3 0.4103336647017E+02 0.4103336647017E+02 0.1040704726243E-12
+           4 0.3864769009604E+02 0.3864769009604E+02 0.3824106658660E-13
+           5 0.5643482272596E+02 0.5643482272596E+02 0.5640544795653E-13
+ Comparison of RMS-norms of solution error
+           1 0.9810006190188E-02 0.9810006190188E-02 0.4049453876961E-13
+           2 0.1022827905670E-02 0.1022827905670E-02 0.3983496873339E-12
+           3 0.1720597911692E-02 0.1720597911692E-02 0.1511054263145E-12
+           4 0.1694479428231E-02 0.1694479428231E-02 0.8522719542593E-13
+           5 0.1847456263981E-01 0.1847456263981E-01 0.7755970298692E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      400
+ Time in seconds =                   219.72
+ Mop/s total     =                  1615.73
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Jun 2019
+
+ Compile options:
+    F77          = f77
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  400    dt:   0.001000
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.6903293579998E+02 0.6903293579998E+02 0.5166989484339E-13
+           2 0.3095134488084E+02 0.3095134488084E+02 0.7667559347018E-13
+           3 0.4103336647017E+02 0.4103336647017E+02 0.1040704726243E-12
+           4 0.3864769009604E+02 0.3864769009604E+02 0.3824106658660E-13
+           5 0.5643482272596E+02 0.5643482272596E+02 0.5640544795653E-13
+ Comparison of RMS-norms of solution error
+           1 0.9810006190188E-02 0.9810006190188E-02 0.4049453876961E-13
+           2 0.1022827905670E-02 0.1022827905670E-02 0.3983496873339E-12
+           3 0.1720597911692E-02 0.1720597911692E-02 0.1511054263145E-12
+           4 0.1694479428231E-02 0.1694479428231E-02 0.8522719542593E-13
+           5 0.1847456263981E-01 0.1847456263981E-01 0.7755970298692E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      400
+ Time in seconds =                   221.20
+ Mop/s total     =                  1604.96
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Jun 2019
+
+ Compile options:
+    F77          = f77
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  400    dt:   0.001000
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.6903293579998E+02 0.6903293579998E+02 0.5166989484339E-13
+           2 0.3095134488084E+02 0.3095134488084E+02 0.7667559347018E-13
+           3 0.4103336647017E+02 0.4103336647017E+02 0.1040704726243E-12
+           4 0.3864769009604E+02 0.3864769009604E+02 0.3824106658660E-13
+           5 0.5643482272596E+02 0.5643482272596E+02 0.5640544795653E-13
+ Comparison of RMS-norms of solution error
+           1 0.9810006190188E-02 0.9810006190188E-02 0.4049453876961E-13
+           2 0.1022827905670E-02 0.1022827905670E-02 0.3983496873339E-12
+           3 0.1720597911692E-02 0.1720597911692E-02 0.1511054263145E-12
+           4 0.1694479428231E-02 0.1694479428231E-02 0.8522719542593E-13
+           5 0.1847456263981E-01 0.1847456263981E-01 0.7755970298692E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      400
+ Time in seconds =                   219.73
+ Mop/s total     =                  1615.70
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Jun 2019
+
+ Compile options:
+    F77          = f77
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O
+    FLINKFLAGS   = -O
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+

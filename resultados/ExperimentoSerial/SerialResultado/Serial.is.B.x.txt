@@ -1,0 +1,920 @@
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        B
+ Size            =                 33554432
+ Iterations      =                       10
+ Time in seconds =                     2.83
+ Mop/s total     =                   118.75
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Jun 2019
+
+ Compile options:
+    CC           = cc
+    CLINK        = $(CC)
+    C_LIB        = (none)
+    C_INC        = (none)
+    CFLAGS       = -O
+    CLINKFLAGS   = -O
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        B
+ Size            =                 33554432
+ Iterations      =                       10
+ Time in seconds =                     2.80
+ Mop/s total     =                   119.85
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Jun 2019
+
+ Compile options:
+    CC           = cc
+    CLINK        = $(CC)
+    C_LIB        = (none)
+    C_INC        = (none)
+    CFLAGS       = -O
+    CLINKFLAGS   = -O
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        B
+ Size            =                 33554432
+ Iterations      =                       10
+ Time in seconds =                     2.84
+ Mop/s total     =                   118.12
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Jun 2019
+
+ Compile options:
+    CC           = cc
+    CLINK        = $(CC)
+    C_LIB        = (none)
+    C_INC        = (none)
+    CFLAGS       = -O
+    CLINKFLAGS   = -O
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        B
+ Size            =                 33554432
+ Iterations      =                       10
+ Time in seconds =                     2.80
+ Mop/s total     =                   120.04
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Jun 2019
+
+ Compile options:
+    CC           = cc
+    CLINK        = $(CC)
+    C_LIB        = (none)
+    C_INC        = (none)
+    CFLAGS       = -O
+    CLINKFLAGS   = -O
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        B
+ Size            =                 33554432
+ Iterations      =                       10
+ Time in seconds =                     2.82
+ Mop/s total     =                   118.88
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Jun 2019
+
+ Compile options:
+    CC           = cc
+    CLINK        = $(CC)
+    C_LIB        = (none)
+    C_INC        = (none)
+    CFLAGS       = -O
+    CLINKFLAGS   = -O
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        B
+ Size            =                 33554432
+ Iterations      =                       10
+ Time in seconds =                     2.79
+ Mop/s total     =                   120.10
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Jun 2019
+
+ Compile options:
+    CC           = cc
+    CLINK        = $(CC)
+    C_LIB        = (none)
+    C_INC        = (none)
+    CFLAGS       = -O
+    CLINKFLAGS   = -O
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        B
+ Size            =                 33554432
+ Iterations      =                       10
+ Time in seconds =                     2.80
+ Mop/s total     =                   119.87
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Jun 2019
+
+ Compile options:
+    CC           = cc
+    CLINK        = $(CC)
+    C_LIB        = (none)
+    C_INC        = (none)
+    CFLAGS       = -O
+    CLINKFLAGS   = -O
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        B
+ Size            =                 33554432
+ Iterations      =                       10
+ Time in seconds =                     2.83
+ Mop/s total     =                   118.38
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Jun 2019
+
+ Compile options:
+    CC           = cc
+    CLINK        = $(CC)
+    C_LIB        = (none)
+    C_INC        = (none)
+    CFLAGS       = -O
+    CLINKFLAGS   = -O
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        B
+ Size            =                 33554432
+ Iterations      =                       10
+ Time in seconds =                     2.80
+ Mop/s total     =                   119.85
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Jun 2019
+
+ Compile options:
+    CC           = cc
+    CLINK        = $(CC)
+    C_LIB        = (none)
+    C_INC        = (none)
+    CFLAGS       = -O
+    CLINKFLAGS   = -O
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        B
+ Size            =                 33554432
+ Iterations      =                       10
+ Time in seconds =                     2.84
+ Mop/s total     =                   117.98
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Jun 2019
+
+ Compile options:
+    CC           = cc
+    CLINK        = $(CC)
+    C_LIB        = (none)
+    C_INC        = (none)
+    CFLAGS       = -O
+    CLINKFLAGS   = -O
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        B
+ Size            =                 33554432
+ Iterations      =                       10
+ Time in seconds =                     2.84
+ Mop/s total     =                   118.21
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Jun 2019
+
+ Compile options:
+    CC           = cc
+    CLINK        = $(CC)
+    C_LIB        = (none)
+    C_INC        = (none)
+    CFLAGS       = -O
+    CLINKFLAGS   = -O
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        B
+ Size            =                 33554432
+ Iterations      =                       10
+ Time in seconds =                     2.80
+ Mop/s total     =                   119.90
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Jun 2019
+
+ Compile options:
+    CC           = cc
+    CLINK        = $(CC)
+    C_LIB        = (none)
+    C_INC        = (none)
+    CFLAGS       = -O
+    CLINKFLAGS   = -O
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        B
+ Size            =                 33554432
+ Iterations      =                       10
+ Time in seconds =                     2.82
+ Mop/s total     =                   118.84
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Jun 2019
+
+ Compile options:
+    CC           = cc
+    CLINK        = $(CC)
+    C_LIB        = (none)
+    C_INC        = (none)
+    CFLAGS       = -O
+    CLINKFLAGS   = -O
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        B
+ Size            =                 33554432
+ Iterations      =                       10
+ Time in seconds =                     2.80
+ Mop/s total     =                   119.97
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Jun 2019
+
+ Compile options:
+    CC           = cc
+    CLINK        = $(CC)
+    C_LIB        = (none)
+    C_INC        = (none)
+    CFLAGS       = -O
+    CLINKFLAGS   = -O
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        B
+ Size            =                 33554432
+ Iterations      =                       10
+ Time in seconds =                     2.82
+ Mop/s total     =                   118.85
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Jun 2019
+
+ Compile options:
+    CC           = cc
+    CLINK        = $(CC)
+    C_LIB        = (none)
+    C_INC        = (none)
+    CFLAGS       = -O
+    CLINKFLAGS   = -O
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        B
+ Size            =                 33554432
+ Iterations      =                       10
+ Time in seconds =                     2.80
+ Mop/s total     =                   120.04
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Jun 2019
+
+ Compile options:
+    CC           = cc
+    CLINK        = $(CC)
+    C_LIB        = (none)
+    C_INC        = (none)
+    CFLAGS       = -O
+    CLINKFLAGS   = -O
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        B
+ Size            =                 33554432
+ Iterations      =                       10
+ Time in seconds =                     2.82
+ Mop/s total     =                   118.92
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Jun 2019
+
+ Compile options:
+    CC           = cc
+    CLINK        = $(CC)
+    C_LIB        = (none)
+    C_INC        = (none)
+    CFLAGS       = -O
+    CLINKFLAGS   = -O
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        B
+ Size            =                 33554432
+ Iterations      =                       10
+ Time in seconds =                     2.84
+ Mop/s total     =                   118.00
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Jun 2019
+
+ Compile options:
+    CC           = cc
+    CLINK        = $(CC)
+    C_LIB        = (none)
+    C_INC        = (none)
+    CFLAGS       = -O
+    CLINKFLAGS   = -O
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        B
+ Size            =                 33554432
+ Iterations      =                       10
+ Time in seconds =                     2.82
+ Mop/s total     =                   119.00
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Jun 2019
+
+ Compile options:
+    CC           = cc
+    CLINK        = $(CC)
+    C_LIB        = (none)
+    C_INC        = (none)
+    CFLAGS       = -O
+    CLINKFLAGS   = -O
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        B
+ Size            =                 33554432
+ Iterations      =                       10
+ Time in seconds =                     2.80
+ Mop/s total     =                   119.86
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              07 Jun 2019
+
+ Compile options:
+    CC           = cc
+    CLINK        = $(CC)
+    C_LIB        = (none)
+    C_INC        = (none)
+    CFLAGS       = -O
+    CLINKFLAGS   = -O
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
