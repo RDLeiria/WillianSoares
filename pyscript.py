@@ -14,23 +14,24 @@ import matplotlib.pyplot as plt
 # usado na parte do csv
 import pandas as pd
 
+# utilizado para criar diretorios
+import os
+
+# utilizado para caminhar pelos diretorios
+import os.path
+
 #Trabalhando com csv e pythom, reference: https://datatofish.com/use-pandas-to-calculate-stats-from-an-imported-csv-file/
 #Trabalhando com graficos e python, reference: https://python-graph-gallery.com/8-add-confidence-interval-on-barplot/
-
 
 # Teste de passagem de argumento do arquivo script.sh
 classe = sys.argv[1] 	 # Classe
 processos = sys.argv[2]  # Numero de nodos 
 exp = sys.argv[3]		 # Experimento executado	
 
-#classe="S"
-#processos=str(1)
-
 print "A classe eh: "+classe
 print "Quantidade de processos: "+processos
 
-
-if int(processos) == 1:
+if int(processos) == 1 or int(processos) == 4:
 	listaBenchmarks = ["is", "ep", "cg", "mg", "ft", "bt", "sp", "lu"]
 	listTam = int(len(listaBenchmarks))
 
@@ -38,6 +39,13 @@ if int(processos) == 2:
 	listaBenchmarks = ["is", "ep", "cg", "mg", "ft", "lu"]
 	listTam = int(len(listaBenchmarks))
 
+if int(processos) == 3 or int(processos) == 5:
+	listaBenchmarks = ["ep"]
+	listTam = int(len(listaBenchmarks))
+
+if int(processos) == 6:
+	listaBenchmarks = ["ep", "lu"]
+	listTam = int(len(listaBenchmarks))
 
 #-------------------- Gera os sufixos dos csv ------------------------------------------------------
 
@@ -88,7 +96,6 @@ for x in xrange(0,listTam):
 for x in xrange(0,listTam):
 	print ("Nativo", listaBenchmarks[x], nativoTimeExecMean[x])
 
-
 # KVM
 for x in xrange(0,listTam):
 	print ("KVM ", listaBenchmarks[x], kvmTimeExecMean[x])
@@ -133,12 +140,13 @@ plt.xticks([r + barWidth for r in range(listTam)], listaBenchmarks)
 plt.ylabel('Time in seconds (Lower is better)')
 plt.xlabel('Benchmarks')
 plt.title('Tempo Medio\n Classe: '+classe+' Numero de nos: '+processos)
-plt.legend(loc='upper right')
+plt.legend(loc='upper left')
 
 plt.gca().yaxis.grid(True, linestyle='--')
 
 # Show graphic
-plt.show()
+#plt.show()
 
 # Save as pdf
-#plt.savefig("class-"+classe+"-procs-"+processos+".pdf") 
+
+plt.savefig("Experimento-"+exp+"-cores-"+processos+".pdf") 
