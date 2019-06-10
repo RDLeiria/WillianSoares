@@ -2,7 +2,9 @@
 
 BarGraphsCreate()
 {
-	python pyscript.py B 1 1 # classe, num de cores, experimento
+	: '
+	# Uma VM
+	python pyscript.py B 1 1 # classe, num de cores por vm, experimento
 	python pyscript.py B 1 2 
 
 	python pyscript.py B 2 3 
@@ -19,20 +21,25 @@ BarGraphsCreate()
 
 	python pyscript.py B 6 11
 	python pyscript.py B 6 12
+	'
+	# 2 VMs, nesse caso, o arquivo que gera os graficos deve ser modificado
+	#python pyscript.py B 1 13
+	#python pyscript.py B 2 14
+	#python pyscript.py B 4 15
 
 }
 
 LineGraphsCreate()
 {
-	python linegraphs.py S is
-	python linegraphs.py S ep
-	python linegraphs.py S cg
-	python linegraphs.py S mg
-	python linegraphs.py S ft
-	python linegraphs.py S bt
-	python linegraphs.py S sp
-	python linegraphs.py S lu
+	python linegraphs.py B  is
+	#python linegraphs.py S ep
+	#python linegraphs.py S cg
+	#python linegraphs.py S mg
+	#python linegraphs.py S ft
+	#python linegraphs.py S bt
+	#python linegraphs.py S sp
+	#python linegraphs.py S lu
 }
 
-BarGraphsCreate
-#LineGraphsCreate
+#BarGraphsCreate
+LineGraphsCreate

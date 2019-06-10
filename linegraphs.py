@@ -28,25 +28,50 @@ import pandas as pd
 classe 	  =	sys.argv[1]
 benchmark = sys.argv[2]
 
+#-------------------- Identifica a quantidade de cores utilizados ---------------------------------------
+def cores(experimento):
+	core_1 = [0, 1, 2, 13]
+	if experimento in core_1:
+		return 1 
+
+	core_2 = [3, 4, 14]
+	if experimento in core_2:
+		return 2 
+
+	core_3 = [5, 6]
+	if experimento in core_3:
+		return 3 
+
+	core_4 = [7, 8, 15]
+	if experimento in core_4:
+		return 4
+
+	core_5 = [9, 10]
+	if experimento in core_5:
+		return 5 
+
+	core_6 = [11, 12]
+	if experimento in core_6:
+		return 6 
+
 #-------------------- Decide o numero de nos para cada benchnmark ---------------------------------------
+listaNosBenchmarkIs= [1,2,3,4,7,8]
+#listaNosBenchmarksBtSp  = [1, 4, 9, 16, 32]
+#listaNosBenchmarksEp    = [1, 2, 4, 8, 9, 16, 32]
 
-listaNosBenchmarksCgToMg= [1, 2, 4, 8, 16, 32]
-listaNosBenchmarksBtSp  = [1, 4, 9, 16, 32]
-listaNosBenchmarksEp    = [1, 2, 4, 8, 9, 16, 32]
-
-listaBenchmarks5	   = ["cg", "is", "lu", "ft", "mg"]
-listaBenchmarks2	   = ["bt", "sp"]
-listaBenchmarks1	   = ["ep"]
+listaBenchmarkIs	   = ["is"]
+#listaBenchmarks2	   = ["bt", "sp"]
+#listaBenchmarks1	   = ["ep"]
 
 
-if benchmark in listaBenchmarks5:
-	listaDeNodos = listaNosBenchmarksCgToMg
+if benchmark in listaBenchmarkIs:
+	listaDeNodos = listaNosBenchmarkIs
 
-if benchmark in listaBenchmarks2:
-	listaDeNodos = listaNosBenchmarksBtSp
+#if benchmark in listaBenchmarks2:
+#	listaDeNodos = listaNosBenchmarksBtSp
 
-if benchmark in listaBenchmarks1:
-	listaDeNodos = listaNosBenchmarksEp
+#if benchmark in listaBenchmarks1:
+#	listaDeNodos = listaNosBenchmarksEp
 
 #-------------------- Gera os sufixos dos csv ------------------------------------------------------
 
@@ -56,9 +81,10 @@ esxiDetalhesBenchmarks	 = []
 
 for x in xrange(0,len(listaDeNodos)):
 	#cria os sufixos ex: "is.S.1" para montar os graficos
-	y1 = ("Nativo."+benchmark+"."+classe+"."+str(listaDeNodos[x])+".csv")
-	y2 = ("KVM."+benchmark+"."+classe+"."+str(listaDeNodos[x])+".csv")
-	y3 = ("ESXi."+benchmark+"."+classe+"."+str(listaDeNodos[x])+".csv")
+	numCores = cores(listaDeNodos[x])
+	y1 = ("Nativo."+benchmark+"."+classe+"."+str(numCores)+".csv")
+	y2 = ("KVM."+benchmark+"."+classe+"."+str(numCores)+".csv")
+	y3 = ("ESXi."+benchmark+"."+classe+"."+str(numCores)+".csv")
 	nativoDetalhesBenchmarks.append(y1)
 	kvmDetalhesBenchmarks.append(y2)
 	esxiDetalhesBenchmarks.append(y3)
@@ -72,11 +98,10 @@ for x in xrange(0,len(listaDeNodos)):
 nativoReadData=[]
 kvmReadData=[]
 esxiReadData=[]
-
 for x in xrange(0,len(listaDeNodos)):
-	y1 = pd.read_csv('~/WillianSoares/NativoResultado/'+nativoDetalhesBenchmarks[x])
-	y2 = pd.read_csv('~/WillianSoares/KVMResultado/'+kvmDetalhesBenchmarks[x])
-	y3 = pd.read_csv('~/WillianSoares/ESXiResultado/'+esxiDetalhesBenchmarks[x])
+	y1 = pd.read_csv('~/WillianSoares/resultados/Experimento'+str(listaDeNodos[x])+'/NativoResultado/'+nativoDetalhesBenchmarks[x])
+	y2 = pd.read_csv('~/WillianSoares/resultados/Experimento'+str(listaDeNodos[x])+'/KVMResultado/'+kvmDetalhesBenchmarks[x])
+	y3 = pd.read_csv('~/WillianSoares/resultados/Experimento'+str(listaDeNodos[x])+'/ESXiResultado/'+esxiDetalhesBenchmarks[x])
 	nativoReadData.append(y1)
 	kvmReadData.append(y2)
 	esxiReadData.append(y3)
@@ -91,7 +116,6 @@ for x in xrange(0,len(listaDeNodos)):
 nativoTimeExecMean=[]
 kvmTimeExecMean=[]
 esxiTimeExecMean=[]
-
 for x in xrange(0,len(listaDeNodos)):
 	y1 = nativoReadData[x]['timeExec'].mean()
 	y2 = kvmReadData[x]['timeExec'].mean()
@@ -113,11 +137,11 @@ xi = listaDeNodos
 #plt.ylim(0.8,1.4)
 
 # plot the index for the x-values
-plt.plot(xi, nativoTimeExecMean, marker='o', linestyle='-', color='r', label='Nativo') 
-plt.plot(xi, kvmTimeExecMean, marker='x', linestyle='--', color='b', label='KVM') 
-plt.plot(xi, esxiTimeExecMean, marker='*', linestyle='--', color='g', label='ESXi') 
+plt.plot(xi, nativoTimeExecMean, marker='o', linestyle='-', color='gray', label='Nativo') 
+plt.plot(xi, kvmTimeExecMean, marker='x', linestyle='--', color='red', label='KVM') 
+plt.plot(xi, esxiTimeExecMean, marker='*', linestyle='--', color='blue', label='ESXi') 
 
-plt.xlabel('Quantidade de nos')
+plt.xlabel('Experimentos')
 plt.ylabel('Tempo (S)') 
 plt.xticks(xi, listaDeNodos)
 plt.title("Classe: "+classe+" Benchmark "+benchmark)
@@ -127,7 +151,7 @@ plt.legend(loc='upper right')
 plt.gca().yaxis.grid(True, linestyle='--')
 
 # Show graph
-#plt.show()
+plt.show()
 
 # Save as pdf
-plt.savefig("Classe: "+classe+" Benchmark "+benchmark+".pdf")
+#plt.savefig("Classe: "+classe+" Benchmark "+benchmark+".pdf")
